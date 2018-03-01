@@ -1928,27 +1928,27 @@ msgstr "%s não é notificado de memos novos."
 #, c-format
 msgid "%s is notified of new memos at logon and when they arrive."
 msgstr ""
-"%s es notificado de memos nuevos cuando se conecta y cuando le son enviados."
+"%s é notificado de novos memos quando conectado e quando são enviados."
 
 #: modules/commands/ms_info.cpp:122
 #, c-format
 msgid "%s is notified of news memos at logon."
-msgstr "%s es notificado de nuevos memos cuando se conecta."
+msgstr "%s é notificado de novos memos quando se conecta."
 
 #: modules/commands/ms_info.cpp:120
 #, c-format
 msgid "%s is notified when new memos arrive."
-msgstr "%s es notificado cuando nuevos memos le son enviados."
+msgstr "%s é notificado quando novos memos são enviados para você."
 
 #: modules/commands/cs_seen.cpp:232
 #, c-format
 msgid "%s is on the channel right now (as %s)!"
-msgstr "¡%s está en el canal ahora mismo (como %s)!"
+msgstr "¡%s está no canal agora (como %s)!"
 
 #: modules/commands/cs_seen.cpp:221
 #, c-format
 msgid "%s is on the channel right now!"
-msgstr "¡%s está en el canal ahora mismo!"
+msgstr "¡%s está no canal agora!"
 
 #: modules/commands/cs_xop.cpp:434
 #, c-format
@@ -1958,47 +1958,47 @@ msgstr "Lista %s para %s"
 #: modules/commands/os_sxline.cpp:69 modules/commands/os_sxline.cpp:113
 #, c-format
 msgid "%s list is empty."
-msgstr "La lista %s esta vacia."
+msgstr "a lista %s esta vazia."
 
 #: modules/commands/cs_mode.cpp:376
 #, c-format
 msgid "%s locked on %s."
-msgstr "%s bloqueado en %s."
+msgstr "%s bloqueado em %s."
 
 #: modules/extra/stats/cs_fantasy_stats.cpp:120
 #, c-format
 msgid "%s not found."
-msgstr "%s no encontrado."
+msgstr "%s não encontrado."
 
 #: modules/commands/os_config.cpp:79
 #, c-format
 msgid "%s settings:"
-msgstr "Configuración de %s:"
+msgstr "Configuração de %s:"
 
 #: modules/commands/cs_seen.cpp:255
 #, c-format
 msgid "%s was last seen here %s ago."
-msgstr "%s fue visto por última aquí hace %s."
+msgstr "%s foi visto pela última vez aqui %s."
 
 #: modules/commands/ns_ajoin.cpp:213
 #, c-format
 msgid "%s was not found on %s's auto join list."
-msgstr "%s no encontrado en la lista auto join de %s."
+msgstr "%s não encontrado na lista de auto join de %s."
 
 #: modules/commands/ns_ajoin.cpp:221
 #, c-format
 msgid "%s was removed from %s's auto join list."
-msgstr "%s borrado de la lista de auto join de %s."
+msgstr "%s Removido da lista de auto join de %s."
 
 #: modules/commands/ms_set.cpp:64
 #, c-format
 msgid "%s will not send you any notification of memos."
-msgstr "%s no te enviará ninguna notificación acerca de tus memos."
+msgstr "%s não lhe enviará nenhuma notificação sobre seus memos."
 
 #: modules/commands/ms_set.cpp:42
 #, c-format
 msgid "%s will now notify you of memos when they are sent to you."
-msgstr "%s ahora te notificará de tus memos cuando te sean enviados."
+msgstr "%s agora irá notificá-lo de seus memos quando eles forem enviados para você."
 
 #: modules/commands/ms_set.cpp:30
 #, c-format
@@ -2006,29 +2006,29 @@ msgid ""
 "%s will now notify you of memos when you log on and when they are sent to "
 "you."
 msgstr ""
-"%s ahora te notificará de tus memos cuando te conectes y cuando te sean "
+"%s agora irá notificá-lo de seus memos quando você se conectar e quando eles estiverem "
 "enviados."
 
 #: modules/commands/ms_set.cpp:36
 #, c-format
 msgid "%s will now notify you of memos when you log on or unset /AWAY."
 msgstr ""
-"%s ahora te notificará de tus memos cuando te conectes o saques tu /AWAY."
+"%s agora você irá notificá-lo de seus memos quando você se conectar ou tirar o seu /AWAY."
 
 #: modules/commands/bs_bot.cpp:89
 #, c-format
 msgid "%s!%s@%s (%s) added to the bot list."
-msgstr "%s!%s@%s (%s) añadido a la lista de bots."
+msgstr "%s!%s@%s (%s) adicionado à lista de bot."
 
 #: modules/commands/ns_access.cpp:83
 #, c-format
 msgid "%s's access list is empty."
-msgstr "La lista de acceso de %s está vacía."
+msgstr "a lista de acceso de %s está vazia."
 
 #: modules/commands/ns_ajoin.cpp:96
 #, c-format
 msgid "%s's auto join list is empty."
-msgstr "La lista de auto join de %s está vacía."
+msgstr "a lista de auto join de %s está vazia."
 
 #: modules/commands/ns_ajoin.cpp:111
 #, c-format
@@ -2038,27 +2038,27 @@ msgstr "Lista de auto join de %s:"
 #: modules/commands/ns_cert.cpp:242
 #, c-format
 msgid "%s's certificate list is empty."
-msgstr "La lista de certificados de %s está vacía."
+msgstr "a lista de certificados de %s está vazia."
 
 #: modules/commands/ms_info.cpp:99 modules/commands/ms_info.cpp:106
 #, c-format
 msgid "%s's memo limit is %d, and may not be changed."
-msgstr "El límite de memos para %s es %d, y no puede ser cambiado."
+msgstr "O limite de memos para %s é %d, e não pode ser alterado."
 
 #: modules/commands/ms_info.cpp:101 modules/commands/ms_info.cpp:108
 #, c-format
 msgid "%s's memo limit is %d."
-msgstr "El límite de memos para %s es %d."
+msgstr "O límite de memos para %s é %d."
 
 #: src/misc.cpp:363
 #, c-format
 msgid "(%s ago)"
-msgstr "(hace %s)"
+msgstr "(faz %s)"
 
 #: src/misc.cpp:365
 #, c-format
 msgid "(%s from now)"
-msgstr "(%s desde ahora)"
+msgstr "(%s desde agora)"
 
 #: modules/commands/os_dns.cpp:244
 msgid "(Split)"
@@ -2067,75 +2067,75 @@ msgstr "(Split)"
 #: modules/commands/os_info.cpp:268
 #, c-format
 msgid "(by %s on %s) %s"
-msgstr "(por %s en %s) %s"
+msgstr "(por %s em %s) %s"
 
 #: modules/commands/cs_access.cpp:710
 msgid "(disabled)"
-msgstr "(deshabilitado)"
+msgstr "(desabilitado)"
 
 #: modules/commands/cs_access.cpp:712
 msgid "(founder only)"
-msgstr "(solo fundador)"
+msgstr "(único fundador)"
 
 #: src/misc.cpp:367
 msgid "(now)"
-msgstr "(ahora)"
+msgstr "(agora)"
 
 #: modules/commands/os_defcon.cpp:168
 msgid "* AKILL any new clients connecting"
-msgstr "* AKILL a cualquier nuevo cliente que se conecte"
+msgstr "* AKILL para qualquer novo cliente que conecte"
 
 #: modules/commands/os_defcon.cpp:158
 #, c-format
 msgid "* Force channel modes (%s) to be set on all channels"
-msgstr "* Fuerza los Modos de Canal (%s) en todos los canales"
+msgstr "* Força os Modos de Canal (%s) em todos os canais"
 
 #: modules/commands/os_defcon.cpp:164
 msgid "* Ignore non-opers with a message"
-msgstr "* Ignora a cualquier no-operador con un mensaje"
+msgstr "* Ignore qualquer operador que não seja operador com uma mensagem"
 
 #: modules/commands/os_defcon.cpp:162
 msgid "* Kill any new clients connecting"
-msgstr "* Kill a cualquier nuevo cliente que se conecte"
+msgstr "* Kill para qualquer novo cliente que conecte"
 
 #: modules/commands/os_defcon.cpp:156
 msgid "* No mode lock changes"
-msgstr "* No hay cambios en los modos bloqueados"
+msgstr "* Nenhuma alteração nos modos bloqueados"
 
 #: modules/commands/os_defcon.cpp:152
 msgid "* No new channel registrations"
-msgstr "* No hay nuevos registros de canales"
+msgstr "* Nenhum novo registro de canal"
 
 #: modules/commands/os_defcon.cpp:170
 msgid "* No new memos sent"
-msgstr "* No hay nuevos memos enviados"
+msgstr "* Não foram enviados novos memos"
 
 #: modules/commands/os_defcon.cpp:154
 msgid "* No new nick registrations"
-msgstr "* No hay nuevos registros de nicks"
+msgstr "* Nenhum novo registro de nicks"
 
 #: modules/commands/os_defcon.cpp:166
 msgid "* Silently ignore non-opers"
-msgstr "* Ignora silenciosamente a los no-operadores"
+msgstr "* Ignore silenciosamente os não operadores"
 
 #: modules/commands/os_defcon.cpp:160
 #, c-format
 msgid "* Use the reduced session limit of %d"
-msgstr "* Usa el límite de sesion reducido de %d"
+msgstr "* Use o limite de sessão reduzida de %d"
 
 #: modules/commands/cs_seen.cpp:319
 #, c-format
 msgid ", but %s mysteriously dematerialized."
-msgstr ", pero %s se desmaterializó misteriosamente."
+msgstr ", mas %s Ele desmaterializou misteriosamente."
 
 #: modules/commands/cs_seen.cpp:317
 #, c-format
 msgid ". %s is still online."
-msgstr ". %s todavía está en línea."
+msgstr ". %s ainda está online."
 
 #: include/language.h:87
 msgid "<unknown>"
-msgstr "<desconocido>"
+msgstr "<desconhecido>"
 
 #: modules/commands/ns_set.cpp:497
 #, c-format
@@ -2143,24 +2143,24 @@ msgid ""
 "A confirmation e-mail has been sent to %s. Follow the instructions in it to "
 "change your e-mail address."
 msgstr ""
-"Se ha enviado un e-mail de confirmación a %s. Sigue las instrucciones en él "
-"para cambiar tu dirección de e-mail."
+"Um e-mail de confirmação foi enviado para %s. Siga as instruções nele "
+"para alterar o seu endereço de e-mail."
 
 #: modules/commands/ms_sendall.cpp:45
 msgid "A massmemo has been sent to all registered users."
-msgstr "Un massmemo ha sido enviado a todos los usuarios registrados."
+msgstr "Um massmemo foi enviado para todos os usuários registrados."
 
 #: modules/commands/hs_request.cpp:285
 msgid ""
 "A memo informing the user will also be sent, which includes the reason for "
 "the rejection if supplied."
 msgstr ""
-"También se enviará un memo informando al usuario, que incluirá la razón si "
-"se proporciona."
+"Um memo também será enviado informando o usuário, que incluirá o motivo "
+"é fornecido."
 
 #: modules/commands/hs_request.cpp:229
 msgid "A memo informing the user will also be sent."
-msgstr "También se enviará un memo informando al usuario."
+msgstr "Tambem se enviará um memo informando o usuário."
 
 #: modules/commands/ms_read.cpp:42
 #, c-format
@@ -2168,19 +2168,19 @@ msgid ""
 "A notification memo has been sent to %s informing him/her you have\n"
 "read his/her memo."
 msgstr ""
-"Se ha enviado una notificación a %s informando de que has leído su memo."
+"Uma notificação foi enviada para %s informando que você leu seu memos."
 
 #: include/language.h:123
 msgid "A vHost ident must be in the format of a valid ident."
-msgstr "El ident de un vHost debe estar en un formato de ident válido"
+msgstr "A ident de um vHost deve estar em um formato ident válido"
 
 #: include/language.h:122
 msgid "A vHost must be in the format of a valid hostname."
-msgstr "Un vhost debe estar en el formato de un host válido."
+msgstr "Um vhost deve estar no formato de um host válido."
 
 #: modules/commands/os_ignore.cpp:342
 msgid "ADD expiry {nick|mask} [reason]"
-msgstr "ADD expiración {nick|máscara} [razón]"
+msgstr "ADD expiração {nick|máscara} [razão]"
 
 #: modules/commands/os_oper.cpp:70
 msgid "ADD oper type"
@@ -2196,11 +2196,11 @@ msgstr "ADD texto"
 
 #: modules/commands/os_session.cpp:523
 msgid "ADD [+expiry] mask limit reason"
-msgstr "ADD [+expiración] máscara límite razón"
+msgstr "ADD [+expiração] máscara límite razão"
 
 #: modules/commands/ns_ajoin.cpp:231
 msgid "ADD [nickname] channel [key]"
-msgstr "ADD [nick] canal [clave]"
+msgstr "ADD [nick] canal [senha]"
 
 #: modules/commands/ns_access.cpp:102
 msgid "ADD [nickname] mask"
@@ -2209,45 +2209,45 @@ msgstr "ADD [nick] máscara"
 #: modules/commands/ns_cert.cpp:258
 #, fuzzy
 msgid "ADD [nickname] [fingerprint]"
-msgstr "ADD [nick] huella"
+msgstr "ADD [nick] impressão digital"
 
 #: modules/commands/os_akill.cpp:386 modules/commands/os_sxline.cpp:659
 msgid "ADD [+expiry] mask reason"
-msgstr "ADD [+expiración] máscara razón"
+msgstr "ADD [+expiração] máscara razão"
 
 #: modules/commands/os_sxline.cpp:425
 msgid "ADD [+expiry] mask:reason"
-msgstr "ADD [+expiración] máscara:razón"
+msgstr "ADD [+expiração] máscara:razão"
 
 #: modules/commands/os_forbid.cpp:145
 msgid "ADD {NICK|CHAN|EMAIL|REGISTER} [+expiry] entry reason"
-msgstr "ADD {NICK|CHAN|EMAIL|REGISTER} [+expiración] entrada razón"
+msgstr "ADD {NICK|CHAN|EMAIL|REGISTER} [+expiração] entrada razão"
 
 #: modules/commands/os_dns.cpp:665
 msgid "ADDIP server.name ip"
-msgstr "ADDIP nombre-de-servidor ip"
+msgstr "ADDIP nome-do-servidor ip"
 
 #: modules/commands/os_dns.cpp:663
 msgid "ADDSERVER server.name [zone.name]"
-msgstr "ADDSERVER nombre-de-servidor [nombre-de-zona]"
+msgstr "ADDSERVER nome-do-servidor [nome-da-zona]"
 
 #: modules/commands/os_dns.cpp:661
 msgid "ADDZONE zone.name"
-msgstr "ADDZONE nombre-de-zona"
+msgstr "ADDZONE nome-da-zona"
 
 #: modules/commands/cs_akick.cpp:407
 #, c-format
 msgid "AKICK ENFORCE for %s complete; %d users were affected."
-msgstr "AKICK ENFORCE en %s completo; %d usuarios afectados."
+msgstr "AKICK ENFORCE en %s completo; %d usuarios afetados."
 
 #: modules/commands/os_chankill.cpp:21
 msgid "AKILL all users on a specific channel"
-msgstr "AKILL todos los usuarios de un canal específico"
+msgstr "AKILL todos os usuários de um canal específico"
 
 #: modules/commands/os_akill.cpp:222 modules/commands/os_akill.cpp:339
 #: modules/commands/os_akill.cpp:353
 msgid "AKILL list is empty."
-msgstr "La lista de AKILLS está vacía."
+msgstr "A lista de AKILLS está vazia."
 
 #: modules/commands/bs_kick.cpp:1211 modules/commands/bs_kick.cpp:1213
 #: modules/commands/bs_kick.cpp:1216
@@ -2260,36 +2260,36 @@ msgstr "Acceso"
 
 #: include/language.h:72
 msgid "Access denied."
-msgstr "Acceso denegado."
+msgstr "Acceso negado."
 
 #: modules/commands/cs_status.cpp:58
 #, c-format
 msgid "Access for %s on %s:"
-msgstr "Acceso para %s en %s:"
+msgstr "Acceso para %s em %s:"
 
 #: include/language.h:107
 #, c-format
 msgid "Access level must be between %d and %d inclusive."
-msgstr "El nivel de acceso debe estar entre %d y %d inclusive."
+msgstr "O nível de acesso deve estar entre %d e %d inclusive."
 
 #: modules/commands/cs_access.cpp:108
 msgid "Access level must be non-zero."
-msgstr "El nivel de acceso no puede ser cero."
+msgstr "O nível de acesso não pode ser zero."
 
 #: modules/commands/cs_access.cpp:694
 #, c-format
 msgid "Access level settings for channel %s:"
-msgstr "Opciones del nivel de acceso para el canal %s:"
+msgstr "Opções de nível de acesso para o canal %s:"
 
 #: modules/commands/cs_access.cpp:734
 #, c-format
 msgid "Access levels for %s reset to defaults."
-msgstr "Niveles de acceso para %s resetados a los valores originales."
+msgstr "Níveis de acesso para %s redefinido para os valores originais."
 
 #: modules/commands/cs_access.cpp:439 modules/commands/ns_access.cpp:87
 #, c-format
 msgid "Access list for %s:"
-msgstr "Lista de acceso para %s:"
+msgstr "Lista de accesso para %s:"
 
 #: modules/commands/help.cpp:166
 #, c-format
@@ -2297,7 +2297,7 @@ msgid ""
 "Access to this command requires the permission %s to be present in your "
 "opertype."
 msgstr ""
-"El acceso a este comando requiere que el permiso %s esté presente en tu tipo "
+"O acesso a este comando requer que a permissão %s esteja presente no seu tipo "
 "de oper."
 
 #: modules/commands/ns_cert.cpp:368 modules/commands/ns_cert.cpp:392
@@ -2310,11 +2310,11 @@ msgstr ""
 
 #: modules/commands/cs_set.cpp:694
 msgid "Activate security features"
-msgstr "Activar características de seguridad"
+msgstr "Ativar recursos de segurança"
 
 #: modules/commands/hs_request.cpp:227
 msgid "Activate the requested vHost for the given nick."
-msgstr "Activar el vHost solicitado para el nick dado."
+msgstr "Ative o vHost solicitado para o apelido fornecido."
 
 #: modules/commands/hs_on.cpp:55
 msgid ""
@@ -2322,13 +2322,13 @@ msgid ""
 "When you use this command any user who performs a /whois\n"
 "on you will see the vhost instead of your real host/IP address."
 msgstr ""
-"Activa el vhost actualmente asignado al nick en uso.\n"
-"Cuando uses este comando cualquier usuario que te haga\n"
-"un /whois verá el vhost en vez de tu host/IP real."
+"Ativa o vhost atualmente atribuído ao nick em uso.\n"
+"Quando você usa esse comando, qualquer usuário que o faça\n"
+"A /whois verá o vhost em vez do seu host /IP real."
 
 #: modules/commands/hs_on.cpp:19
 msgid "Activates your assigned vhost"
-msgstr "Activa tu vhost asignado."
+msgstr "Ative seu vhost atribuído."
 
 #: modules/commands/os_info.cpp:243
 msgid ""
@@ -2336,46 +2336,46 @@ msgid ""
 "This will show to opers in the respective info command for\n"
 "the nick or channel."
 msgstr ""
-"Añade o borra información de oper para el nick o canal dados.\n"
-"Esto se mostrará a los opers con el respectivo comando para el\n"
+"Adicione ou exclua informações de operação para o nick ou canal fornecido.\n"
+"Isso será mostrado aos opers com o respectivo comando para o\n"
 "nick o canal."
 
 #: modules/commands/os_dns.cpp:515
 #, c-format
 msgid "Added IP %s to %s."
-msgstr "Añadida IP %s a %s."
+msgstr "Adicionado IP %s um %s."
 
 #: modules/commands/os_forbid.cpp:227
 #, c-format
 msgid "Added a forbid on %s of type %s to expire on %s."
-msgstr "Añadida una prohibición en %s del tipo %s que expirará en %s"
+msgstr "Adicionou uma proibição %s do tipo %s que expirará em %s"
 
 #: modules/commands/os_info.cpp:164
 #, c-format
 msgid "Added info to %s."
-msgstr "Añadida información a %s."
+msgstr "Adicionou informações para %s."
 
 #: modules/commands/os_news.cpp:34
 msgid "Added new logon news item."
-msgstr "Nueva noticia de entrada añadida."
+msgstr "Novas notícias de entrada foram adicionadas."
 
 #: modules/commands/os_news.cpp:44
 msgid "Added new oper news item."
-msgstr "Nueva noticia de oper añadida."
+msgstr "Novas noticia de oper adicionadas."
 
 #: modules/commands/os_news.cpp:54
 msgid "Added new random news item."
-msgstr "Nueva noticia al azar anadida."
+msgstr "Novas notícias aleatórias foram adicionadas."
 
 #: modules/commands/os_dns.cpp:395
 #, c-format
 msgid "Added server %s."
-msgstr "Añadido servidor %s."
+msgstr "Servidor adicionado %s."
 
 #: modules/commands/os_dns.cpp:300
 #, c-format
 msgid "Added zone %s."
-msgstr "Añadida zona %s."
+msgstr "Zona adicionada %s."
 
 #: modules/commands/cs_entrymsg.cpp:257
 msgid ""
@@ -2388,9 +2388,9 @@ msgid ""
 "Additionally, Services Operators with the nickserv/confirm permission can\n"
 "replace passcode with a users nick to force validate them."
 msgstr ""
-"Adicionalmente, los Operadores de Servicios con el permiso nickserv/confirm "
-"pueden\n"
-"remplazar código con el nick del usuario para forzar su validación."
+"Além disso, os Operadores de Serviço com a licença nickserv/confirm "
+"pode\n"
+"substituir código com o apelido do usuário para forçar a validação."
 
 #: modules/pseudoclients/botserv.cpp:172
 #, c-format
