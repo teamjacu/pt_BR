@@ -10852,73 +10852,73 @@ msgstr ""
 #: modules/commands/ns_register.cpp:67
 #, c-format
 msgid "Your email address of %s has been confirmed."
-msgstr "Tu dirección email de %s ha sido confirmada."
+msgstr "Seu endereço de email %s foi confirmado."
 
 #: modules/extra/m_ldap_authentication.cpp:159
 #, c-format
 msgid "Your email has been updated to %s"
-msgstr "Tu email ha sido actualizado a %s"
+msgstr "Seu email foi atualizado para %s"
 
 #: modules/extra/m_sql_authentication.cpp:62
 #, c-format
 msgid "Your email has been updated to %s."
-msgstr "Tu email ha sido actualizado a %s."
+msgstr "Seu email foi atualizado para %s."
 
 #: modules/commands/ms_set.cpp:197
 msgid "Your memo limit has been disabled."
-msgstr "Tu límite de memos ha sido deshabilitado."
+msgstr "Seu limite de memos foi desativado."
 
 #: modules/commands/ms_set.cpp:183
 #, c-format
 msgid "Your memo limit has been set to %d."
-msgstr "Tu límite de memos ha sido establecido a %d."
+msgstr "Seu limite de memos foi configurado para %d."
 
 #: modules/commands/ms_info.cpp:164
 #, c-format
 msgid "Your memo limit is %d, and may not be changed."
-msgstr "Tu límite de memos es %d y no puede ser cambiado."
+msgstr "Seu limite de memos é %d e não pode ser alterado."
 
 #: modules/commands/ms_info.cpp:166
 #, c-format
 msgid "Your memo limit is %d."
-msgstr "Tu límite de memos es %d."
+msgstr "Seu limite de memos é %d."
 
 #: modules/commands/ms_info.cpp:159
 msgid "Your memo limit is 0; you will not receive any new memos."
-msgstr "Tu límite de memos es 0; no recibirás nuevos memos."
+msgstr "Seu limite de memos é 0; você não receberá novos memos."
 
 #: modules/commands/ms_info.cpp:157
 msgid ""
 "Your memo limit is 0; you will not receive any new memos. You cannot change "
 "this limit."
 msgstr ""
-"Tu límite de memos es 0; no recibirás nuevos memos. No puedes cambiar este "
-"límite."
+"Seu limite de memos é 0; você não receberá novos memos. Você não pode mudar este "
+"limite."
 
 #: modules/commands/ns_logout.cpp:50
 msgid "Your nick has been logged out."
-msgstr "Tu nick ha sido desconectado."
+msgstr "Seu nick foi desconectado."
 
 #: modules/commands/ns_group.cpp:142
 msgid "Your nick is already registered."
-msgstr "Tu nick ya está registrado."
+msgstr "Seu nick já está registrado."
 
 #: modules/commands/ns_group.cpp:232
 msgid "Your nick is not grouped to anything, you can't ungroup it."
-msgstr "Tu nick no está agrupado a nada, no puedes desagruparlo."
+msgstr "Seu nick não está agrupado em nada, você não pode desagrupar."
 
 #: include/language.h:77
 msgid "Your nick isn't registered."
-msgstr "Tu nick no está registrado."
+msgstr "Seu nick não está registrado."
 
 #: modules/pseudoclients/nickserv.cpp:254
 #, c-format
 msgid "Your nickname is now being changed to %s"
-msgstr "Tu nick se ha cambiado a %s"
+msgstr "Seu nick foi alterado para %s"
 
 #: modules/commands/os_login.cpp:32 modules/commands/os_login.cpp:79
 msgid "Your oper block doesn't require logging in."
-msgstr "Tu bloque de operador no requiere inicio de sesión."
+msgstr "Seu oper block não requer login."
 
 #: modules/commands/ns_register.cpp:336
 #, c-format
