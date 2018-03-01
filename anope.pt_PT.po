@@ -10923,43 +10923,41 @@ msgstr "Tu bloque de operador no requiere inicio de sesión."
 #: modules/commands/ns_register.cpp:336
 #, c-format
 msgid "Your passcode has been re-sent to %s."
-msgstr "Tu contraseña ha sido reenviada a %s."
+msgstr "Sua senha foi encaminhada para %s."
 
 #: modules/commands/ns_register.cpp:232
 #, c-format
 msgid "Your password is %s - remember this for later use."
-msgstr "Tu contraseña es %s - Recuérdala para usos futuros."
+msgstr "Sua senha é %s - Lembre-se disso para uso posterior."
 
 #: include/language.h:76
 #, fuzzy, c-format
 msgid "Your password is too long. It must not exceed %u characters."
-msgstr ""
-"Tu contraseña es demasiado larga. Por favor, inténtalo de nuevo con una más "
-"corta."
+msgstr "Sua senha é muito longa. Não deve exceder %u caracteres."
 
 #: modules/commands/ns_resetpass.cpp:96
 msgid "Your password reset request has expired."
-msgstr "Tu petición de restablecimiento de contraseña ha expirado."
+msgstr "Sua solicitação de redefinição de senha expirou."
 
 #: modules/commands/hs_request.cpp:170
 msgid "Your vHost has been requested."
-msgstr "Tu vHost ha sido solicitado."
+msgstr "Seu vHost foi solicitado."
 
 #: modules/commands/hs_on.cpp:37 modules/pseudoclients/hostserv.cpp:64
 #: modules/pseudoclients/hostserv.cpp:103
 #, c-format
 msgid "Your vhost of %s is now activated."
-msgstr "Tu vhost %s ha sido activado."
+msgstr "Seu vhost %s foi activado."
 
 #: modules/commands/hs_on.cpp:35 modules/pseudoclients/hostserv.cpp:62
 #: modules/pseudoclients/hostserv.cpp:101
 #, c-format
 msgid "Your vhost of %s@%s is now activated."
-msgstr "Tu vhost %s@%s ha sido activado."
+msgstr "Seu vhost %s@%s foi activado."
 
 #: modules/commands/hs_off.cpp:39
 msgid "Your vhost was removed and the normal cloaking restored."
-msgstr "Tu vhost ha sido eliminado y el enmascaramiento normal restaurado."
+msgstr "Seu vhost foi removido e sua hostmask foi restaurado."
 
 #: modules/commands/os_dns.cpp:255
 msgid "Zone"
@@ -10968,13 +10966,13 @@ msgstr "Zona"
 #: modules/commands/os_dns.cpp:290
 #, c-format
 msgid "Zone %s already exists."
-msgstr "La zona %s ya existe."
+msgstr "A zona %s já existe."
 
 #: modules/commands/os_dns.cpp:310 modules/commands/os_dns.cpp:352
 #: modules/commands/os_dns.cpp:402 modules/commands/os_dns.cpp:438
 #, c-format
 msgid "Zone %s does not exist."
-msgstr "La zona %s no existe."
+msgstr "A zona %s não existe."
 
 #: modules/commands/os_dns.cpp:332
 #, c-format
@@ -10998,11 +10996,11 @@ msgstr "[Noticias de Oper - %s] %s"
 #: modules/commands/os_news.cpp:404
 #, c-format
 msgid "[Random News - %s] %s"
-msgstr "[Noticias al Azar - %s] %s"
+msgstr "[Noticias randomicas - %s] %s"
 
 #: modules/commands/ns_identify.cpp:66
 msgid "[account] password"
-msgstr "[cuenta] contraseña"
+msgstr "[conta] senha"
 
 #: modules/commands/cs_updown.cpp:49 modules/commands/cs_updown.cpp:147
 msgid "[channel [nick]]"
@@ -11039,7 +11037,7 @@ msgstr "[canal] {num | lista | LAST | ALL}"
 
 #: modules/commands/hs_list.cpp:20
 msgid "[key|#X-Y]"
-msgstr "[clave|#X-Y]"
+msgstr "[chave|#X-Y]"
 
 #: modules/commands/ms_info.cpp:20
 msgid "[nick | channel]"
@@ -11060,15 +11058,15 @@ msgstr "[nick]"
 
 #: modules/commands/ns_set_misc.cpp:96
 msgid "[parameter]"
-msgstr "[parámetro]"
+msgstr "[parametro]"
 
 #: modules/commands/os_logsearch.cpp:33
 msgid "[+daysd] [+limitl] pattern"
-msgstr "[+díasd] [+límitel] patrón"
+msgstr "[+diasd] [+limitel] padrão"
 
 #: modules/commands/os_chankill.cpp:22
 msgid "[+expiry] channel reason"
-msgstr "[+expiración] canal razón"
+msgstr "[+expiração] canal motivo"
 
 #: modules/commands/ns_list.cpp:110
 msgid "[Hostname hidden]"
@@ -11080,89 +11078,89 @@ msgstr "[Suspendido]"
 
 #: modules/commands/ns_list.cpp:114
 msgid "[Unconfirmed]"
-msgstr "[No confirmado]"
+msgstr "[Não confirmado]"
 
 #: modules/commands/hs_request.cpp:213
 msgid "[auto memo] Your requested vHost has been approved."
-msgstr "[auto memo] Tu vHost solicitado ha sido aprobado."
+msgstr "[auto memo] Seu vHost solicitado foi aprovado."
 
 #: modules/commands/hs_request.cpp:267
 msgid "[auto memo] Your requested vHost has been rejected."
-msgstr "[auto memo] Tu vHost solicitado ha sido rechazado."
+msgstr "[auto memo] Seu vHost solicitado foi rejeitado."
 
 #: modules/commands/hs_request.cpp:265
 #, c-format
 msgid "[auto memo] Your requested vHost has been rejected. Reason: %s"
-msgstr "[auto memo] Tu solicitud de vHost ha sido rechazada. Razón: %s"
+msgstr "[auto memo] Sua solicitação de vHost foi rejeitada. Motivo: %s"
 
 #: modules/commands/hs_request.cpp:388
 #, c-format
 msgid "[auto memo] vHost %s has been requested by %s."
-msgstr "[auto memo] El vHost %s ha sido solicitado por %s."
+msgstr "[auto memo] O vHost %s foi solicitado por %s."
 
 #: modules/commands/os_list.cpp:133
 msgid "[{pattern | channel} [INVISIBLE]]"
-msgstr "[{patrón | canal} [INVISIBLE]]"
+msgstr "[{padrão | canal} [INVISIBLE]]"
 
 #: modules/commands/os_list.cpp:20
 msgid "[{pattern | nick} [SECRET]]"
-msgstr "[{patrón | nick} [SECRET]]"
+msgstr "[{padrão | nick} [SECRET]]"
 
 #: src/misc.cpp:337
 msgid "day"
-msgstr "día"
+msgstr "dia"
 
 #: src/misc.cpp:337
 msgid "days"
-msgstr "días"
+msgstr "dias"
 
 #: include/language.h:88
 msgid "does not expire"
-msgstr "no expira"
+msgstr "não expira"
 
 #: src/misc.cpp:384
 #, c-format
 msgid "expires in %d day"
-msgstr "expira en %d día"
+msgstr "expira em %d dia"
 
 #: src/misc.cpp:384
 #, c-format
 msgid "expires in %d days"
-msgstr "expira en %d días"
+msgstr "expira em %d días"
 
 #: src/misc.cpp:398
 #, c-format
 msgid "expires in %d hour, %d minute"
-msgstr "expira en %d hora, %d minuto"
+msgstr "expira em %d hora, %d minuto"
 
 #: src/misc.cpp:398
 #, c-format
 msgid "expires in %d hour, %d minutes"
-msgstr "expira en %d hora, %d minutos"
+msgstr "expira em %d hora, %d minutos"
 
 #: src/misc.cpp:398
 #, c-format
 msgid "expires in %d hours, %d minute"
-msgstr "expira en %d horas, %d minuto"
+msgstr "expira em %d horas, %d minuto"
 
 #: src/misc.cpp:398
 #, c-format
 msgid "expires in %d hours, %d minutes"
-msgstr "expira en %d horas, %d minutos"
+msgstr "expira em %d horas, %d minutos"
 
 #: src/misc.cpp:391
 #, c-format
 msgid "expires in %d minute"
-msgstr "expira en %d minuto"
+msgstr "expira em %d minuto"
 
 #: src/misc.cpp:391
 #, c-format
 msgid "expires in %d minutes"
-msgstr "expira en %d minutos"
+msgstr "expira em %d minutos"
 
 #: src/misc.cpp:375
 msgid "expires momentarily"
-msgstr "expires momentaneamente"
+msgstr "expira momentaneamente"
 
 #: src/misc.cpp:343
 msgid "hour"
@@ -11175,7 +11173,7 @@ msgstr "horas"
 #: modules/extra/stats/cs_fantasy_stats.cpp:150
 #, c-format
 msgid "letters: %s, words: %s, lines: %s, smileys: %s, actions: %s"
-msgstr "letras: %s, palabras: %s, líneas: %s, smileys: %s, acciones: %s"
+msgstr "letras: %s, palavras: %s, linhas: %s, smileys: %s, ações: %s"
 
 #: src/misc.cpp:349
 msgid "minute"
@@ -11187,7 +11185,7 @@ msgstr "minutos"
 
 #: modules/commands/bs_info.cpp:87
 msgid "not assigned yet"
-msgstr "no asignado aún"
+msgstr "ainda não atribuído"
 
 #: src/misc.cpp:324
 msgid "second"
@@ -11200,12 +11198,12 @@ msgstr "segundos"
 #: modules/commands/hs_request.cpp:215
 #, c-format
 msgid "vHost for %s has been activated."
-msgstr "El vHost para %s ha sido activado."
+msgstr "O vHost para %s foi ativado."
 
 #: modules/commands/hs_request.cpp:272
 #, c-format
 msgid "vHost for %s has been rejected."
-msgstr "El vHost para %s ha sido rechazado."
+msgstr "O vHost para %s foi rejeitado."
 
 #: modules/commands/hs_request.cpp:79
 msgid "vhost"
@@ -11214,19 +11212,19 @@ msgstr "vhost"
 #: modules/commands/hs_del.cpp:83
 #, c-format
 msgid "vhosts for group %s have been removed."
-msgstr "El vhost para el group %s ha sido eliminado."
+msgstr "O vhost para o grupo %s foi removido."
 
 #: src/misc.cpp:331
 msgid "year"
-msgstr "año"
+msgstr "ano"
 
 #: src/misc.cpp:331
 msgid "years"
-msgstr "años"
+msgstr "anos"
 
 #: modules/commands/os_config.cpp:20
 msgid "{MODIFY|VIEW} [block name item name item value]"
-msgstr "{MODIFY|VIEW} [nombre-bloque nombre-item valor-item]"
+msgstr "{MODIFY|VIEW} [nome-block nome-item valor-item]"
 
 #: modules/commands/bs_info.cpp:41
 msgid "{channel | nickname}"
