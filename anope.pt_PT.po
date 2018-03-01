@@ -9734,14 +9734,14 @@ msgid ""
 "nick, type %s%s IDENTIFY password.  Otherwise,\n"
 "please choose a different nick."
 msgstr ""
-"Este nick está registrado y protegido. Si es tu nick,\n"
-"escribe %s%s IDENTIFY contraseña.  Si no,\n"
-"por favor, elige un nick diferente."
+"Este nick está registrado e protegido. Se é seu nick,\n"
+"digite %s%s IDENTIFY senha.  Si no,\n"
+"por favor, escolha um nick diferente."
 
 #: modules/commands/ms_read.cpp:95
 #, c-format
 msgid "To delete, type: %s%s %s %d"
-msgstr "Para borrar, escribe: %s%s %s %d"
+msgstr "Para apagar, digite: %s%s %s %d"
 
 #: modules/commands/ms_read.cpp:93
 #, c-format
