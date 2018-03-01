@@ -147,11 +147,11 @@ msgid ""
 "For more information on a specific command, type\n"
 "%s%s %s command.\n"
 msgstr ""
-"%s te permite registrar una cuenta.\n"
-"Los siguientes comandos permiten el registro y mantenimiento de\n"
-"cuentas; para usarlos, escribe %s%s comando.\n"
-"Para más información acerca de un comando específico,\n"
-"escribe %s%s %s comando.\n"
+"%s permite que você registre uma conta.\n"
+"Os comandos a seguir permitem registro e manutenção de\n"
+"Contas; para usá-los, escreva %s%s comando.\n"
+"Para obter mais informações sobre um comando específico,\n"
+"escreva %s%s %s comando.\n"
 
 #: modules/pseudoclients/chanserv.cpp:255
 #, c-format
@@ -211,7 +211,7 @@ msgstr "Lista de canais do %s."
 #: modules/commands/cs_xop.cpp:343
 #, c-format
 msgid "%s deleted from %s %s list."
-msgstr "%s borrado de la lista de %s de %s."
+msgstr "%s removido da lista de %s de %s."
 
 #: modules/commands/cs_access.cpp:326
 #, c-format
@@ -796,7 +796,7 @@ msgstr "canal [usuário]"
 
 #: modules/commands/cs_suspend.cpp:59
 msgid "channel [+expiry] [reason]"
-msgstr "canal [+expiración] [motivo]"
+msgstr "canal [+expiração] [motivo]"
 
 #: modules/commands/cs_ban.cpp:40
 msgid "channel [+expiry] {nick | mask} [reason]"
@@ -810,7 +810,7 @@ msgstr "canal MODIFY máscara alterações"
 #: modules/commands/cs_topic.cpp:150
 #, fuzzy
 msgid "channel [SET] [topic]"
-msgstr "canal SET [topic]"
+msgstr "canal SET [topico]"
 
 #: modules/commands/cs_topic.cpp:152
 msgid "channel [UNLOCK|LOCK]"
@@ -872,7 +872,7 @@ msgstr "STAFF memo-text"
 
 #: modules/commands/greet.cpp:84 modules/commands/gl_global.cpp:22
 msgid "message"
-msgstr "mensagem"
+msgstr "menssagem"
 
 #: modules/commands/os_modinfo.cpp:20 modules/commands/os_module.cpp:20
 #: modules/commands/os_module.cpp:57 modules/commands/os_module.cpp:129
@@ -1363,22 +1363,22 @@ msgid ""
 "akick list."
 msgstr ""
 " \n"
-"El comando AKICK DEL elimina el nick o máscara dados\n"
-"de la lista de Kick Automático. Sin embargo, no elimina ningún\n"
-"ban puesto por un Kick Automático; esos deben eliminarse\n"
+"O comando AKICK DEL Remove o nick ou a máscara fornecidos\n"
+"da lista de Auto Kicks do canal. Porém, não elimina nenhum\n"
+"ban posto por um Kick Automático; esses devem ser eliminados\n"
 "manualmente.\n"
 " \n"
-"El comando AKICK LIST muestra la lista de Kick Automático\n"
-"o solo las entradas que concuerden con la máscara dada.\n"
+"O comando AKICK LIST mostra a lista de AKick do canal \n"
+"oapenas as entradas que correspondem à máscara dada.\n"
 " \n"
-"El comando AKICK VIEW proporciona más detalles que el comando\n"
+"O comando AKICK VIEW proporciona mais detalhes do que o comando\n"
 "AKICK LIST.\n"
 " \n"
-"El comando AKICK ENFORCE provoca que se fuerce la lista\n"
-"AKICK de %s eliminando a aquellos usuarios que concuerda con\n"
-"una máscara AKICK.\n"
+"O comando AKICK ENFORCE faz com que a lista seja forçada\n"
+"AKICK de %s eliminando os usuários que concordam com\n"
+"uma máscara AKICK.\n"
 " \n"
-"El comando AKICK CLEAR borra todas las entradas de la\n"
+"O comando AKICK CLEAR Remove todas as entradas da\n"
 "list akick."
 
 #: modules/commands/os_akill.cpp:448
@@ -1404,23 +1404,23 @@ msgid ""
 "AKILL CLEAR clears all entries of the AKILL list."
 msgstr ""
 " \n"
-"El comando AKILL DEL elimina la máscara dada de la lista\n"
-"AKILL si está presente. Si se proporciona una lista de números,\n"
-"se eliminan dichas entradas.  (Mira el ejemplo para LIST más\n"
-"abajo.)\n"
+"O comando AKILL DEL Remove a máscara da lista\n"
+"AKILL se estiver presente. Se for fornecida uma lista de números,\n"
+"essas entradas são eliminadas.  (Veja o exemplo da LISTA mais\n"
+"Abaixo.)\n"
 " \n"
-"El comando AKILL LIST muestra la lista AKILL.\n"
-"Si se proporciona una máscara, solo se muestran las entradas\n"
-"que coinciden con la máscara. Si se proporciona una lista de\n"
-"números, solo se muestran dichas entradas; por ejemplo:\n"
+"O comando AKILL LIST mostra a lista AKILL.\n"
+"Se uma máscara for fornecida, apenas as entradas são exibidas\n"
+"que combinam a máscara. Se uma lista de\n"
+"números, apenas essas entradas são mostradas; por exemplo:\n"
 "   AKILL LIST 2-5,7-9\n"
-"      Lista las entradas AKILL números 2 a 5 y 7 a 9.\n"
+"      Lista as entradas AKILL números 2 a 5 e 7 a 9.\n"
 "      \n"
-"AKILL VIEW es una versión más completa de AKILL LIST, y\n"
-"mostrará quien añadió el AKILL, la fecha en la que lo hizo, cuando\n"
-"expira, la máscara usuario@host/ip y la razón.\n"
+"AKILL VIEW É uma versão mais completa do AKILL LIST, e\n"
+"mostrará quem adicionou o AKILL, a data em que ele fez, quando\n"
+"expira, a máscara usuario@host/ip e a razão.\n"
 " \n"
-"AKILL CLEAR borra todas las entradas de la lista AKILL."
+"AKILL CLEAR apague todas as entradas na lista AKILL."
 
 #: modules/commands/os_sxline.cpp:462
 msgid ""
@@ -1445,23 +1445,23 @@ msgid ""
 "SNLINE CLEAR clears all entries of the SNLINE list."
 msgstr ""
 " \n"
-"El comando SNLINE DEL elimina la máscara dada de la lista\n"
-"SNLINE si está presente.  Si se proporciona una lista de números,\n"
-"se eliminan dichas entradas.  (Mira el ejemplo para LIST más\n"
-"abajo.)\n"
+"O comando SNLINE DEL remove uma máscara da lista\n"
+"SNLINE se estiver presente. Se for fornecida uma lista de números,\n"
+"essas entradas são eliminadas.  (Veja o exemplo da LISTA mais\n"
+"abaixo.)\n"
 " \n"
-"El comando SNLINE LIST muestra la lista SNLINE.\n"
-"Si se proporciona una máscara, solo se muestran las entradas\n"
-"que coinciden con la máscara. Si se proporciona una lista de\n"
-"números, solo se muestran dichas entradas; por ejemplo:\n"
+"O comando SNLINE LIST Mostra a lista SNLINE.\n"
+"Se uma máscara for fornecida, apenas as entradas são exibidas\n"
+"que combinam com a máscara. Se uma lista de\n"
+"números, somente essas entradas são mostradas; por exemplo:\n"
 "   SNLINE LIST 2-5,7-9\n"
-"      Lista las entradas SNLINE números 2 a 5 y 7 a 9.\n"
+"      Lista as entradas SNLINE números 2 a 5 e 7 a 9.\n"
 " \n"
-"SNLINE VIEW es una versión más completa de SNLINE LIST, y\n"
-"mostrará quien añadió la SNLINE, la fecha en la que lo hizo, cuando\n"
-"expira, la máscara de nombre real y la razón.\n"
+"SNLINE VIEW É uma versão mais completa do SNLINE LIST, e\n"
+"mostrará quem adicionou o SNLINE, a data em que fez, quando\n"
+"expira, a máscara de nome real e o motivo.\n"
 " \n"
-"SNLINE CLEAR borra todas las entradas de la lista SNLINE."
+"SNLINE CLEAR Remove todas as entradas na lista SNLINE."
 
 #: modules/commands/os_sxline.cpp:697
 msgid ""
@@ -1486,23 +1486,23 @@ msgid ""
 "SQLINE CLEAR clears all entries of the SQLINE list."
 msgstr ""
 " \n"
-"El comando SQLINE DEL elimina la máscara dada de la lista\n"
-"SQLINE si está presente. Si se proporciona una lista de números,\n"
-"se eliminan dichas entradas.  (Mira el ejemplo para LIST más\n"
-"abajo.)\n"
+"O comando SQLINE DEL Remove a máscara  da lista\n"
+"SQLINE se estiver presente. Se for fornecida uma lista de números,\n"
+"essas entradas são eliminadas.  (Veja o exemplo da LISTA mais\n"
+"abaixo.)\n"
 " \n"
-"El comando SQLINE LIST muestra la lista SQLINE.\n"
-"Si se proporciona una máscara, solo se muestran las entradas\n"
-"que coinciden con la máscara. Si se proporciona una lista de\n"
-"números, solo se muestran dichas entradas; por ejemplo:\n"
+"O comando SQLINE LIST Mostra a lista SQLINE.\n"
+"Se uma máscara for fornecida, apenas as entradas são exibidas\n"
+"que combinam a máscara. Se uma lista de\n"
+"somente essas entradas são mostradas; por exemplo:\n"
 "   SQLINE LIST 2-5,7-9\n"
-"      Lista las entradas SQLINE números 2 a 5 y 7 a 9.\n"
+"      Lista as entradas SQLINE números 2 a 5 e 7 a 9.\n"
 "      \n"
-"SQLINE VIEW es una versión más completa de SQLINE LIST, y\n"
-"mostrará quien añadió la SQLINE, la fecha en la que lo hizo, cuando\n"
-"expira, la máscara y la razón.\n"
+"SQLINE VIEW é uma Versão mais completa de SQLINE LIST, e\n"
+"mostrará quem adicionou o SQLINE, a data em que fez, quando\n"
+"expira, a máscara e a razão.\n"
 " \n"
-"SQLINE CLEAR borra todas las entradas de la lista SQLINE."
+"SQLINE CLEAR Remove todas as entradas da lista SQLINE."
 
 #: modules/commands/bs_assign.cpp:197
 #, fuzzy
@@ -1513,9 +1513,9 @@ msgid ""
 "automatically when you enable it."
 msgstr ""
 " \n"
-"Esta opción hace al canal no asignable. Si un bot ya\n"
-"está asignado al canal, es desasignado automáticamente\n"
-"cuando habilitas esta opción."
+"Esta opção torna o canal não atribuível. Se um bot já\n"
+"é atribuído ao canal, é automaticamente não atribuído\n"
+"quando você habilita esta opção."
 
 #: modules/commands/bs_set.cpp:196
 msgid ""
@@ -1524,8 +1524,8 @@ msgid ""
 "channel by users that aren't IRC Operators."
 msgstr ""
 " \n"
-"Esta opción evita que un bot sea asignado a un canal\n"
-"por usuarios que no sean IRCOps."
+"Esta opção impede que um bot seja atribuído a um canal\n"
+"por outros usuários que não sejam IRCops."
 
 #: modules/pseudoclients/memoserv.cpp:227
 #, c-format
@@ -1535,8 +1535,8 @@ msgid ""
 "above commands."
 msgstr ""
 " \n"
-"Escribe %s%s HELP comando para ayuda sobre cualquiera\n"
-"de los comandos anteriores."
+"Escreva %s%s HELP comando para obter ajuda sobre qualquer\n"
+"dos comandos anteriores."
 
 #: modules/commands/os_oper.cpp:168
 #, c-format
@@ -1546,37 +1546,37 @@ msgstr "   %s está en línea usando este bloque de operador."
 #: modules/commands/os_modinfo.cpp:55
 #, c-format
 msgid "   Command %s on %s is linked to %s"
-msgstr "   El comando %s en %s está asociado a %s"
+msgstr "   O comando %s em %s está associado a %s"
 
 #: modules/commands/os_modinfo.cpp:43
 #, c-format
 msgid "   Providing service: %s"
-msgstr "   Servicio proporcionado: %s"
+msgstr "   Serviço prestado: %s"
 
 #: modules/commands/os_oper.cpp:164
 msgid "   This oper is configured in the configuration file."
-msgstr "   Este operador está definido en el archivo de configuración."
+msgstr "   Este operador está definido no arquivo de configuração."
 
 #: modules/commands/os_modinfo.cpp:34
 #, c-format
 msgid " Loaded at: %p"
-msgstr " Cargado en: %p"
+msgstr " Carregado em: %p"
 
 #: modules/commands/cs_seen.cpp:303
 #, c-format
 msgid " but %s mysteriously dematerialized."
-msgstr " pero %s misteriosamente desmaterializado."
+msgstr " mas %s misteriosamente desmaterializado."
 
 #: src/messages.cpp:339
 #, c-format
 msgid ""
 "\"/msg %s\" is no longer supported.  Use \"/msg %s@%s\" or \"/%s\" instead."
 msgstr ""
-"\"/msg %s\" ya no está soportado.  Usa \"/msg %s@%s\" o \"/%s\" en su lugar."
+"\"/msg %s\" não é mais suportado.  Use \"/msg %s@%s\" o \"/%s\" em seu lugar."
 
 #: modules/commands/os_jupe.cpp:19
 msgid "\"Jupiter\" a server"
-msgstr "\"Jupitear\" un servidor"
+msgstr "\"Jupitear\" um servidor"
 
 #: modules/commands/os_oper.cpp:162
 #, c-format
@@ -1587,7 +1587,7 @@ msgstr "%-8s %s"
 #, c-format
 msgid "%2lu %-16s letters: %s, words: %s, lines: %s, smileys: %s, actions: %s"
 msgstr ""
-"%2lu %-16s letras: %s, palabras: %s, líneas: %s, smileys: %s, acciones: %s"
+"%2lu %-16s letras: %s, palavras: %s, Linhas: %s, smileys: %s, ações: %s"
 
 #: src/misc.cpp:359
 msgid "%b %d %H:%M:%S %Y %Z"
@@ -1596,132 +1596,132 @@ msgstr "%b %d %H:%M:%S %Y %Z"
 #: modules/commands/cs_log.cpp:205
 #, c-format
 msgid "%c is an unknown status mode."
-msgstr "%c es un modo de estado desconocido."
+msgstr "%c é um modo de status desconhecido."
 
 #: modules/commands/cs_mode.cpp:431
 #, c-format
 msgid "%c%c is not locked on %s."
-msgstr "%c%c no está bloqueado en %s."
+msgstr "%c%c não está bloqueado %s."
 
 #: modules/commands/cs_mode.cpp:427
 #, c-format
 msgid "%c%c%s has been unlocked from %s."
-msgstr "%c%c%s ha sido desbloqueado desde %s."
+msgstr "%c%c%s foi desbloqueado desde %s."
 
 #: modules/commands/cs_clone.cpp:56
 #, c-format
 msgid "%d access entries from %s have been cloned to %s."
-msgstr "%d entradas de acceso de %s han sido clonadas a %s."
+msgstr "%d entradas de acesso de %s foram clonados %s."
 
 #: modules/commands/bs_botlist.cpp:56
 #, c-format
 msgid "%d bots available."
-msgstr "%d bots disponibles."
+msgstr "%d bots disponiveis."
 
 #: modules/commands/os_modinfo.cpp:189
 #, c-format
 msgid "%d modules loaded."
-msgstr "%d módulos cargados."
+msgstr "%d módulos carregados."
 
 #: modules/commands/ns_group.cpp:342
 #, c-format
 msgid "%d nickname(s) in the group."
-msgstr "%d nick(s) en el grupo."
+msgstr "%d nick(s) no grupo."
 
 #: modules/commands/cs_seen.cpp:137
 #, c-format
 msgid "%lu nicks are stored in the database, using %.2Lf kB of memory."
 msgstr ""
-"%lu nicks están almacenados en la base de datos, usando %.2Lf kB de memoria."
+"%lu nicks eles são armazenados no banco de dados, usando %.2Lf kB de memoria."
 
 #: modules/commands/cs_xop.cpp:241 modules/commands/cs_xop.cpp:372
 #: modules/commands/cs_xop.cpp:450
 #, c-format
 msgid "%s %s list is empty."
-msgstr "La lista de %s de %s está vacía."
+msgstr "a lista de %s de %s está vazia."
 
 #: modules/commands/bs_kick.cpp:1151 modules/commands/bs_kick.cpp:1181
 #: modules/commands/bs_kick.cpp:1191 modules/commands/bs_kick.cpp:1201
 #: modules/commands/bs_kick.cpp:1211
 #, c-format
 msgid "%s (%d kick(s) to ban)"
-msgstr "%s (%d kick(s) para banear)"
+msgstr "%s (%d kick(s) para proibir)"
 
 #: modules/commands/bs_kick.cpp:1161
 #, c-format
 msgid "%s (%d kick(s) to ban; %d lines in %ds)"
-msgstr "%s (%d kick(s) para banear; %d líneas en %ds)"
+msgstr "%s (%d kick(s) para proibir; %d linhas em %ds)"
 
 #: modules/commands/bs_kick.cpp:1171
 #, c-format
 msgid "%s (%d kick(s) to ban; %d times)"
-msgstr "%s (%d kick(s) para banear; %d veces)"
+msgstr "%s (%d kick(s) para proibir; %d vezes)"
 
 #: modules/commands/bs_kick.cpp:1141
 #, c-format
 msgid "%s (%d kick(s) to ban; minimum %d/%d%%)"
-msgstr "%s (%d kick(s) para banear; mínimo %d/%d%%)"
+msgstr "%s (%d kick(s) para proibir; mínimo %d/%d%%)"
 
 #: modules/commands/bs_kick.cpp:1163
 #, c-format
 msgid "%s (%d lines in %ds)"
-msgstr "%s (%d líneas en %ds)"
+msgstr "%s (%d linhas em %ds)"
 
 #: modules/commands/bs_kick.cpp:1173
 #, c-format
 msgid "%s (%d times)"
-msgstr "%s (%d veces)"
+msgstr "%s (%d vezes)"
 
 #: modules/commands/cs_seen.cpp:358
 #, c-format
 msgid "%s (%s) was kicked from %s (\"%s\") %s ago%s"
-msgstr "%s (%s) fue kickeado de %s (\"%s\") hace%s%s"
+msgstr "%s (%s) foi kickado de %s (\"%s\") há%s%s"
 
 #: modules/commands/cs_seen.cpp:355
 #, c-format
 msgid "%s (%s) was kicked from a secret channel %s ago%s"
-msgstr "%s (%s) fue kickeado de un canal secreto hace %s%s"
+msgstr "%s (%s) foi kickado de um canal secreto há %s%s"
 
 #: modules/commands/cs_seen.cpp:326
 #, c-format
 msgid "%s (%s) was last seen changing nick from %s to %s %s ago%s"
-msgstr "%s (%s) cambió el nick por última vez de %s a %s hace %s%s"
+msgstr "%s (%s) mudou o nick pela última vez %s a %s há %s%s"
 
 #: modules/commands/cs_seen.cpp:321
 #, c-format
 msgid "%s (%s) was last seen changing nick to %s %s ago%s"
-msgstr "%s (%s) cambió el nick por última vez a %s hace %s%s"
+msgstr "%s (%s) mudou o nick pela última vez a %s há %s%s"
 
 #: modules/commands/cs_seen.cpp:310
 #, c-format
 msgid "%s (%s) was last seen connecting %s ago (%s)%s"
-msgstr "%s (%s) fue visto por última vez conectando hace %s (%s)%s"
+msgstr "%s (%s) foi visto pela última vez conectando há %s (%s)%s"
 
 #: modules/commands/cs_seen.cpp:335
 #, c-format
 msgid "%s (%s) was last seen joining %s %s ago%s"
-msgstr "%s (%s) fue visto por última vez entrando a %s hace %s %s"
+msgstr "%s (%s) foi visto pela última vez entrando %s há %s %s"
 
 #: modules/commands/cs_seen.cpp:332
 #, c-format
 msgid "%s (%s) was last seen joining a secret channel %s ago%s"
-msgstr "%s (%s) fue visto por última vez entrando a un canal secreto hace %s%s"
+msgstr "%s (%s) foi visto pela última vez em um canal secreto há %s%s"
 
 #: modules/commands/cs_seen.cpp:344
 #, c-format
 msgid "%s (%s) was last seen parting %s %s ago%s"
-msgstr "%s (%s) fue visto por última vez saliendo de %s hace %s%s"
+msgstr "%s (%s) foi visto pela última vez que saiu de %s há %s%s"
 
 #: modules/commands/cs_seen.cpp:341
 #, c-format
 msgid "%s (%s) was last seen parting a secret channel %s ago%s"
 msgstr ""
-"%s (%s) fue visto por última vez saliendo de un canal secreto hace %s%s"
+"%s (%s) foi visto pela última vez deixando um canal secreto há %s%s"
 
 #: modules/commands/cs_seen.cpp:349
 #, c-format
 msgid "%s (%s) was last seen quitting (%s) %s ago (%s)."
-msgstr "%s (%s) fue visto por última vez desconectando (%s) hace %s (%s)."
+msgstr "%s (%s) foi visto pela última vez desconectando (%s) há %s (%s)."
 
 #: modules/commands/bs_kick.cpp:1143
 #, c-format
@@ -1733,12 +1733,12 @@ msgstr "%s (mínimo %d/%d%%)"
 #: modules/commands/cs_flags.cpp:295
 #, c-format
 msgid "%s access list is empty."
-msgstr "La lista de acceso de %s esta vacía."
+msgstr "A lista de accesso do %s esta vazia."
 
 #: modules/commands/ns_ajoin.cpp:184
 #, c-format
 msgid "%s added to %s's auto join list."
-msgstr "%s añadido a la lista de auto join de %s."
+msgstr "%s adicionado à lista de auto join do %s."
 
 #: src/xline.cpp:389
 #, c-format
@@ -1749,17 +1749,17 @@ msgstr "%s ya existe."
 #: modules/commands/cs_akick.cpp:375
 #, c-format
 msgid "%s autokick list is empty."
-msgstr "La lista de kicks automáticos del canal %s está vacía."
+msgstr "A lista de Akicks do canal %s está vazia."
 
 #: modules/commands/bs_badwords.cpp:198 modules/commands/bs_badwords.cpp:316
 #, c-format
 msgid "%s bad words list is empty."
-msgstr "La lista de bad words de %s está vacía."
+msgstr "A lista de palavrões do %s está vazia."
 
 #: modules/commands/cs_set.cpp:1004
 #, c-format
 msgid "%s cannot be the successor on channel %s as they are the founder."
-msgstr "%s no puede ser el sucesor en el canal %s ya que es el fundador."
+msgstr "%s não pode ser o sucessor no canal %s já que ele é o fundador."
 
 #: modules/pseudoclients/global.cpp:90 modules/pseudoclients/operserv.cpp:287
 #: modules/pseudoclients/hostserv.cpp:78
@@ -1770,53 +1770,53 @@ msgstr "Comandos para %s:"
 #: include/language.h:69
 #, c-format
 msgid "%s coverage is too wide; Please use a more specific mask."
-msgstr "%s cubre un rango muy amplio; usa una máscara más específica."
+msgstr "%s Abrange uma ampla gama; use uma máscara específica."
 
 #: modules/commands/ms_info.cpp:94
 #, c-format
 msgid "%s currently has %d memos, of which %d are unread."
 msgstr ""
-"%s actualmente tiene %d memos, de los cuales %d aún no han sido leídos."
+"%s atualmente tem %d memos, dos quais %d não foram lidos."
 
 #: modules/commands/ms_info.cpp:92
 #, c-format
 msgid "%s currently has %d memos, of which 1 is unread."
-msgstr "%s actualmente tiene %d memos, de los cuales 1 aún no ha sido leído."
+msgstr "%s atualmente tem %d memos, dos quais 1 ainda não foi lido."
 
 #: modules/commands/ms_info.cpp:90
 #, c-format
 msgid "%s currently has %d memos."
-msgstr "%s actualmente tiene %d memos."
+msgstr "%s atualmente tem %d memos."
 
 #: modules/commands/ms_info.cpp:88
 #, c-format
 msgid "%s currently has %d memos; all of them are unread."
-msgstr "%s actualmente tiene %d memos, de los cuales ninguno ha sido leído ."
+msgstr "%s atualmente tem %d memos, dos quais nenhum foi lido ."
 
 #: modules/commands/ms_info.cpp:77
 #, c-format
 msgid "%s currently has 1 memo, and it has not yet been read."
-msgstr "%s actualmente tiene 1 memo y aún no ha sido leído."
+msgstr "%s atualmente tem 1 memo que ainda não foi lido."
 
 #: modules/commands/ms_info.cpp:79
 #, c-format
 msgid "%s currently has 1 memo."
-msgstr "%s tiene 1 memo."
+msgstr "%s tem 1 memo."
 
 #: modules/commands/ms_info.cpp:73
 #, c-format
 msgid "%s currently has no memos."
-msgstr "%s no tiene memos."
+msgstr "%s não tem memos."
 
 #: modules/commands/os_forbid.cpp:332
 #, c-format
 msgid "%s deleted from the %s forbid list."
-msgstr "%s borrado de la lista de prohibiciones de %s."
+msgstr "%s Remover da lista de proibições de %s."
 
 #: include/language.h:105
 #, c-format
 msgid "%s for %s set to %s."
-msgstr "%s para %s establecido a %s."
+msgstr "%s para %s estabelecido a %s."
 
 #: include/language.h:106
 #, c-format
@@ -1826,57 +1826,57 @@ msgstr "%s para %s eliminado."
 #: modules/commands/ns_ajoin.cpp:176
 #, c-format
 msgid "%s had an invalid key specified, and was thus ignored."
-msgstr "La clave especificada para %s no es válida, y fue ignorada."
+msgstr "A Senha especificada para %s não é valida, e foi ignorado."
 
 #: modules/commands/ms_info.cpp:111
 #, c-format
 msgid "%s has no memo limit."
-msgstr "%s no tiene límite de memos."
+msgstr "%s não tem limites de memos."
 
 #: include/language.h:115
 #, c-format
 msgid "%s has no memos."
-msgstr "%s no tiene memos."
+msgstr "%s não tem memos."
 
 #: include/language.h:118
 #, c-format
 msgid "%s has no new memos."
-msgstr "%s no tiene nuevos memos."
+msgstr "%s não tem novos memos."
 
 #: modules/commands/ns_info.cpp:53
 #, c-format
 msgid "%s is %s"
-msgstr "%s es %s"
+msgstr "%s é %s"
 
 #: modules/commands/ns_info.cpp:59
 #, c-format
 msgid "%s is a Services Operator of type %s."
-msgstr "%s es un Operador de Servicios del tipo %s."
+msgstr "%s é um Operador dos Serviços do tipo %s."
 
 #: modules/commands/cs_seen.cpp:281
 #, c-format
 msgid "%s is a client on services."
-msgstr "%s es un cliente en los Servicios."
+msgstr "%s é um cliente nos Serviços."
 
 #: modules/commands/cs_seen.cpp:200
 #, c-format
 msgid "%s is a network service."
-msgstr "%s es un servicio de red."
+msgstr "%s É um serviço de rede."
 
 #: src/xline.cpp:407
 #, c-format
 msgid "%s is already covered by %s."
-msgstr "%s ya está cubierto por %s."
+msgstr "%s já está coberto por %s."
 
 #: modules/commands/ns_ajoin.cpp:170
 #, c-format
 msgid "%s is already on %s's auto join list."
-msgstr "%s ya está en la lista de auto join de %s."
+msgstr "%s já está na lista de inscrição automática do %s."
 
 #: modules/commands/ns_info.cpp:56
 #, c-format
 msgid "%s is an unconfirmed nickname."
-msgstr "%s es un nick no confirmado."
+msgstr "%s É um nick não confirmado."
 
 #: modules/commands/cs_flags.cpp:432
 #, c-format
@@ -1884,19 +1884,19 @@ msgid ""
 "%s is another way to modify the channel access list, similar to\n"
 "the XOP and ACCESS methods."
 msgstr ""
-"%s es otra forma de modificar la lista de acceso del canal, similar a\n"
-"los métodos XOP y ACCESS."
+"%s é outra maneira de modificar a lista de acesso do canal, semelhante a\n"
+"os métodos XOP e ACCESS."
 
 #: modules/commands/ns_info.cpp:74
 #, c-format
 msgid "%s is currently online."
-msgstr "%s está actualmente en línea. "
+msgstr "%s está atualmente online. "
 
 #: modules/commands/os_set.cpp:23 modules/commands/os_set.cpp:25
 #: modules/commands/os_set.cpp:27
 #, c-format
 msgid "%s is disabled"
-msgstr "%s está deshabilitado"
+msgstr "%s está desabilitado"
 
 #: modules/commands/os_set.cpp:23 modules/commands/os_set.cpp:25
 #: modules/commands/os_set.cpp:27
@@ -1907,22 +1907,22 @@ msgstr "%s está habilitado"
 #: modules/commands/os_dns.cpp:507
 #, c-format
 msgid "%s is not a valid IP address."
-msgstr "%s no es una IP válida."
+msgstr "%s não é um IP válido."
 
 #: modules/commands/cs_log.cpp:167 modules/commands/cs_log.cpp:192
 #, c-format
 msgid "%s is not a valid command."
-msgstr "%s no es un comando válido."
+msgstr "%s não é um comando válido."
 
 #: modules/commands/cs_log.cpp:198
 #, c-format
 msgid "%s is not a valid logging method."
-msgstr "%s no es un método de registro válido."
+msgstr "%s não é um método de registro válido."
 
 #: modules/commands/ms_info.cpp:124
 #, c-format
 msgid "%s is not notified of new memos."
-msgstr "%s no es notificado de memos nuevos."
+msgstr "%s não é notificado de memos novos."
 
 #: modules/commands/ms_info.cpp:118
 #, c-format
@@ -10852,73 +10852,73 @@ msgstr ""
 #: modules/commands/ns_register.cpp:67
 #, c-format
 msgid "Your email address of %s has been confirmed."
-msgstr "Seu endereço de email %s foi confirmado."
+msgstr "Tu dirección email de %s ha sido confirmada."
 
 #: modules/extra/m_ldap_authentication.cpp:159
 #, c-format
 msgid "Your email has been updated to %s"
-msgstr "Seu email foi atualizado para %s"
+msgstr "Tu email ha sido actualizado a %s"
 
 #: modules/extra/m_sql_authentication.cpp:62
 #, c-format
 msgid "Your email has been updated to %s."
-msgstr "Seu email foi atualizado para %s."
+msgstr "Tu email ha sido actualizado a %s."
 
 #: modules/commands/ms_set.cpp:197
 msgid "Your memo limit has been disabled."
-msgstr "Seu limite de memos foi desativado."
+msgstr "Tu límite de memos ha sido deshabilitado."
 
 #: modules/commands/ms_set.cpp:183
 #, c-format
 msgid "Your memo limit has been set to %d."
-msgstr "Seu limite de memos foi configurado para %d."
+msgstr "Tu límite de memos ha sido establecido a %d."
 
 #: modules/commands/ms_info.cpp:164
 #, c-format
 msgid "Your memo limit is %d, and may not be changed."
-msgstr "Seu limite de memos é %d e não pode ser alterado."
+msgstr "Tu límite de memos es %d y no puede ser cambiado."
 
 #: modules/commands/ms_info.cpp:166
 #, c-format
 msgid "Your memo limit is %d."
-msgstr "Seu limite de memos é %d."
+msgstr "Tu límite de memos es %d."
 
 #: modules/commands/ms_info.cpp:159
 msgid "Your memo limit is 0; you will not receive any new memos."
-msgstr "Seu limite de memos é 0; você não receberá novos memos."
+msgstr "Tu límite de memos es 0; no recibirás nuevos memos."
 
 #: modules/commands/ms_info.cpp:157
 msgid ""
 "Your memo limit is 0; you will not receive any new memos. You cannot change "
 "this limit."
 msgstr ""
-"Seu limite de memos é 0; você não receberá novos memos. Você não pode mudar este "
-"limite."
+"Tu límite de memos es 0; no recibirás nuevos memos. No puedes cambiar este "
+"límite."
 
 #: modules/commands/ns_logout.cpp:50
 msgid "Your nick has been logged out."
-msgstr "Seu nick foi desconectado."
+msgstr "Tu nick ha sido desconectado."
 
 #: modules/commands/ns_group.cpp:142
 msgid "Your nick is already registered."
-msgstr "Seu nick já está registrado."
+msgstr "Tu nick ya está registrado."
 
 #: modules/commands/ns_group.cpp:232
 msgid "Your nick is not grouped to anything, you can't ungroup it."
-msgstr "Seu nick não está agrupado em nada, você não pode desagrupar."
+msgstr "Tu nick no está agrupado a nada, no puedes desagruparlo."
 
 #: include/language.h:77
 msgid "Your nick isn't registered."
-msgstr "Seu nick não está registrado."
+msgstr "Tu nick no está registrado."
 
 #: modules/pseudoclients/nickserv.cpp:254
 #, c-format
 msgid "Your nickname is now being changed to %s"
-msgstr "Seu nick foi alterado para %s"
+msgstr "Tu nick se ha cambiado a %s"
 
 #: modules/commands/os_login.cpp:32 modules/commands/os_login.cpp:79
 msgid "Your oper block doesn't require logging in."
-msgstr "Seu oper block não requer login."
+msgstr "Tu bloque de operador no requiere inicio de sesión."
 
 #: modules/commands/ns_register.cpp:336
 #, c-format
