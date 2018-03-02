@@ -4707,10 +4707,9 @@ msgstr ""
 " \n"
 "Se o seu IRCd tiver um modo de canal permanente (persistente)\n"
 "e está habilitado ou desativado (de qualquer forma, incluindo\n"
-"MLOCK"), a persistência é ativada ou desativada automaticamente\n "
+"MLOCK"), a persistência é ativada ou desativada automaticamente\n"
 "para o canal, além disso, os serviços irão colocar ou remover\n"
-"esse modo quando você ativa ou desativa a persistência".
-
+"esse modo quando você ativa ou desativa a persistência."
 
 #: modules/commands/os_akill.cpp:331
 msgid "End of AKILL list."
@@ -4976,8 +4975,8 @@ msgid ""
 "Forbid allows you to forbid usage of certain nicknames, channels,\n"
 "and email addresses. Wildcards are accepted for all entries."
 msgstr ""
-"Isso permite que você proiba o uso de certos apelidos, canais e\n"
-"Endereço de e-mail Todas as entradas aceitam curingas".
+"Isso permite que você proiba o uso de certos nicks, canais e\n"
+"endereços de e-mail. Todas as entradas aceitam wildcards."
 
 #: modules/commands/os_forbid.cpp:342
 msgid "Forbid list is empty."
@@ -5215,7 +5214,7 @@ msgid ""
 "matched against nicks or usernames."
 msgstr ""
 "Máscara inválida. Somente hosts reais são válidos, uma vez que as exceções não"
-"são comparadas com nicks ou idents".
+"são comparadas com nicks ou idents."
 
 #: modules/commands/os_logsearch.cpp:73
 #, c-format
