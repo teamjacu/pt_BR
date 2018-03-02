@@ -4544,7 +4544,7 @@ msgstr ""
 "Ativa ou desativa a conservação de modos para o apelido fornecido.\n"
 "Se a conservação dos modos for ativada, os serviços se lembrarão\n"
 "modos de usuário e tentará reiniciá-los na próxima vez\n"
-"O canal é criado".
+"O canal é criado."
 
 #: modules/commands/ns_set.cpp:635
 msgid ""
@@ -4555,7 +4555,7 @@ msgstr ""
 "Ativa ou desativa a conservação de modos para o nick fornecido.\n"
 "Se a conservação dos modos for ativada, os serviços se lembrarão\n"
 "os modos de usuário e tentará reiniciá-los na próxima vez\n"
-"identifique-se".
+"identifique-se"
 
 #: modules/commands/ns_set.cpp:610
 msgid ""
@@ -4579,7 +4579,7 @@ msgstr ""
 "Ativa ou desativa os recursos de segurança\n"
 "para um canal. Quando %sestá ativado, apenas o\n"
 "usuários registrados e IDENTIFICADOS com sua senha\n"
-"Eles terão acesso ao canal controlado pela lista de acesso".
+"Eles terão acesso ao canal controlado pela lista de acesso"
 
 #: modules/commands/cs_set.cpp:943
 msgid ""
@@ -4640,7 +4640,7 @@ msgstr ""
 "um canal. Quando segurança do fundador está ativado, apenas\n"
 "o verdadeiro fundador poderá apagar o canal, mudar sua senha, o\n"
 "fundador e seu sucessor, e não os usuários que têm nível\n"
-"fundador com o comando acesso/qop".
+"fundador com o comando acesso/qop"
 
 #: modules/commands/cs_set.cpp:871
 #, fuzzy
@@ -4652,7 +4652,7 @@ msgstr ""
 "Habilita o desabilita a opção segurança de ops para um\n"
 "canal.  Quando segurança de ops está ativado, os usuarios\n"
 "que não estão na lista de acesso não serão capazes de obter status de\n"
-"operador de canal".
+"operador de canal"
 
 #: modules/commands/cs_topic.cpp:70
 #, c-format
@@ -4667,7 +4667,7 @@ msgstr ""
 "para um canal. Quando %s está ativado, o topico para\n"
 "o canal será lembrado por %s mesmo após o\n"
 "O último usuário sai do canal e o próximo será restaurado\n"
-"Uma vez criado o canal".
+"Uma vez criado o canal"
 
 #: modules/commands/cs_set.cpp:603
 #, fuzzy, c-format
