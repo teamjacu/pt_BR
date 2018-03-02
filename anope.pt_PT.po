@@ -2399,205 +2399,205 @@ msgid ""
 "can be executed by prefixing the command name with\n"
 "one of the following characters: %s"
 msgstr ""
-"Adicionalmente, si el modo fantasía está activado, los\n"
-"comandos fantasía pueden usarse precediendo el nombre\n"
-"del comando con uno de los caracteres siguientes: %s"
+"Além disso, se o modo fantasia for ativado, o\n"
+"Os comandos de fantasia podem ser usados antes do nome\n"
+"do comando com um dos seguintes personagens: %s"
 
 #: modules/commands/os_noop.cpp:58
 #, c-format
 msgid "All O:lines of %s have been reset."
-msgstr "Todas las O:lines de %s han sido reseteadas."
+msgstr "Todas as O:lines do %s foram Resetadas."
 
 #: modules/commands/cs_clone.cpp:71
 #, c-format
 msgid "All akick entries from %s have been cloned to %s."
-msgstr "Todas las entradas akick de %s han sido clonadas a %s."
+msgstr "Todas as entradas akick do %s foram clonados %s."
 
 #: modules/commands/help.cpp:57
 #, c-format
 msgid "All available commands for %s:"
-msgstr "Comandos disponibles para %s:"
+msgstr "Comandos disponíveis para %s:"
 
 #: modules/commands/cs_clone.cpp:96
 #, c-format
 msgid "All badword entries from %s have been cloned to %s."
-msgstr "Todas las bad words de %s han sido clonadas a %s."
+msgstr "Todos os Palavrões do %s foram clonados %s."
 
 #: modules/commands/cs_clone.cpp:108
 #, fuzzy, c-format
 msgid "All level entries from %s have been cloned into %s."
-msgstr "Todas las entradas akick de %s han sido clonadas a %s."
+msgstr "Todas as entradas akick do %s han sido clonadas a %s."
 
 #: modules/commands/os_news.cpp:38
 msgid "All logon news items deleted."
-msgstr "Todas las noticias de entrada borradas."
+msgstr "Todas as notícias de entrada foram excluídas."
 
 #: modules/commands/ms_del.cpp:109
 #, c-format
 msgid "All memos for channel %s have been deleted."
-msgstr "Todos los memos para el canal %s han sido borrados."
+msgstr "Todos os memos para o canal %s foram excluídos."
 
 #: modules/commands/os_mode.cpp:61
 #, c-format
 msgid "All modes cleared on %s."
-msgstr "Se han limpiado todos los modos en %s."
+msgstr "Todos os modos foram limpos em %s."
 
 #: modules/commands/ns_register.cpp:258 modules/commands/ns_register.cpp:389
 msgid ""
 "All new accounts must be validated by an administrator. Please wait for your "
 "registration to be confirmed."
 msgstr ""
-"Todas las cuentas nuevas deben ser validadas por un administrador. Por "
-"favor, espera hasta que tu registro sea confirmado."
+"Todas as novas contas devem ser aprovadas por um administrador. "
+"favor, Aguarde até que seu registro seja confirmado."
 
 #: modules/commands/ms_del.cpp:111
 msgid "All of your memos have been deleted."
-msgstr "Todos tus memos han sido borrados."
+msgstr "Todos os seus memos foram excluídos."
 
 #: modules/commands/os_news.cpp:48
 msgid "All oper news items deleted."
-msgstr "Todas las noticias de oper borradas."
+msgstr "Todas as noticias de oper excluídas."
 
 #: modules/commands/os_noop.cpp:41
 #, c-format
 msgid "All operators from %s have been removed."
-msgstr "Todos los operadores de %s han sido borrados."
+msgstr "Todos os operadores do %s foram excluídos."
 
 #: modules/commands/os_news.cpp:58
 msgid "All random news items deleted."
-msgstr "Todas las noticias al azar borradas."
+msgstr "Todas as notícias aleatórias foram excluídas."
 
 #: modules/commands/cs_clone.cpp:211
 #, c-format
 msgid "All settings from %s have been cloned to %s."
-msgstr "Todas la configuración de %s ha sido clonada a %s."
+msgstr "Todas configuração do %s foi clonado para %s."
 
 #: modules/commands/cs_sync.cpp:41
 #, c-format
 msgid "All user modes on %s have been synced."
-msgstr "Todas los modos de usuario en %s han sido sincronizados."
+msgstr "Todos os modos de usuário em %s Eles foram sincronizados."
 
 #: modules/commands/hs_group.cpp:60
 #, fuzzy, c-format
 msgid "All vhosts in the group %s have been set to %s."
-msgstr "Todos los vhosts en el grupo %s han sido establecidos a %s"
+msgstr "Todos os vhosts do grupo %s foram estabelecidos para %s"
 
 #: modules/commands/hs_group.cpp:58
 #, fuzzy, c-format
 msgid "All vhosts in the group %s have been set to %s@%s."
-msgstr "Todos los vhosts en el grupo %s han sido establecidos a %s@%s."
+msgstr "Todos os vhosts do grupo %s foram estabelecidos para %s@%s."
 
 #: src/access.cpp:40
 msgid "Allowed to (de)halfop him/herself"
-msgstr "Puede darse/quitarse halfop a sí mismo"
+msgstr "Pode ocorrer/tirar o próprio halfop"
 
 #: src/access.cpp:39
 msgid "Allowed to (de)halfop users"
-msgstr "Puede dar/quitar halfop a los usuarios"
+msgstr "Pode dar/remover halfop para usuários"
 
 #: src/access.cpp:48
 msgid "Allowed to (de)op him/herself"
-msgstr "Puede darse/quitarse op a sí mismo"
+msgstr "Pode ocorrer/tirar op a você mesmo"
 
 #: src/access.cpp:47
 msgid "Allowed to (de)op users"
-msgstr "Puede dar/quitar op a los usuarios"
+msgstr "Pode dar/remover op dos usuarios"
 
 #: src/access.cpp:50
 msgid "Allowed to (de)owner him/herself"
-msgstr "Puede darse/quitarse status de fundador a sí mismo"
+msgstr "Pode dar/remover status de fundador a você mesmo"
 
 #: src/access.cpp:49
 msgid "Allowed to (de)owner users"
-msgstr "Puede dar/quitar status de fundador a los usuarios"
+msgstr "Pode dar/remover status de fundador dos usuarios"
 
 #: src/access.cpp:52
 msgid "Allowed to (de)protect him/herself"
-msgstr "Puede (des)protegerse a sí mismo"
+msgstr "pode (des)proteger a você mesmo"
 
 #: src/access.cpp:51
 msgid "Allowed to (de)protect users"
-msgstr "Puede (des)proteger a los usuarios"
+msgstr "Pode (des)proteger os usuarios"
 
 #: src/access.cpp:59
 msgid "Allowed to (de)voice him/herself"
-msgstr "Puede darse/quitarse voz a sí mismo"
+msgstr "Pode dar/remover voz a Você mesmo"
 
 #: src/access.cpp:58
 msgid "Allowed to (de)voice users"
-msgstr "Puede dar/quitar voz a los usuarios"
+msgstr "Pode dar/Remover voz dos usuarios"
 
 #: src/access.cpp:27
 msgid "Allowed to assign/unassign a bot"
-msgstr "Puede asignar o quitar un bot"
+msgstr "Você pode atribuir ou remover um bot"
 
 #: src/access.cpp:34
 msgid "Allowed to ban users"
-msgstr "Puede banear usuarios"
+msgstr "Pode banir usuarios"
 
 #: src/access.cpp:56
 msgid "Allowed to change channel topics"
-msgstr "Puede cambiar el topic del canal"
+msgstr "Você pode mudar o tópico do canal"
 
 #: src/access.cpp:41
 msgid "Allowed to get full INFO output"
-msgstr "Puede ver la salida completa del comando INFO"
+msgstr "Você pode ver a saída completa do comando INFO"
 
 #: src/access.cpp:36
 msgid "Allowed to issue commands restricted to channel founders"
-msgstr "Puede usar comandos reservados a fundadores del canal"
+msgstr "Você pode usar os comandos reservados aos fundadores do canal"
 
 #: src/access.cpp:33
 msgid "Allowed to modify channel badwords list"
-msgstr "Puede modificar la lista de badwords del canal"
+msgstr "Pode modificar la lista de Palavões do canal"
 
 #: src/access.cpp:24
 msgid "Allowed to modify the access list"
-msgstr "Puede modificar la lista de acceso"
+msgstr "Pode modificar a lista de acceso"
 
 #: src/access.cpp:44
 msgid "Allowed to read channel memos"
-msgstr "Puede leer los memos del canal"
+msgstr "Pode ler os memos do canal"
 
 #: src/access.cpp:54
 msgid "Allowed to set channel settings"
-msgstr "Puede cambiar la configuración del canal"
+msgstr "Pode mudar as configurações do canal"
 
 #: src/access.cpp:57
 msgid "Allowed to unban users"
-msgstr "Puede desbanear usuarios"
+msgstr "Pode desbanir usuarios"
 
 #: src/access.cpp:37
 msgid "Allowed to use GETKEY command"
-msgstr "Puede usar el comando GETKEY"
+msgstr "Pode usar o comando GETKEY"
 
 #: src/access.cpp:53
 msgid "Allowed to use SAY and ACT commands"
-msgstr "Puede usar los comandos SAY y ACT"
+msgstr "Pode usar os comandos SAY e ACT"
 
 #: src/access.cpp:35
 msgid "Allowed to use fantasy commands"
-msgstr "Puede usar los comandos fantasía"
+msgstr "Pode usar o comando fantasía"
 
 #: src/access.cpp:26
 msgid "Allowed to use the AKICK command"
-msgstr "Puede usar el comando AKICK"
+msgstr "Pode usar o comando AKICK"
 
 #: src/access.cpp:42
 msgid "Allowed to use the INVITE command"
-msgstr "Puede usar el comando INVITE"
+msgstr "Pode usar o comando INVITE"
 
 #: src/access.cpp:43
 msgid "Allowed to use the KICK command"
-msgstr "Puede usar el comando KICK"
+msgstr "Pode usar o comando KICK"
 
 #: src/access.cpp:45
 msgid "Allowed to use the MODE command"
-msgstr "Puede usar el comando MODE"
+msgstr "Pode usar o comando MODE"
 
 #: src/access.cpp:25
 msgid "Allowed to view the access list"
-msgstr "Puede ver la lista de acceso"
+msgstr "Pode ver a lista de accesso"
 
 #: modules/commands/gl_global.cpp:42
 #, c-format
@@ -2605,8 +2605,8 @@ msgid ""
 "Allows Administrators to send messages to all users on the\n"
 "network. The message will be sent from the nick %s."
 msgstr ""
-"Permite a los Administrators a enviar mensajes a todos los\n"
-"usuarios de la red. El mensaje será enviado desde el nick %s."
+"Permite que os Administradores enviem mensagens a todos\n"
+"usuários da rede. A mensagem será enviada do nick %s."
 
 #: modules/commands/os_mode.cpp:133
 msgid ""
@@ -2615,20 +2615,20 @@ msgid ""
 "Alternatively, CLEAR may be given to clear all modes on the channel.\n"
 "If CLEAR ALL is given then all modes, including user status, is removed."
 msgstr ""
-"Permite a los Operadores de Servicios cambiar los modos para\n"
-"cualquier canal. Los parámetros son los mismos que para el\n"
-"comando estándar /MODE. También se puede especificar\n"
-"CLEAR para borrar todos los modos del canal. Si se especifica\n"
-"CLEAR ALL se limpian también los status de usuarios."
+"Permite que os Operadores de serviços mudem os modos para\n"
+"qualquer canal. Os parâmetros são os mesmos que os\n"
+"comando padrão /MODE. Você também pode especificar\n"
+"CLEAR para apagar todos os modos de canal. Se for especificado\n"
+"CLEAR ALL o status do usuário também é limpo."
 
 #: modules/commands/os_mode.cpp:173
 msgid ""
 "Allows Services Operators to change modes for any user.\n"
 "Parameters are the same as for the standard /MODE command."
 msgstr ""
-"Permite a los Operadores de Servicios cambiar los modos para\n"
-"cualquier usuario. Los parámetros son los mismos que para el\n"
-"comando estándar /MODE."
+"Permite que os operadores de serviços mudem os modos para\n"
+"qualquer usuário Os parâmetros são os mesmos que os\n"
+"comando padrão /MODE."
 
 #: modules/commands/bs_bot.cpp:352
 #, fuzzy
@@ -2655,17 +2655,17 @@ msgstr ""
 "y borrar bots que usuarios podran usar en sus propios\n"
 "canales.\n"
 " \n"
-"BOT ADD añade un bot con el nick, usuario, host\n"
-"y nombre real dados. Ten mucho cuidado, ya que no se hacen\n"
-"comprobaciones de la integridad de estas configuraciones.\n"
-"BOT CHANGE permite cambiar el nick, usuario, host\n"
-"o nombre real de un bot sin tener que borrar el bot (ni la\n"
-"información asociada a él).\n"
-"BOT DEL elimina el bot dado de la lista de bots.\n"
+"BOT ADD adicione um bot com o nick, usuário, host\n"
+"e nome verdadeiro dado. Tenha muito cuidado, uma vez que eles não são feitos\n"
+"verificações de integridade dessas configurações.\n"
+"BOT CHANGE permite alterar o nick, usuário, host\n"
+"ou nome real de um bot sem ter que apagar o bot (nem as\n"
+"informações associadas a ele).\n"
+"BOT DEL Remove o bot da lista de bots.\n"
 " \n"
-"Aviso: no puedes crear un bot que tenga un nick que ya\n"
-"esté registrado. Si un usuario no registrado esta usando\n"
-"el nick, será expulsado de la red."
+"Aviso: você não pode criar um bot que tenha um apelido que\n"
+"seja registrado. Se um usuário não registrado estiver usando\n"
+"o nick, será expulso da rede."
 
 #: modules/commands/os_oline.cpp:56
 msgid ""
@@ -2673,10 +2673,10 @@ msgid ""
 "Flags have to be prefixed with a \"+\" or a \"-\". To\n"
 "remove all flags simply type a \"-\" instead of any flags."
 msgstr ""
-"Permite a los Operadores de Servicios dar marcas de IRCOp a\n"
-"cualquier usuario. Los marcas tienen que estar precedidos con\n"
-"un \"+\" o un \"-\". Para eliminar todas las marca, escribe\n"
-"un \"-\" en vez de cualquier marca."
+"Permite que os Operadores dos Serviços dê Oper a qualquer usuário\n"
+"qualquer usuário. As flags tem que ser prefixado com\n"
+"un \"+\" o un \"-\". Para eliminar todas as Flags, escreva\n"
+"un \"-\" em vez de qualquer flags."
 
 #: modules/commands/os_ignore.cpp:370
 msgid ""
@@ -2692,18 +2692,18 @@ msgid ""
 " \n"
 "Ignores will not be enforced on IRC Operators."
 msgstr ""
-"Permite a los Operadores de Servicios hacer que éstos ignoren un\n"
-"nick o una máscara durante cierto tiempo o hasta el próximo reinicio.\n"
-"El formato de tiempo predeterminado es en segundos, pero puedes\n"
+"Permite que os Operadores do Serviço façam com que eles ignorem um\n"
+"nick ou uma máscara por um certo tempo ou até o próximo reinício.\n"
+"O formato de hora padrão é em segundos, mas você pode\n"
 "especificar unidades\n"
-"Las unidades válidas son: s para segundos, m para minutos,\n"
-"h para horas y d para días.\n"
-"Las combinaciones de esas unidades no están permitidas.\n"
-"Para hacer que el ignore sea permanente, establece 0 como tiempo.\n"
-"Cuando añades una máscara, debe estar en formato nick!usuario@host,\n"
-"todo lo demás será considerado un nick. Se permiten comodines.\n"
+"As unidades válidas são: s para segundos, m para minutos,\n"
+"h para horas e d para dias.\n"
+"As combinações dessas unidades não são permitidas.\n"
+"Para tornar o ignore permanente, defina 0 como tempo.\n"
+"Quando você adiciona um máscara, deve estar no formato nick!usuario@host,\n"
+"Tudo o resto será considerado um apelido. Os curingas são permitidos.\n"
 " \n"
-"Los ignores no funcionarán con IRCOps."
+"Ignores não funcionará com IRCops."
 
 #: modules/commands/os_akill.cpp:420
 msgid ""
@@ -2728,25 +2728,25 @@ msgid ""
 "current AKILL default expiry time can be found with the\n"
 "STATS AKILL command."
 msgstr ""
-"Permite a los Operadores de Servicios manipular la lista de\n"
-"AKILLS. Si un usuario coincindente con una mascara en la\n"
-"lista de AKILLS se intenta conectar, los Servicios enviarán\n"
-"un KILL a ese usuario y, en los tipos de servidores soportados,\n"
-"ordenará a todos los servidores añadir un ban a la máscara\n"
-"de dicho usuario.\n"
+"Permite que operadores de serviços manipulem a lista de\n"
+"AKILLS. Se um usuário coincide com uma máscara na\n"
+"lista de AKILLS você tenta se conectar, os Serviços enviarão\n"
+"um KILL a esse usuario e, sobre os tipos de servidores suportados,\n"
+"ordenará a todos os servidores que adicionem uma proibição à máscara\n"
+"do usuário mencionado.\n"
 " \n"
-"AKILL ADD añade la mascara dada a la lista AKILL con la\n"
-"razón dada, la cual es obligatoria .\n"
-"La máscara debe estar en formato nick!usuario@host#nombre real,\n"
-"siendo obligatorios el usuario y el host. Si se especifica un nombre\n"
-"real, la razón debe ir precedida de :.\n"
-"expiración debe ser un número entero seguido de d (días), h\n"
-"(horas), o m (minutos). Las combinaciones (como 1h30m) no se\n"
-"permiten. Si no se especifican las unidades, lo predeterminado es días\n"
-"(así que +30 por sí mismo significa 30 días). Para añadir un AKILL que\n"
-"no expire, usa +0. Si la máscara a ser añadida comienza por un +, se\n"
-"debe especificar la expiración, incluso si es igual a la predeterminada.\n"
-"La expiración predeterminada para un AKILL se puede ver con el comando\n"
+"AKILL ADD Adicione a máscara à lista AKILL com a\n"
+"razão, que é obrigatoria .\n"
+"A máscara deve estar no formato nick!usuario@host#nombre real,\n"
+"o usuário e o host são obrigatórios. Se um nome for especificado\n"
+"real, o motivo deve ser precedido por :.\n"
+"expiração deve ser um número inteiro seguido de d (dias), h\n"
+"(horas), o m (minutos). As combinações (como 1h30m) não é \n"
+"Permitido. Se as unidades não forem especificadas, o padrão é dias\n"
+"(assim que +30 significa 30 días). Para adicionar um AKILL que\n"
+"não expire, usa +0. Se a máscara a ser adicionada começa com um +, isso\n"
+"Você deve especificar a expiração, mesmo que seja igual ao padrão.\n"
+"A expiração padrão para um AKILL pode ser vista com o comando\n"
 "STATS AKILL."
 
 #: modules/commands/os_sxline.cpp:436
