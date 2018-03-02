@@ -3337,7 +3337,7 @@ msgid ""
 "%d characters and %d%% of the entire message)."
 msgstr ""
 "O bot agora kickara por maiúsculas (eles devem ser pelo menos\n"
-"%d caracteres e %d%% de toda a mensagem)."
+"%d caracteres e %d%% de toda a menssagem)."
 
 #: modules/commands/bs_kick.cpp:551
 #, c-format
@@ -3345,13 +3345,13 @@ msgid ""
 "Bot will now kick for flood (%d lines in %d seconds\n"
 "and will place a ban after %d kicks for the same user."
 msgstr ""
-"O bot agora kickara por flood (%d línhas em %d segundos)\n"
+"O bot agora kickara por flood (%d linhas em %d segundos)\n"
 "e banira depois de %d kicks ao mesmo usuario."
 
 #: modules/commands/bs_kick.cpp:554
 #, c-format
 msgid "Bot will now kick for flood (%d lines in %d seconds)."
-msgstr "El bot ahora kickeará por flood (%d líneas en %d segundos)."
+msgstr "O bot agora kickara por flood (%d linhas em %d segundos)."
 
 #: modules/commands/bs_kick.cpp:677
 #, fuzzy, c-format
@@ -3360,9 +3360,9 @@ msgid ""
 "same message %d time), and will place a ban after %d\n"
 "kicks for the same user."
 msgstr ""
-"El bot ahora kickeará por repetir (usuarios que\n"
-"repitan %d veces lo mismo), y baneará después de\n"
-"%d kicks al mismo usuario."
+"O bot agora kickara por repetir (usuarios que\n"
+"repitam %d vezes o mesmo), e banir despois de\n"
+"%d kicks ao mesmo usuario."
 
 #: modules/commands/bs_kick.cpp:687
 #, fuzzy, c-format
@@ -3370,8 +3370,8 @@ msgid ""
 "Bot will now kick for repeats (users that repeat the\n"
 "same message %d time)."
 msgstr ""
-"El bot ahora kickeará por repetir (usuarios que\n"
-"repitan %d veces lo mismo)."
+"O bot agora kickara por repetir (usuarios que\n"
+"repitam %d vezes o mesmo)."
 
 #: modules/commands/bs_kick.cpp:673
 #, fuzzy, c-format
@@ -3380,9 +3380,9 @@ msgid ""
 "same message %d times), and will place a ban after %d\n"
 "kicks for the same user."
 msgstr ""
-"El bot ahora kickeará por repetir (usuarios que\n"
-"repitan %d veces lo mismo), y baneará después de\n"
-"%d kicks al mismo usuario."
+"O bot agora kicara por repetir (usuarios que\n"
+"repitam %d vezes o mesmo), e banira despois de\n"
+"%d kicks ao mesmo usuario."
 
 #: modules/commands/bs_kick.cpp:684
 #, fuzzy, c-format
@@ -3390,25 +3390,25 @@ msgid ""
 "Bot will now kick for repeats (users that repeat the\n"
 "same message %d times)."
 msgstr ""
-"El bot ahora kickeará por repetir (usuarios que\n"
-"repitan %d veces lo mismo)."
+"O bot agora kickara por repetir (usuarios que\n"
+"repitam %d vezes o mesmo)."
 
 #: modules/commands/bs_kick.cpp:239
 #, c-format
 msgid "Bot won't kick for %s anymore."
-msgstr "El bot ya no kickeará por %s."
+msgstr "O bot ja não kickara por %s."
 
 #: modules/commands/bs_kick.cpp:426
 msgid "Bot won't kick for caps anymore."
-msgstr "El bot ya no kickeará por mayúsculas."
+msgstr "O bot ja não kickara por maiúsculas."
 
 #: modules/commands/bs_kick.cpp:559
 msgid "Bot won't kick for flood anymore."
-msgstr "El bot ya no kickeará por flood."
+msgstr "O bot ja não kickara por flood."
 
 #: modules/commands/bs_kick.cpp:694
 msgid "Bot won't kick for repeats anymore."
-msgstr "El bot ya no kickeará por repetir."
+msgstr "O bot ja no kickara por repetir."
 
 #: modules/commands/cs_access.cpp:472 modules/commands/os_session.cpp:514
 #: modules/commands/os_sxline.cpp:201
@@ -3425,24 +3425,24 @@ msgstr "CLEAR hora"
 
 #: modules/commands/ms_cancel.cpp:19
 msgid "Cancel the last memo you sent"
-msgstr "Cancelar el último memo que enviaste"
+msgstr "Cancelar o último memo que foi enviado"
 
 #: modules/commands/cs_drop.cpp:19
 msgid "Cancel the registration of a channel"
-msgstr "Cancelar el registro de un canal"
+msgstr "Cancelar o registro de um canal"
 
 #: modules/commands/ns_drop.cpp:20
 msgid "Cancel the registration of a nickname"
-msgstr "Cancelar el registro de un nick"
+msgstr "Cancelar o registro de um nick"
 
 #: modules/commands/ms_cancel.cpp:84
 msgid ""
 "Cancels the last memo you sent to the given nick or channel,\n"
 "provided it has not been read at the time you use the command."
 msgstr ""
-"Cancela el último memo que enviaste al nick o canal dado,\n"
-"siempre y cuando no haya sido leído en el momento en el que\n"
-"usaste el comando."
+"Cancela o último memo que doi enviado ao nick e canal fornecido,\n"
+"sempre e quando não tenha sido lido no momento em que\n"
+"usar este comando."
 
 #: modules/commands/cs_clone.cpp:149
 #, c-format
