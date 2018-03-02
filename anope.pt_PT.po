@@ -2756,9 +2756,9 @@ msgid ""
 "connect, Services will not allow it to pursue his IRC\n"
 "session."
 msgstr ""
-"Permite a los Operadores de Servicios manipular la lista SNLINE.\n"
-"Si un usuario con nombre real coincidente con una SNLINE intenta\n"
-"conectar, los Servicios no lo permitirán."
+"Permite que operadores de serviços manipulem a lista SNLINE.\n"
+"Se um usuário com um nome real corresponder a um SNLINE tentar\n"
+"conectar, Os Serviços não permitira."
 
 #: modules/commands/os_sxline.cpp:670
 #, fuzzy
@@ -2772,11 +2772,11 @@ msgid ""
 "regular expression, the expression will be matched against\n"
 "channels too."
 msgstr ""
-"Permite a los Operadores de Servicios manipular la lista SQLINE.\n"
-"Si un usuario con nick coincidente con una máscara SQLINE intenta\n"
-"conectar, los Servicios no lo permitirán.\n"
-"Si el primer caracter de la máscara es #, los servicios evitarán el uso\n"
-"de los canales coincidentes."
+"Permite que operadores de serviços manipulem a lista SQLINE.\n"
+"Se um usuário com nick correspondente a uma máscara SQLINE tenta\n"
+"conectar, os Serviços não permitira.\n"
+"Se o primeiro caractere da máscara for #, os serviços evitarão o uso\n"
+"de canais de correspondência."
 
 #: modules/commands/os_session.cpp:551
 msgid ""
@@ -2789,14 +2789,14 @@ msgid ""
 "source of help regarding session limiting. The content of\n"
 "this notice is a config setting."
 msgstr ""
-"Permite a los Operadores de Servicios manipular la lista de host\n"
-"que tienen un límite de sesión específico - permitiendo a ciertas\n"
-"máquinas conectar más clientes al mismo tiempo que el número\n"
-"predeterminado. Una vez que un host alcanza su límite, todos los\n"
-"clientes que intentan conectar desde el mismo host serán expulsados\n"
-"Antes de que el usuario sea expulsado, se le notifica el motivo de la\n"
-"expulsión. El contenido de dicha notificación está en el archivo de\n"
-"configuración."
+"Permite que os operadores de serviços manipulem a lista do host\n"
+"que têm um limite de sessão específico - permitindo certas\n"
+"as máquinas ligam mais clientes ao mesmo tempo que o número\n"
+"padrão Uma vez que um host chega ao seu limite, todos os\n"
+"Clientes que tentam se conectar do mesmo host serão expulsos\n"
+"Antes de o usuário ser expulso, ele é notificado do motivo da\n"
+"expulsão O conteúdo da referida notificação está no arquivo de\n"
+"configuração."
 
 #: modules/commands/os_session.cpp:270
 msgid ""
@@ -2815,19 +2815,19 @@ msgid ""
 "limiting and how to set session limits specific to certain\n"
 "hosts and groups thereof."
 msgstr ""
-"Permite a los Operadores de Servicios ver la lista de sesiones.\n"
+"Permite aos operadores de serviços veja a lista de sessões.\n"
 " \n"
-"SESSION LIST lista hosts con al menos umbral sesiones.\n"
-"El umbral debe ser un número mayor a 1. Esto es para evitar\n"
-"listados enormes de host con una sola sesión accidentalmente.\n"
+"SESSION LIST listar hosts com pelo menos limite sessões.\n"
+"O limite deve ser um número maior que 1. Isto é para evitar\n"
+"Grandes listagens de host com uma única sessão, acidentalmente.\n"
 " \n"
-"SESSION VIEW muestra información detallada acerca de un host \n"
-"específico - incluyendo el número de sesiones actuales y el límite\n"
-"de sesion.\n"
-"El valor host no puede incluir comodines.\n"
+"SESSION VIEW mostra informações detalhadas sobre um host \n"
+"específico - incluindo o número de sessões atuais e o limite\n"
+"de sessão.\n"
+"O valor hostnão pode incluir curingas.\n"
 " \n"
-"Mira la ayuda sobre EXCEPTION para más informacion acerca de\n"
-"limites de sesion y como establecerlos para ciertos hosts y grupos."
+"Veja a ajuda sobre EXCEPTION para mais informações sobre\n"
+"Limites de sessão e como configurá-los para determinados hosts e grupos."
 
 #: modules/commands/cs_topic.cpp:193
 #, fuzzy
@@ -2842,14 +2842,14 @@ msgid ""
 "not have\n"
 "the TOPIC privilege."
 msgstr ""
-"Permite manipular el topic del canal especificado.\n"
-"El comando SET cambia el topic del canal al topic dado o borra el topic\n"
-"si no se especifica uno. El comando APPEND anexa el topic dado al topic\n"
+"Permite manipular o tópico do canal especificado.\n"
+"O comando SET altere o tópico do canal para o tópico dado ou exclua o tópico\n"
+"se um não for especificado. O comando APPEND acrescente o tópico atribuído ao tópico\n"
 "existente.\n"
 " \n"
-"LOCK y UNLOCK se pueden usar para activar o desactivar el bloque de\n"
-"topic. Cuando el bloque está activo, el topic no se puede cambiar excepto "
-"con\n"
+"LOCK e UNLOCK pode ser usado para habilitar e desativar o bloqueio de tópicos. Quando\n"
+"O bloqueio do tópico é definido, o tópico do canal será imutável pelos usuários que fazem "
+"não tem\n"
 "este comando."
 
 #: modules/commands/os_kick.cpp:62
@@ -2862,12 +2862,12 @@ msgid ""
 " \n"
 "*** SpamMan has been kicked off channel #my_channel by %s (Alcan (Flood))"
 msgstr ""
-"Permite a los IRCops kickear un usuario de cualquier canal.\n"
-"Los parámetros son los mismos que para el comando /KICK\n"
-"estándar. El mensaje del kick irá precedido por el nick del IRCop\n"
-"que usó el comando KICK; por ejemplo:\n"
+"Permite IRCops kickar um usuário de qualquer canal.\n"
+"Os parâmetros são os mesmos que para o comando /KICK\n"
+"padrão A mensagem de kick será precedida do nick do IRCop\n"
+"que usou o comando KICK; por exemplo:\n"
 " \n"
-"*** SpamMan ha sido kickeado del canal #mi_canal por %s (Alcan (Flood))"
+"*** SpamMan foi kickado do canal #meu_canal por %s (virtualife (Flood))"
 
 #: modules/commands/cs_set.cpp:33
 msgid ""
@@ -2876,10 +2876,10 @@ msgid ""
 " \n"
 "Available options:"
 msgstr ""
-"Permite al fundador del canal configurar varias opciones\n"
-"del canal y otra informacion.\n"
+"Permite que o fundador do canal configure várias opções\n"
+"do canal e outras informações.\n"
 " \n"
-"Opciones disponibles:"
+"Opções disponíveis:"
 
 #: modules/commands/os_oper.cpp:251
 msgid ""
@@ -2887,10 +2887,10 @@ msgid ""
 "Note that operators removed by this command but are still set in\n"
 "the configuration file are not permanently affected by this."
 msgstr ""
-"Te permite cambiar y ver los Operadores de Servicios.\n"
-"Ten en cuenta que los operadores eliminados con este comando,\n"
-"pero que permanezcan en el archivo de configuración, no estarán\n"
-"afectados permanentemente por esto."
+"Isso permite que você mude e veja os Operadores do Serviços.\n"
+"Observe que os operadores foram removidos com este comando,\n"
+"mas que eles permanecem no arquivo de configuração, eles não serão\n"
+"permanentemente afetado por isso."
 
 #: modules/commands/os_config.cpp:127
 msgid ""
@@ -2902,10 +2902,10 @@ msgid ""
 "Example:\n"
 "     MODIFY nickserv forcemail no"
 msgstr ""
-"Te permite cambiar y ver opciones de configuración.\n"
-"La configuración cambiada con este comando es temporal y no se verá\n"
-"reflejada en el archivo de configuración, por lo que se perderán si Anope\n"
-"se apaga, se reinicia, o se usa el comando RELOAD.\n"
+"Ele permite que você altere e visualize as opções de configuração.\n"
+"A configuração alterada com este comando é temporária e não será vista\n"
+"refletido no arquivo de configuração, então eles serão perdidos se Anope\n"
+"está desligado, reiniciado, ou o comando RELOAD é usado.\n"
 " \n"
 "Ejemplo:\n"
 "     MODIFY nickserv forcemail no"
@@ -2916,9 +2916,9 @@ msgid ""
 "the given user. With MSG set, Services will use messages,\n"
 "else they'll use notices."
 msgstr ""
-"Te permite escoger la forma en que los Servicios se comunican con\n"
-"el usuario dado. Con MSG establecido, los Servicios usarán mensajes,\n"
-"si no, usarán notices."
+"Ele permite que você escolha a forma como os Serviços se comunicam com\n"
+"o usuário fornecido. Com MSG estabelecido, os Serviços usarão mensagens,\n"
+"Caso contrário, eles usarão avisos."
 
 #: modules/commands/ns_set.cpp:958
 #, c-format
@@ -2927,9 +2927,9 @@ msgid ""
 "you. With %s set, Services will use messages, else they'll\n"
 "use notices."
 msgstr ""
-"Te permite escoger la forma en que los Servicios se comunican\n"
-"contigo. Con %s establecido, los Servicios usarán mensajes,\n"
-"si no, usarán notices."
+"Ele permite que você escolha a maneira pela qual os Serviços se comunicam\n"
+"com você Com %s estabelecido, os Serviços usarão mensagens,\n"
+"Caso contrário, eles usarão avisos."
 
 #: modules/commands/ms_ignore.cpp:113
 msgid ""
@@ -2938,10 +2938,10 @@ msgid ""
 "to memo you or a channel, they will not be told that you have\n"
 "them ignored."
 msgstr ""
-"Te permite ignorar usuarios por nick o host para evitar que te\n"
-"envíen memos a ti o a un canal. Si alguien en la lista de ignorados\n"
-"intenta enviarte un memo a ti o a un canal, no se enterará de que\n"
-"lo has ignorado."
+"Ele permite que você ignore usuários por nick ou host para evitar que você seja\n"
+"envie memos para você ou para um canal. Se alguém na lista ignorada\n"
+"tente enviar um memorando para você ou para um canal, você não saberá isso\n"
+"você ignorou isso."
 
 #: modules/commands/os_kill.cpp:48
 msgid ""
@@ -2949,9 +2949,9 @@ msgid ""
 "Parameters are the same as for the standard /KILL\n"
 "command."
 msgstr ""
-"Te permite expulsar a un usuario de la red.\n"
-"Los parámetros son los mismos que para el comando\n"
-"/KILL estándar."
+"Ele permite que você expulse um usuário da rede.\n"
+"Os parâmetros são os mesmos que para o comando\n"
+"/KILL padrão."
 
 #: modules/commands/ns_info.cpp:252
 #, c-format
@@ -2964,13 +2964,13 @@ msgid ""
 "The second parameter specifies whether the information should\n"
 "be displayed (OFF) or hidden (ON)."
 msgstr ""
-"Te permite evitar que se muestren ciertas partes de información\n"
-"cuando alguien hace un %s INFO al nick dado. Puedes ocultar la\n"
-"dirección email (EMAIL), la última máscara usuario@host usada\n"
-"(USERMASK), el status de acceso a los servicios (STATUS) y el\n"
-"último mensaje de salida (QUIT).\n"
-"El segundo parámetro especifica si la información será mostrada\n"
-"(OFF) u ocultada (ON)."
+"Isso permite que você evite mostrar certas informações\n"
+"quando alguém faz um %s INFO para o nick dado. Você pode esconder o\n"
+"endereço de e-mail (EMAIL), a última máscara usuario@host usada\n"
+"(USERMASK), O status do acesso aos serviços (STATUS) e a\n"
+"última mensagem de saída (QUIT).\n"
+"O segundo parâmetro especifica se as informações serão exibidas\n"
+"(OFF) você está oculto (ON)."
 
 #: modules/commands/ns_info.cpp:223
 #, c-format
@@ -2983,18 +2983,18 @@ msgid ""
 "The second parameter specifies whether the information should\n"
 "be displayed (OFF) or hidden (ON)."
 msgstr ""
-"Te permite evitar que se muestren ciertas partes de información\n"
-"cuando alguien hace un %s INFO a tu nick. Puedes ocultar tu\n"
-"dirección email (EMAIL), la última máscara usuario@host usada\n"
-"(USERMASK), tu status de acceso a los servicios (STATUS) y tu\n"
-"último mensaje de salida (QUIT).\n"
-"El segundo parámetro especifica si la información será mostrada\n"
-"(OFF) u ocultada (ON)."
+"Isso permite que você evite mostrar certas informações\n"
+"quando alguém faz um %s INFO em seu nick. Você pode ocultar seu\n"
+"endereço de e-mail (EMAIL), a última máscara usuario@host usada\n"
+"(USERMASK), seu status de acesso aos serviços (STATUS) e a\n"
+"última mensagem de saída (QUIT).\n"
+"O segundo parâmetro especifica se as informações serão exibidas\n"
+"(OFF) você está oculto (ON)."
 
 #: modules/commands/bs_info.cpp:118
 #, c-format
 msgid "Allows you to see %s information about a channel or a bot"
-msgstr "Te permite ver la información de %s para un canal o bot"
+msgstr "Permite que você veja a informação de %s para um canal ou um bot"
 
 #: modules/commands/bs_info.cpp:108
 #, c-format
@@ -3005,74 +3005,74 @@ msgid ""
 "you'll get information about a bot, such as creation\n"
 "time or number of channels it is on."
 msgstr ""
-"Te permite ver la información de %s sobre un canal o un\n"
-"bot. Si el parámetro es un canal, recibirás información\n"
-"tal como kicks activados. Si el parametro es un nick,\n"
-"recibirás información acerca de un bot, tal como la fecha\n"
-"de creación o el número de canales en los que está."
+"Permite que você veja a informação de %s sobre um canal ou um\n"
+"bot. Se o parâmetro for um canal, você receberá informações\n"
+"como kicks ativados. Se o parâmetro for um nick,\n"
+"Você receberá informações sobre um bot, como a data\n"
+"de criação ou o número de canais em que é."
 
 #: modules/commands/cs_xop.cpp:567
 msgid ""
 "Alternative methods of modifying channel access lists are\n"
 "available. "
 msgstr ""
-"Están disponibles métodos alternativos de modificar las listas\n"
-"de acceso."
+"Métodos alternativos de modificação das listas estão disponíveis\n"
+"de accesso."
 
 #: modules/commands/hs_request.cpp:191
 msgid "Approve the requested vHost of a user"
-msgstr "Aprueba el vHost solicitado por un usuario"
+msgstr "Aprovar o vHost solicitado por um usuário"
 
 #: modules/commands/ns_drop.cpp:68
 msgid "As a Services Operator, you may drop any nick."
-msgstr "Como Operador de Servicios, puedes borrar cualquier nick."
+msgstr "Como operador de serviços, você pode excluir qualquer nick."
 
 #: modules/commands/bs_assign.cpp:19
 msgid "Assigns a bot to a channel"
-msgstr "Asigna un bot a un canal"
+msgstr "Atribuir um bot a um canal"
 
 #: modules/commands/bs_assign.cpp:78
 #, fuzzy
 msgid ""
 "Assigns the specified bot to a channel. You\n"
-"can then configure the bot for the channel so it fits\n"
+"pode então configurar o bot para o canal para que ele se encaixa\n"
 "your needs."
 msgstr ""
-"Assigna un bot denominado por el nick dado al canal dado.\n"
-"Luego puedes configurar el bot para acomodarlo a tus\n"
-"necesidades."
+"Atribua um bot chamado pelo nick dado ao canal dado.\n"
+"Então você pode configurar o bot para acomodar suas\n"
+"necessidades."
 
 #: data/chanserv.example.conf:1197
 msgid "Associate a URL with the channel"
-msgstr "Asociar una URL con el canal"
+msgstr "Associar uma URL com o canal"
 
 #: data/nickserv.example.conf:593
 msgid "Associate a URL with this account"
-msgstr "Asociar una URL con esta cuenta"
+msgstr "Associar uma URL com esta conta"
 
 #: data/nickserv.example.conf:592
 msgid "Associate a URL with your account"
-msgstr "Asociar una URL con tu cuenta"
+msgstr "Associe um URL à sua conta"
 
 #: modules/commands/greet.cpp:83
 msgid "Associate a greet message with your nickname"
-msgstr "Asociar un saludo con tu nick"
+msgstr "Associe uma saudação com seu nick"
 
 #: data/chanserv.example.conf:1198
 msgid "Associate an E-mail address with the channel"
-msgstr "Asociar un e-mail con el canal"
+msgstr "Associe um e-mail ao canal"
 
 #: modules/commands/ns_set.cpp:447
 msgid "Associate an E-mail address with your nickname"
-msgstr "Asociar un e-mail con tu nick"
+msgstr "Associe um e-mail ao seu nick"
 
 #: modules/commands/os_info.cpp:101
 msgid "Associate oper info with a nick or channel"
-msgstr "Asociar información de operador con un nick o con un canal"
+msgstr "Associe as informações do operador com um nick ou com um canal"
 
 #: modules/commands/ns_set.cpp:550
 msgid "Associates the given E-mail address with the nickname."
-msgstr "Asocia el e-mail dado con el nick."
+msgstr "Associe o e-mail ao nick."
 
 #: modules/commands/ns_set.cpp:525
 msgid ""
@@ -3080,9 +3080,9 @@ msgid ""
 "This address will be displayed whenever someone requests\n"
 "information on the nickname with the INFO command."
 msgstr ""
-"Asocia el e-mail dado con tu nick. La direccion será\n"
-"mostrada cuando alguien pida información sobre el\n"
-"nick con el comando INFO."
+"Associe o e-mail fornecido com seu nick. O endereço será\n"
+"mostrado quando alguém pede informações sobre o\n"
+"nick com o comando INFO."
 
 #: modules/commands/ns_set.cpp:1307
 msgid "Auto-op"
@@ -3091,71 +3091,71 @@ msgstr "Auto-op"
 #: modules/commands/cs_akick.cpp:349
 #, c-format
 msgid "Autokick list for %s:"
-msgstr "Lista de kicks automáticos para el canal %s:"
+msgstr "Lista de akicks para o canal %s:"
 
 #: src/access.cpp:29
 msgid "Automatic channel operator status upon join"
-msgstr "Status de operador del canal automáticamente al entrar"
+msgstr "Status do operador do canal automaticamente após a entrada"
 
 #: src/access.cpp:28
 msgid "Automatic halfop upon join"
-msgstr "Status de halfop automáticamente al entrar"
+msgstr "Status de halfop automáticamente ao entrar"
 
 #: src/access.cpp:30
 msgid "Automatic owner upon join"
-msgstr "Status de fundador del canal automáticamente al entrar"
+msgstr "Status de fundador do canal automáticamente ao entrar"
 
 #: src/access.cpp:31
 msgid "Automatic protect upon join"
-msgstr "Protección automáticamente al entrar"
+msgstr "Proteção automáticamente ao entrar"
 
 #: src/access.cpp:32
 msgid "Automatic voice on join"
-msgstr "Voz automáticamente al entrar"
+msgstr "Voz automáticamente ao entrar"
 
 #: modules/commands/os_oper.cpp:197
 #, c-format
 msgid "Available commands for %s:"
-msgstr "Comandos disponibles para %s:"
+msgstr "Comandos disponiveis para %s:"
 
 #: modules/commands/os_oper.cpp:176
 #, fuzzy
 msgid "Available opertypes:"
 msgstr ""
 " \n"
-"Los comandos disponibles son:"
+"Os comandos disponiveis São:"
 
 #: modules/commands/os_oper.cpp:219
 #, c-format
 msgid "Available privileges for %s:"
-msgstr "Privilegios disponibles para %s:"
+msgstr "Privilegios disponiveis para %s:"
 
 #: modules/commands/cs_enforce.cpp:162
 msgid "BANS enforced by "
-msgstr "BANS forzado por "
+msgstr "BANS forçado por "
 
 #: modules/commands/bs_kick.cpp:1121 modules/commands/bs_kick.cpp:1123
 #: modules/commands/bs_kick.cpp:1126
 msgid "Bad words kicker"
-msgstr "Kick por Bad words"
+msgstr "Kick por Palavrões"
 
 #: modules/commands/bs_badwords.cpp:252
 #, c-format
 msgid "Bad words list for %s:"
-msgstr "Lista de bad words para %s:"
+msgstr "Lista de Palavrões para %s:"
 
 #: modules/commands/bs_badwords.cpp:364
 msgid "Bad words list is now empty."
-msgstr "La lista de bad words esta ahora vacía."
+msgstr "A lista de palavrões esta agora vazia."
 
 #: modules/commands/bs_set.cpp:126
 msgid "Ban expiry may not be longer than 1 day."
-msgstr "La expiración del ban no puede ser superior a 1 día."
+msgstr "a expiração do ban no pode ser superior a 1 dia."
 
 #: modules/commands/cs_ban.cpp:140 modules/commands/cs_ban.cpp:175
 #, c-format
 msgid "Ban on %s expires in %s."
-msgstr "El ban en %s expira en %s."
+msgstr "o ban em %s expira em %s."
 
 #: modules/commands/cs_info.cpp:60
 msgid "Ban type"
@@ -3164,11 +3164,11 @@ msgstr "Tipo de ban"
 #: modules/commands/cs_set.cpp:171
 #, c-format
 msgid "Ban type for channel %s is now #%d."
-msgstr "El tipo de ban para el canal %s es ahora #%d."
+msgstr "O tipo de ban para o canal %s é agora #%d."
 
 #: modules/commands/cs_ban.cpp:39
 msgid "Bans a given nick or mask on a channel"
-msgstr "Banea el nick o máscara dados en un canal"
+msgstr "Bane o nick ou a máscara dados em um canal"
 
 #: modules/commands/cs_ban.cpp:227
 msgid ""
@@ -3179,114 +3179,114 @@ msgid ""
 "By default, limited to AOPs or those with level 5 access\n"
 "and above on the channel. Channel founders may ban masks."
 msgstr ""
-"Banea el nick o máscara dados en un canal. Se puede proporcionar\n"
-"de forma opcional una expiración que quitará el ban después del\n"
-"tiempo dado.\n"
+"Bane o nick ou a máscara em um canal. Pode ser fornecido\n"
+"opcionalmente, uma expiração que irá remover a proibição após o\n"
+"Tempo informado.\n"
 " \n"
-"Por defecto, limitado a AOPs o aquellos con nivel 5 o superior en\n"
-"el canal. Los fundadores pueden banear máscaras."
+"Por padrão, limitado a AOPs ou aqueles com nível 5 o superior em\n"
+"um canal. Os fundadores podem banir máscaras."
 
 #: modules/commands/cs_enforce.cpp:166
 #, c-format
 msgid "Bans enforced on %s."
-msgstr "Bans forzados en %s."
+msgstr "Bans forçados em %s."
 
 #: modules/commands/bs_kick.cpp:1131 modules/commands/bs_kick.cpp:1133
 #: modules/commands/bs_kick.cpp:1136
 msgid "Bolds kicker"
-msgstr "Kick por negritas"
+msgstr "Kick por negrito"
 
 #: modules/commands/bs_bot.cpp:26 modules/commands/bs_bot.cpp:175
 #, c-format
 msgid "Bot %s already exists."
-msgstr "El bot %s ya existe."
+msgstr "O bot %s ja existe."
 
 #: include/language.h:119
 #, c-format
 msgid "Bot %s does not exist."
-msgstr "El bot %s no existe."
+msgstr "O bot %s não existe."
 
 #: modules/commands/bs_assign.cpp:71 modules/commands/bs_assign.cpp:246
 #, c-format
 msgid "Bot %s has been assigned to %s."
-msgstr "El bot %s ha sido asignado al canal %s."
+msgstr "O bot %s foi atribuído ao canal %s."
 
 #: modules/commands/bs_bot.cpp:228
 #, c-format
 msgid "Bot %s has been changed to %s!%s@%s (%s)."
-msgstr "El bot %s ha sido cambiado a %s!%s@%s (%s)."
+msgstr "O bot %s foi alterado para %s!%s@%s (%s)."
 
 #: modules/commands/bs_bot.cpp:262
 #, c-format
 msgid "Bot %s has been deleted."
-msgstr "El bot %s ha sido borrado."
+msgstr "O bot %s foi excluído."
 
 #: modules/commands/bs_assign.cpp:63 modules/commands/bs_assign.cpp:241
 #, c-format
 msgid "Bot %s is already assigned to channel %s."
-msgstr "El bot %s ya está asignado al canal %s."
+msgstr "O bot %s já foi atribuído ao canal %s."
 
 #: modules/commands/bs_kick.cpp:832
 #, c-format
 msgid "Bot will kick ops on channel %s."
-msgstr "El bot kickeará ops en el canal %s."
+msgstr "O bot kickara ops no canal %s."
 
 #: modules/commands/bs_kick.cpp:897
 #, c-format
 msgid "Bot will kick voices on channel %s."
-msgstr "El bot kickeará voices en el canal %s."
+msgstr "O bot kickara voices no canal %s."
 
 #: modules/commands/bs_kick.cpp:824
 #, c-format
 msgid "Bot won't kick ops on channel %s."
-msgstr "El bot no kickeará ops en el canal %s."
+msgstr "o bot não kickara ops no canal %s."
 
 #: modules/commands/bs_kick.cpp:889
 #, c-format
 msgid "Bot won't kick voices on channel %s."
-msgstr "El bot no kickeará voices en el canal %s."
+msgstr "O bot não kickara voices no canal %s."
 
 #: modules/commands/bs_bot.cpp:118
 #, c-format
 msgid "Bot %s is not changeable."
-msgstr "El bot %s no se puede cambiar."
+msgstr "O bot %s você não pode mudar."
 
 #: modules/commands/bs_bot.cpp:254
 #, c-format
 msgid "Bot %s is not deletable."
-msgstr "El bot %s no se puede borrar."
+msgstr "O bot %s não pode ser apagado."
 
 #: modules/commands/bs_set.cpp:138
 #, c-format
 msgid "Bot bans will automatically expire after %s."
-msgstr "Los bans del bot expirarán automáticamente después de %s."
+msgstr "os bans do bot expirarão automaticamente após %s."
 
 #: modules/commands/bs_set.cpp:136
 msgid "Bot bans will no longer automatically expire."
-msgstr "Los bans del bot ya no expirarán automáticamente."
+msgstr "Os bans do bot deixará de expirar automaticamente."
 
 #: modules/commands/bs_bot.cpp:46 modules/commands/bs_bot.cpp:138
 #, c-format
 msgid "Bot hosts may only be %d characters long."
-msgstr "Los hosts de bots solo pueden tener %d caracteres."
+msgstr "Os hosts dos bots eles só podem ter %d caracteres."
 
 #: modules/commands/bs_bot.cpp:64 modules/commands/bs_bot.cpp:167
 msgid "Bot hosts may only contain valid host characters."
-msgstr "Los hosts de bots solo pueden contener caracteres de hosts válidos."
+msgstr "Os hosts de bots eles só podem conter caracteres de hosts válidos."
 
 #: modules/commands/bs_bot.cpp:40 modules/commands/bs_bot.cpp:132
 #, c-format
 msgid "Bot idents may only be %d characters long."
-msgstr "Los idents de bots solo pueden tener %d caracteres."
+msgstr "Os idents dos bots eles só podem ter %d caracteres."
 
 #: modules/commands/bs_bot.cpp:58 modules/commands/bs_bot.cpp:161
 msgid "Bot idents may only contain valid ident characters."
-msgstr "Los idents de bots solo pueden contener caracteres de ident válidos."
+msgstr "Os idents do bots eles só podem conter caracteres ident válidos."
 
 #: include/language.h:121
 #, c-format
 msgid "Bot is not on channel %s."
-msgstr "El bot no está en el canal %s."
+msgstr "O bot não está no canal %s."
 
 #: modules/commands/bs_botlist.cpp:51
 msgid "Bot list:"
@@ -3294,16 +3294,16 @@ msgstr "Lista de bots:"
 
 #: modules/commands/bs_info.cpp:87
 msgid "Bot nick"
-msgstr "Nick del bot"
+msgstr "Nick do bot"
 
 #: modules/commands/bs_bot.cpp:34 modules/commands/bs_bot.cpp:126
 #, c-format
 msgid "Bot nicks may only be %d characters long."
-msgstr "Los nicks de bots solo pueden tener %d caracteres."
+msgstr "Os nicks dos bots so podem ter %d caracteres."
 
 #: modules/commands/bs_bot.cpp:52 modules/commands/bs_bot.cpp:155
 msgid "Bot nicks may only contain valid nick characters."
-msgstr "Los nicks de bots solo pueden contener caracteres de nicks válidos."
+msgstr "Os nicks dos bots so podem conter caracteres de nicks válidos."
 
 #: modules/commands/bs_kick.cpp:225
 #, c-format
@@ -3311,13 +3311,13 @@ msgid ""
 "Bot will now kick for %s, and will place a ban\n"
 "after %d kicks for the same user."
 msgstr ""
-"El bot ahora kickeará por %s, y baneará después\n"
-"de %d kicks al mismo usuario."
+"O bot agora kickara por %s, e banir despois\n"
+"de %d kicks no mesmo usuário."
 
 #: modules/commands/bs_kick.cpp:228
 #, c-format
 msgid "Bot will now kick for %s."
-msgstr "El bot ahora kickeará por %s."
+msgstr "O bot agora kickara por %s."
 
 #: modules/commands/bs_kick.cpp:416
 #, c-format
@@ -3326,9 +3326,9 @@ msgid ""
 "%d characters and %d%% of the entire message), and will\n"
 "place a ban after %d kicks for the same user."
 msgstr ""
-"El bot ahora kickeará por mayúsculas (deben ser al menos\n"
-"%d caracteres y %d%% del mensaje entero) y baneará\n"
-"después de %d kicks al mismo usuario."
+"O bot agora kickara por maiúscula (eles devem ser pelo menos\n"
+"%d caracteres e %d%% de toda a mensagem) e banirar\n"
+"despois de %d kicks ao mesmo usuario."
 
 #: modules/commands/bs_kick.cpp:420
 #, c-format
@@ -3336,8 +3336,8 @@ msgid ""
 "Bot will now kick for caps (they must constitute at least\n"
 "%d characters and %d%% of the entire message)."
 msgstr ""
-"El bot ahora kickeará por mayúsculas (deben ser al menos\n"
-"%d caracteres y %d%% del mensaje entero)."
+"O bot agora kickara por maiúsculas (eles devem ser pelo menos\n"
+"%d caracteres e %d%% de toda a mensagem)."
 
 #: modules/commands/bs_kick.cpp:551
 #, c-format
@@ -3345,8 +3345,8 @@ msgid ""
 "Bot will now kick for flood (%d lines in %d seconds\n"
 "and will place a ban after %d kicks for the same user."
 msgstr ""
-"El bot ahora kickeará por flood (%d líneas en %d segundos)\n"
-"y baneará después de %d kicks al mismo usuario."
+"O bot agora kickara por flood (%d línhas em %d segundos)\n"
+"e banira depois de %d kicks ao mesmo usuario."
 
 #: modules/commands/bs_kick.cpp:554
 #, c-format
