@@ -4821,37 +4821,37 @@ msgstr "Português"
 #: modules/commands/cs_entrymsg.cpp:170
 #, c-format
 msgid "Entry message %i for %s deleted."
-msgstr "Mensaje de entrada %i para %s borrado."
+msgstr "Menssagem de entrada %i para %s excluído."
 
 #: modules/commands/cs_entrymsg.cpp:177
 #, c-format
 msgid "Entry message %s not found on channel %s."
-msgstr "Mensaje de entrada %s no encontrado en el canal %s."
+msgstr "Menssagem de entrada %s não encontrado em um canal %s."
 
 #: modules/commands/cs_entrymsg.cpp:147
 #, c-format
 msgid "Entry message added to %s"
-msgstr "Mensaje de entrada añadido a %s"
+msgstr "Mensagem de entrada adicionada a %s"
 
 #: modules/commands/cs_entrymsg.cpp:109 modules/commands/cs_entrymsg.cpp:158
 #, c-format
 msgid "Entry message list for %s is empty."
-msgstr "La lista de mesnsajes de entrada para %s está vacía."
+msgstr "A lista de mensagens de entrada para %s está vazia."
 
 #: modules/commands/cs_entrymsg.cpp:113
 #, c-format
 msgid "Entry message list for %s:"
-msgstr "Lista de mensajes de entrada para %s:"
+msgstr "Lista de mensagens de entrada para %s:"
 
 #: modules/commands/cs_entrymsg.cpp:187
 #, c-format
 msgid "Entry messages for %s have been cleared."
-msgstr "El mensaje de entrada para %s ha sido borrado."
+msgstr "A mensagem de entrada para %s Ele foi excluído."
 
 #: modules/commands/os_reload.cpp:39
 #, c-format
 msgid "Error reloading configuration file: %s"
-msgstr "Error recargando el archivo de configuración: %s"
+msgstr "Erro ao recarregar o arquivo de configuração: %s"
 
 #: include/language.h:125
 #, c-format
@@ -4859,7 +4859,7 @@ msgid ""
 "Error! The vHost ident is too long, please use an ident shorter than %d "
 "characters."
 msgstr ""
-"¡Error! El Ident es demasiado largo, por favor, usa un ident de menos de %d "
+"¡Erro! O Ident é muito longo, use um ident de menos de %d "
 "caracteres."
 
 #: include/language.h:124
@@ -4868,7 +4868,7 @@ msgid ""
 "Error! The vHost is too long, please use a hostname shorter than %d "
 "characters."
 msgstr ""
-"¡Error! El vhost es demasiado largo, por favor, usa un host de menos de %d "
+"¡Erro! O vhost é muito longo, use um host menos do que %d "
 "caracteres."
 
 #: modules/commands/ns_cert.cpp:325
@@ -4889,21 +4889,21 @@ msgid ""
 msgstr ""
 "Ejemplos:\n"
 " \n"
-"    CERT ADD <huella>\n"
-"        Añade esta huella a la lista de certificados y te identifica\n"
-"        automáticamente cuando conectas al IRC usando\n"
+"    CERT ADD <Impressão digital>\n"
+"        Adicione esta Impressão digital à lista de certificados e identifique você\n"
+"        automaticamente quando você se conecta ao IRC usando\n"
 "        este certificado.\n"
 " \n"
-"    CERT DEL <huella>\n"
-"        Revierte el comando anterior.\n"
+"    CERT DEL <Impressão digital>\n"
+"        Reverter o comando anterior.\n"
 " \n"
 "    CERT LIST\n"
-"        Muestra la lista de certificados actual."
+"        Exibe a lista de certificados atual."
 
 #: modules/commands/os_session.cpp:358
 #, c-format
 msgid "Exception for %s has been updated to %d."
-msgstr "La excepción para %s ha sido actualizada a %d."
+msgstr "A exceção para %s foi atualizado para %d."
 
 #: modules/commands/os_session.cpp:514 modules/commands/ns_group.cpp:312
 #: modules/commands/os_akill.cpp:358 modules/commands/os_ignore.cpp:266
@@ -4917,12 +4917,12 @@ msgstr "Expira"
 #: src/xline.cpp:397
 #, c-format
 msgid "Expiry and reason updated for %s."
-msgstr "Tiempo de expiración y razón actualizados para %s."
+msgstr "Expire e razão atualizados para %s."
 
 #: src/xline.cpp:400
 #, c-format
 msgid "Expiry for %s updated."
-msgstr "Tiempo de expiración para %s actualizado."
+msgstr "Expire para %s atualizado."
 
 #: modules/fantasy.cpp:214
 msgid "Fantasy"
@@ -4931,40 +4931,40 @@ msgstr "Fantasía"
 #: modules/fantasy.cpp:60
 #, c-format
 msgid "Fantasy mode is now off on channel %s."
-msgstr "Modo fantasía ahora Desactivado en el canal %s."
+msgstr "Modo fantasía agora Desativado no canal %s."
 
 #: modules/fantasy.cpp:52
 #, c-format
 msgid "Fantasy mode is now on on channel %s."
-msgstr "Modo fantasía ahora Activado en el canal %s."
+msgstr "Modo fantasía agora Ativado no canal %s."
 
 #: modules/commands/cs_status.cpp:19
 msgid "Find a user's status on a channel"
-msgstr "Encontrar el status de un usuario en un canal"
+msgstr "Encontre o status de um usuário em um canal"
 
 #: modules/commands/ns_cert.cpp:192
 #, c-format
 msgid "Fingerprint %s already present on %s's certificate list."
-msgstr "La huella %s ya está presente en la lista de certificados de %s."
+msgstr "Impressão digital %s já está presente na lista de certificados de %s."
 
 #: modules/commands/ns_cert.cpp:198
 #, fuzzy, c-format
 msgid "Fingerprint %s is already in use."
-msgstr "%s ya está en %s."
+msgstr "%s já está em %s."
 
 #: modules/commands/cs_flags.cpp:301
 msgid "Flags"
-msgstr "Marcas"
+msgstr "Flags"
 
 #: modules/commands/cs_flags.cpp:286
 #, c-format
 msgid "Flags for %s on %s set to +%s"
-msgstr "Marcas para %s en %s establecidas a +%s"
+msgstr "Flags para %s em %s estabelecido para +%s"
 
 #: modules/commands/cs_flags.cpp:341
 #, c-format
 msgid "Flags list for %s"
-msgstr "Lista de marcas para %s"
+msgstr "Lista de Flags para %s"
 
 #: modules/commands/bs_kick.cpp:1161 modules/commands/bs_kick.cpp:1163
 #: modules/commands/bs_kick.cpp:1166
@@ -4976,53 +4976,53 @@ msgid ""
 "Forbid allows you to forbid usage of certain nicknames, channels,\n"
 "and email addresses. Wildcards are accepted for all entries."
 msgstr ""
-"Esto te permite prohibir el uso de ciertos nicks, canales y\n"
-"direcciones de email. Todas las entradas aceptan comodines."
+"Isso permite que você proiba o uso de certos apelidos, canais e\n"
+"Endereço de e-mail Todas as entradas aceitam curingas".
 
 #: modules/commands/os_forbid.cpp:342
 msgid "Forbid list is empty."
-msgstr "La lista de prohibiciones está vacía."
+msgstr "A lista de proibiçãos está vazia."
 
 #: modules/commands/os_forbid.cpp:384
 msgid "Forbid list:"
-msgstr "Lista de prohibiciones:"
+msgstr "Lista de proibiçãos:"
 
 #: modules/commands/os_forbid.cpp:336
 #, c-format
 msgid "Forbid on %s was not found."
-msgstr "No se encontraron prohibiciones en %s."
+msgstr "Nenhuma proibição foi encontrada em %s."
 
 #: modules/commands/os_forbid.cpp:144
 msgid "Forbid usage of nicknames, channels, and emails"
-msgstr "Prohibir el uso de nicks, canales y emails"
+msgstr "Proibir o uso de nicks, canais e emails"
 
 #: modules/commands/os_update.cpp:19
 msgid "Force the Services databases to be updated immediately"
-msgstr "Fuerza a los Servicios a actualizar la base de datos inmediatamente"
+msgstr "Forçar os Serviços a atualizar o banco de dados imediatamente"
 
 #: modules/commands/os_svs.cpp:19
 msgid "Forcefully change a user's nickname"
-msgstr "Cambia, a la fuerza, el nick de un usuario"
+msgstr "Mude, por força, o nick de um usuário"
 
 #: modules/commands/os_svs.cpp:68
 msgid "Forcefully changes a user's nickname from nick to newnick."
-msgstr "Cambia, a la fuerza, el nick de un usuario de nick a nuevonick."
+msgstr "Mude, por força, o nick de um usuário para novonick."
 
 #: modules/commands/os_svs.cpp:78
 msgid "Forcefully join a user to a channel"
-msgstr "Fuerza la entrada de un usuario del canal."
+msgstr "Forçar a entrada de um usuário do canal."
 
 #: modules/commands/os_svs.cpp:112
 msgid "Forcefully join a user to a channel."
-msgstr "Fuerza la entrada de un usuario del canal."
+msgstr "Forçar a entrada de um usuário do canal."
 
 #: modules/commands/os_svs.cpp:122
 msgid "Forcefully part a user from a channel"
-msgstr "Fuerza la salida de un usuario del canal."
+msgstr "Forçar a saída de um usuário de canal."
 
 #: modules/commands/os_svs.cpp:160
 msgid "Forcefully part a user from a channel."
-msgstr "Fuerza la salida de un usuario del canal."
+msgstr "Forçar a saída de um usuário de canal."
 
 #: modules/commands/ns_alist.cpp:64 modules/commands/cs_info.cpp:47
 msgid "Founder"
@@ -5031,19 +5031,19 @@ msgstr "Fundador"
 #: modules/commands/cs_set.cpp:312
 #, c-format
 msgid "Founder of %s changed to %s."
-msgstr "Fundador de %s cambiado a %s."
+msgstr "Fundador de %s mudou para %s."
 
 #: modules/commands/ns_getpass.cpp:41
 msgid "GETPASS command unavailable because encryption is in use."
-msgstr "El comando GETPASS no está disponible debido al uso de encriptación."
+msgstr "O comando GETPASS não está disponível devido ao uso de criptografia."
 
 #: modules/commands/ns_recover.cpp:84
 msgid "Ghost with your nick has been killed."
-msgstr "El fantasma con tu nick ha sido killeado."
+msgstr "Ghost o seu nick foi killado."
 
 #: modules/commands/os_oline.cpp:19
 msgid "Give Operflags to a certain user"
-msgstr "Otorga marcas de IRCOp a cierto usuario"
+msgstr "Dar Operflags a um determinado usuário"
 
 #: modules/commands/cs_mode.cpp:895
 #, c-format
@@ -5051,53 +5051,53 @@ msgid ""
 "Gives %s status to the selected nick on a channel. If nick is\n"
 "not given, it will %s you."
 msgstr ""
-"Da status de %s al nick seleccionado en el canal. Si no se\n"
-"proporciona nick te dará status de %s a ti"
+"Da status de %s para o nick selecionado no canal. e se\n"
+"proporciona nick te dará status de %s a você"
 
 #: modules/commands/cs_mode.cpp:878
 #, c-format
 msgid "Gives you or the specified nick %s status on a channel"
-msgstr "Te da a ti o al nick especificado status de %s en un canal"
+msgstr "Dá você ou o nick especificado status de %s em um canal"
 
 #: modules/commands/greet.cpp:206 modules/commands/greet.cpp:212
 msgid "Greet"
-msgstr "Saludo"
+msgstr "Saudação"
 
 #: src/access.cpp:38
 msgid "Greet message displayed on join"
-msgstr "Mensaje de bienvenida mostrado al entrar"
+msgstr "Mensagem de boas-vindas mostrada ao entrar"
 
 #: modules/commands/greet.cpp:112
 #, c-format
 msgid "Greet message for %s changed to %s."
-msgstr "Mensaje de bienvenida para %s cambiado a %s."
+msgstr "Mensagem de boas-vindas para %s mudou para %s."
 
 #: modules/commands/greet.cpp:118
 #, c-format
 msgid "Greet message for %s unset."
-msgstr "Mensaje de bienvenida para %s borrado."
+msgstr "Mensagem de boas-vindas para %s Excluída."
 
 #: modules/commands/greet.cpp:60
 #, c-format
 msgid "Greet mode is now off on channel %s."
-msgstr "Modo saludo ahora Desactivado en el canal %s."
+msgstr "Modo de saudação agora Desativado no canal %s."
 
 #: modules/commands/greet.cpp:52
 #, c-format
 msgid "Greet mode is now on on channel %s."
-msgstr "Modo saludo ahora Activado en el canal %s."
+msgstr "Modo de saudação agora Ativado no canal %s."
 
 #: modules/commands/ns_resetpass.cpp:21
 msgid "Helps you reset lost passwords"
-msgstr "Te ayuda a restaurar contraseñas perdidas"
+msgstr "Isso ajuda você a restaurar senhas perdidas"
 
 #: modules/commands/ns_info.cpp:141
 msgid "Hide certain pieces of nickname information"
-msgstr "Esconde algunas partes de la información del nick"
+msgstr "Ocultar algumas partes da informação do nick"
 
 #: modules/commands/cs_list.cpp:180
 msgid "Hide channel from the LIST command"
-msgstr "Esconde el canal del comando LIST"
+msgstr "Ocultar o canal de comando LIST"
 
 #: modules/commands/os_session.cpp:192
 msgid "Host"
@@ -5106,7 +5106,7 @@ msgstr "Host"
 #: modules/commands/os_session.cpp:207
 #, c-format
 msgid "Hosts with at least %d sessions:"
-msgstr "Hosts con al menos %d sesiones:"
+msgstr "Hosts com pelo menos %d Sessões:"
 
 #: modules/commands/cs_set.cpp:1034
 #, c-format
@@ -5115,19 +5115,19 @@ msgid ""
 "channels registered (%d), the channel will be dropped\n"
 "instead, just as if no successor had been set."
 msgstr ""
-"Sin embargo, si el sucesor ya tiene muchos canales\n"
-"registrados (%d), el canal se borrará como si no hubiese\n"
-"un sucesor."
+"No entanto, se o sucessor já tiver muitos canais\n"
+"registrados (%d), o canal será apagado como se não houvesse\n"
+"um sucessor."
 
 #: modules/commands/cs_seen.cpp:207
 #, c-format
 msgid "I don't know who %s is."
-msgstr "No sé quien es %s."
+msgstr "Não sei quem é %s."
 
 #: modules/commands/cs_seen.cpp:253
 #, c-format
 msgid "I've never seen %s on this channel."
-msgstr "Nunca he visto a %s en este canal."
+msgstr "Eu nunca vi %s neste canal."
 
 #: modules/commands/os_akill.cpp:360 modules/commands/os_sxline.cpp:203
 msgid "ID"
@@ -5145,30 +5145,30 @@ msgstr "IP"
 #: modules/commands/os_dns.cpp:500
 #, c-format
 msgid "IP %s already exists for %s."
-msgstr "La IP %s ya existe para %s."
+msgstr "O IP %s já existe para %s."
 
 #: modules/commands/os_dns.cpp:562
 #, c-format
 msgid "IP %s does not exist for %s."
-msgstr "La IP %s no existe para %s."
+msgstr "O IP %s não existe para %s."
 
 #: modules/commands/ns_identify.cpp:65
 msgid "Identify yourself with your password"
-msgstr "Te identifica con tu contraseña"
+msgstr "Identifica você com sua senha"
 
 #: modules/pseudoclients/nickserv.cpp:205
 #: modules/pseudoclients/nickserv.cpp:211
 #, c-format
 msgid "If you do not change within %s, I will change your nick."
-msgstr "Si no lo cambias en %s, yo cambiaré tu nick."
+msgstr "Se você não o mudar %s, Vou mudar o seu nick."
 
 #: modules/commands/os_ignore.cpp:333
 msgid "Ignore list has been cleared."
-msgstr "La lista de ignorados ha sido vaciada."
+msgstr "A lista ignorada foi esvaziada."
 
 #: modules/commands/os_ignore.cpp:262
 msgid "Ignore list is empty."
-msgstr "La lista de ignorados está vacía."
+msgstr "A lista ignorada está vazia."
 
 #: modules/commands/ms_ignore.cpp:94
 msgid "Ignore list:"
@@ -5176,62 +5176,62 @@ msgstr "Lista de ignorados:"
 
 #: modules/commands/ns_set.cpp:1297
 msgid "Immediate protection"
-msgstr "Proteccion inmediata"
+msgstr "Proteção imediata"
 
 #: modules/commands/ns_resetpass.cpp:33
 msgid "Incorrect email address."
-msgstr "Dirección de email incorrecta."
+msgstr "Endereço de email incorreto."
 
 #: include/language.h:89
 msgid "Incorrect range specified. The correct syntax is #from-to."
-msgstr "Rango especificado incorrecto. La sintaxis correcta es #desde-hasta."
+msgstr "Alcance especificado incorreto. A sintaxe correta é #desde-para."
 
 #: modules/commands/os_modinfo.cpp:19
 msgid "Info about a loaded module"
-msgstr "Info sobre un módulo cargado"
+msgstr "Informação sobre um módulo carregado"
 
 #: modules/commands/bs_info.cpp:54
 #, c-format
 msgid "Information for bot %s:"
-msgstr "Información para el bot %s:"
+msgstr "Informação para o bot %s:"
 
 #: include/language.h:108
 #, c-format
 msgid "Information for channel %s:"
-msgstr "Informacion para el canal %s:"
+msgstr "Informação para o canal %s:"
 
 #: modules/commands/os_logsearch.cpp:57
 #, c-format
 msgid "Invalid duration %s, using %d days."
-msgstr "Duración %s no válida, usando %d días."
+msgstr "Duração %s inválido, usando %d dias."
 
 #: include/language.h:68
 msgid "Invalid expiry time."
-msgstr "Tiempo de expiración no válido."
+msgstr "Tempo de expiração inválido."
 
 #: modules/commands/os_session.cpp:346
 msgid ""
 "Invalid hostmask. Only real hostmasks are valid, as exceptions are not "
 "matched against nicks or usernames."
 msgstr ""
-"Máscara no válida. Solo son válidos host reales, ya que las excepciones no "
-"son comparadas con nicks o idents."
+"Máscara inválida. Somente hosts reais são válidos, uma vez que as exceções não"
+"são comparadas com nicks ou idents".
 
 #: modules/commands/os_logsearch.cpp:73
 #, c-format
 msgid "Invalid limit %s, using %d."
-msgstr "Límite %s no válido, usando %d."
+msgstr "Límite %s não é válido, usando %d."
 
 #: include/language.h:99
 msgid ""
 "Invalid passcode has been entered, please check the e-mail again, and retry."
 msgstr ""
-"Se ha introducido un código no válido, por favor, revisa otra vez el email e "
-"inténtalo de nuevo"
+"Se um código inválido foi inserido, verifique novamente o e-mail "
+"tenta de novo"
 
 #: modules/commands/ns_register.cpp:83 modules/commands/ns_register.cpp:86
 msgid "Invalid passcode."
-msgstr "Código no válido."
+msgstr "Código inválido."
 
 #: modules/commands/os_session.cpp:339
 #, c-format
@@ -5239,7 +5239,7 @@ msgid ""
 "Invalid session limit. It must be a valid integer greater than or equal to "
 "zero and less than %d."
 msgstr ""
-"Limite de sesion no válido. Debe ser un entero válido mayor o igual a cero y "
+"Limite de sessão inválido. Deve ser um inteiro válido maior ou igual a zero e "
 "menor a %d."
 
 #: modules/commands/os_session.cpp:188
