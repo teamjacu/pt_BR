@@ -4707,7 +4707,7 @@ msgstr ""
 " \n"
 "Se o seu IRCd tiver um modo de canal permanente (persistente)\n"
 "e está habilitado ou desativado (de qualquer forma, incluindo\n"
-"MLOCK"), a persistência é ativada ou desativada automaticamente\n"
+"MLOCK), a persistência é ativada ou desativada automaticamente\n"
 "para o canal, além disso, os serviços irão colocar ou remover\n"
 "esse modo quando você ativa ou desativa a persistência."
 
