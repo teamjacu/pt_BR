@@ -7627,12 +7627,12 @@ msgstr "O servidor %s não está conectado na rede."
 #: modules/commands/os_dns.cpp:644
 #, c-format
 msgid "Server %s is not pooled."
-msgstr "El servidor %s no está en el pool dns."
+msgstr "O servidor %s não está no pool dns."
 
 #: modules/commands/os_dns.cpp:465
 #, c-format
 msgid "Server %s must be quit before it can be deleted."
-msgstr "El servidor %s debe desconectarse antes de ser borrado."
+msgstr "O servidor %s deve ser desconectado antes de ser excluído."
 
 #: modules/commands/os_dns.cpp:255
 msgid "Servers"
@@ -7645,121 +7645,121 @@ msgstr "Servidores encontrados: %d"
 
 #: modules/commands/cs_log.cpp:127
 msgid "Service"
-msgstr "Servicio"
+msgstr "Serviços"
 
 #: modules/commands/ns_recover.cpp:51
 #, c-format
 msgid "Service's hold on %s has been released."
-msgstr "El nick %s retenido por los servicios ha sido liberado."
+msgstr "O nick %s retido pelos serviços foi liberado."
 
 #: data/chanserv.example.conf:827 data/nickserv.example.conf:235
 #, fuzzy
 msgid "Services Operator commands"
-msgstr "%s es un Operador de Servicios del tipo %s."
+msgstr "%s é um Operador de Serviços do Tipo %s."
 
 #: modules/commands/os_defcon.cpp:443 modules/commands/os_defcon.cpp:454
 #: modules/commands/os_defcon.cpp:462 modules/commands/os_defcon.cpp:470
 #: modules/commands/os_defcon.cpp:478
 msgid "Services are in DefCon mode, please try again later."
-msgstr "Los servicios están en modo DefCon, por favor, inténtalo más tarde."
+msgstr "Os serviços estão no modo DefCon, tente novamente mais tarde."
 
 #: include/language.h:70
 msgid "Services are in read-only mode!"
-msgstr "¡Los Servicios están en modo read-only!"
+msgstr "¡Os Serviços estão no modo read-only!"
 
 #: modules/commands/os_defcon.cpp:186 modules/commands/os_defcon.cpp:213
 #, c-format
 msgid "Services are now at DEFCON %d."
-msgstr "Los Servicios están ahora en DEFCON %d."
+msgstr "Os Serviços estão agora em DEFCON %d."
 
 #: modules/commands/os_set.cpp:128
 #, c-format
 msgid "Services are now in debug mode (level %d)."
-msgstr "Los Servicios están ahora en modo debug (nivel %d)."
+msgstr "Os Serviços estão agora em modo debug (nivel %d)."
 
 #: modules/commands/os_set.cpp:114
 msgid "Services are now in debug mode."
-msgstr "Los Servicios están ahora en modo debug."
+msgstr "Os Serviços estão agora em modo debug."
 
 #: modules/commands/os_set.cpp:159
 msgid "Services are now in expire mode."
-msgstr "Servicios ahora en modo expire."
+msgstr "Serviços agora no modo expire."
 
 #: modules/commands/os_set.cpp:153
 msgid "Services are now in no expire mode."
-msgstr "Servicios ahora en modo no expire."
+msgstr "Serviços agora no modo no expire."
 
 #: modules/commands/os_set.cpp:120
 msgid "Services are now in non-debug mode."
-msgstr "Los Servicios están ahora en modo no-debug."
+msgstr "Os Serviços estão agora em modo no-debug."
 
 #: modules/commands/os_set.cpp:47
 msgid "Services are now in read-only mode."
-msgstr "Servicios ahora en modo read-only."
+msgstr "Serviços agora no modo read-only."
 
 #: modules/commands/os_set.cpp:53
 msgid "Services are now in read-write mode."
-msgstr "Servicios ahora en modo de read-write."
+msgstr "Serviços agora no modo de read-write."
 
 #: src/mail.cpp:75
 msgid "Services have been configured to not send mail."
-msgstr "Los servicios han sido configurados para no enviar e-mails."
+msgstr "Os serviços foram configurados para não enviar e-mails."
 
 #: modules/commands/os_ignore.cpp:280
 msgid "Services ignore list:"
-msgstr "Lista de ignorados de los Servicios:"
+msgstr "Lista de ignorados dos Serviços:"
 
 #: modules/commands/os_kick.cpp:39 modules/commands/os_mode.cpp:33
 msgid ""
 "Services is unable to change modes. Are your servers' U:lines configured "
 "correctly?"
 msgstr ""
-"Los Servicios no han podido cambiar modos. ¿Están las lineas U: de tus "
-"servidores configuradas correctamente?"
+"Os Serviços não conseguiram mudar os modos. ¿Existem as linhas U: do seu "
+"servidores configurados corretamente?"
 
 #: modules/commands/os_stats.cpp:140
 #, c-format
 msgid "Services up %s."
-msgstr "Servicios en línea %s."
+msgstr "Serviços online %s."
 
 #: modules/commands/ns_set.cpp:263
 #, c-format
 msgid "Services will from now on set status modes on %s in channels."
 msgstr ""
-"Los servicios ahora establecerán los modos de status de %s en los canales."
+"Os serviços agora definirão os modos de status %s nos canais."
 
 #: modules/commands/cs_set.cpp:111
 #, c-format
 msgid "Services will no longer automatically give modes to users in %s."
 msgstr ""
-"Los Servicios ya no establecerán automáticamente los modos de los usuarios en"
+"Os Serviços deixarão de configurar automaticamente os modos de usuário em"
 " %s."
 
 #: modules/commands/ns_set.cpp:269
 #, c-format
 msgid "Services will no longer set status modes on %s in channels."
 msgstr ""
-"Los servicios ya no establecerán los modos de status de %s en los canales."
+"Os serviços não definirão mais os modos de status %s nos canais."
 
 #: modules/commands/cs_set.cpp:105
 #, c-format
 msgid "Services will now automatically give modes to users in %s."
 msgstr ""
-"Los Servicios establecerán automáticamente los modos de los usuarios en %s."
+"Os Serviços definirão automaticamente os modos de usuário em %s."
 
 #: modules/commands/ns_set.cpp:932
 #, c-format
 msgid "Services will now reply to %s with messages."
-msgstr "Los Services ahora responderán a %s con mensajes."
+msgstr "Os Serviços agora responderão %s com menssagens."
 
 #: modules/commands/ns_set.cpp:938
 #, c-format
 msgid "Services will now reply to %s with notices."
-msgstr "Los Services ahora responderán a %s con notices."
+msgstr "Os Serviços agora responderão %s com notices."
 
 #: modules/commands/os_reload.cpp:34
 msgid "Services' configuration has been reloaded."
-msgstr "El archivo de configuración de los Servicios ha sido recargado."
+msgstr "O arquivo de configuração dos Serviços foi recarregado."
 
 #: modules/commands/os_session.cpp:192
 msgid "Session"
@@ -7768,80 +7768,80 @@ msgstr "Sesión"
 #: modules/commands/os_session.cpp:382
 #, c-format
 msgid "Session limit for %s set to %d."
-msgstr "Límite de sesión para %s establecido a %d."
+msgstr "Limite de sessão para %s estabelecido para %d."
 
 #: modules/commands/os_session.cpp:257 modules/commands/os_session.cpp:534
 msgid "Session limiting is disabled."
-msgstr "Límites de sesión no disponibles."
+msgstr "Limites de sessão não disponíveis."
 
 #: modules/commands/os_stats.cpp:195
 #, c-format
 msgid "Sessions: %lu entries, %lu buckets, longest chain is %d"
-msgstr "Sesiones: %lu entradas, %lu buckets, la cadena más larga es %d"
+msgstr "Sessões: %lu entradas, %lu buckets, a cadeia mais longa é %d"
 
 #: modules/commands/ns_set.cpp:71
 msgid "Set SET-options on another nickname"
-msgstr "Establece las opciones SET de otro nick"
+msgstr "Defina as opções SET de outro nick"
 
 #: modules/commands/cs_set.cpp:20
 msgid "Set channel options and information"
-msgstr "Configura opciones e información de un canal"
+msgstr "Defina opções e informações para um canal"
 
 #: modules/commands/cs_set.cpp:134
 msgid "Set how Services make bans on the channel"
-msgstr "Configura como ponen bans los Servicios en el canal"
+msgstr "Configure como os Serviços são colocados no canal"
 
 #: modules/commands/ms_set.cpp:206
 msgid "Set options related to memos"
-msgstr "Configura opciones relacionadas con los memos"
+msgstr "Definir opções relacionadas aos memos"
 
 #: modules/commands/ns_set.cpp:19
 msgid "Set options, including kill protection"
-msgstr "Configura opciones, incluyendo protecciones"
+msgstr "Configurar opções, incluindo proteções"
 
 #: modules/commands/cs_set.cpp:469
 msgid "Set the channel as permanent"
-msgstr "Establece el canal como permanente"
+msgstr "Estabelece o canal como permanente"
 
 #: modules/commands/cs_set.cpp:201
 msgid "Set the channel description"
-msgstr "Establece la descripción del canal"
+msgstr "Defina a descrição do canal"
 
 #: modules/commands/ns_set.cpp:326
 msgid "Set the display of your group in Services"
-msgstr "Establece el display de tu grupo en los Servicios"
+msgstr "Defina a exibição do seu grupo nos Serviços"
 
 #: modules/commands/cs_set.cpp:263
 msgid "Set the founder of a channel"
-msgstr "Establece el fundador de un canal"
+msgstr "Estabelece o fundador de um canal"
 
 #: modules/commands/ns_set.cpp:785
 msgid "Set the language Services will use when messaging you"
-msgstr "Establece el idioma en el que los Servicios te enviarán mensajes"
+msgstr "Defina o idioma em que os Serviços lhe enviarão mensagens"
 
 #: modules/commands/ns_set.cpp:169
 msgid "Set the nickname password"
-msgstr "Establece la contraseña del nick"
+msgstr "Defina a senha do nick"
 
 #: modules/commands/cs_set.cpp:960
 msgid "Set the successor for a channel"
-msgstr "Establece el sucesor de un canal"
+msgstr "Define o sucessor de um canal"
 
 #: modules/commands/hs_set.cpp:125
 msgid "Set the vhost for all nicks in a group"
-msgstr "Establece el vhost de todos los nicks en un grupo"
+msgstr "Defina o vhost de todos os nicks em um grupo"
 
 #: modules/commands/hs_set.cpp:19
 msgid "Set the vhost of another user"
-msgstr "Establece el vhost de otro usuario"
+msgstr "Defina o vhost de outro usuário"
 
 #: modules/commands/os_set.cpp:169
 msgid "Set various global Services options"
-msgstr "Establece varias opciones globales de los Servicios"
+msgstr "Estabelece várias opções globais para os Serviços"
 
 #: modules/commands/ns_set.cpp:116
 msgid "Set your nickname password"
-msgstr "Establece la contraseña de tu nick"
+msgstr "Defina sua senha inicial"
 
 #: modules/commands/bs_kick.cpp:271
 #, c-format
@@ -7854,13 +7854,13 @@ msgid ""
 "before they get banned. Don't give ttb to disable\n"
 "the ban system once activated."
 msgstr ""
-"Activa o desactiva el kick por AMSG. Cuando está activo, el bot\n"
-"kickeará a los usuarios que envíen el mismo mensaje a múltiples\n"
-"canales donde estén los bots de %s.\n"
+"Ativar ou desativar o kick pelo AMSG. Quando ativo, o bot\n"
+"kickara os usuários que enviam a mesma mensagem para vários\n"
+"canais onde os %s bots são.\n"
 " \n"
-"ttb es el número de veces que el usuario será kickeado\n"
-"antes de ser baneado. Si no se especifica ttb, el usuario\n"
-"nunca será baneado."
+"ttb é o número de vezes que o usuário será kickado\n"
+"antes de ser banido, se ttb não for especificado, o usuário\n"
+"nunca será banido."
 
 #: modules/commands/bs_kick.cpp:307
 #, c-format
@@ -7876,12 +7876,12 @@ msgid ""
 "before it gets banned. Don't give ttb to disable\n"
 "the ban system once activated."
 msgstr ""
-"Activa o desactiva el kick por badwords. Cuando está activo\n"
-"el bot que kickeará a los usuarios que dicen ciertas palabras\n"
-"en el canal.\n"
-"Puedes definir las badwords para tu canal usando el\n"
-"comandoBADWORDS. Escribe %s%s HELP BADWORDS\n"
-"para más información.\n"
+"Ativa ou desativa o kick por badwords. Quando está ativo\n"
+"o bot que vai kickar usuários que dizem certas palavras\n"
+"no canal.\n"
+"Você pode definir a badwords para o seu canal usando o\n"
+"comandoBADWORDS. Escreva %s%s HELP BADWORDS\n"
+"para mais informacao.\n"
 " \n"
 "ttb es el número de veces que se kickeará al usuario\n"
 "antes de ser baneado. Si no se establece, el usuario\n"
