@@ -7881,11 +7881,11 @@ msgstr ""
 "no canal.\n"
 "Você pode definir a badwords para o seu canal usando o\n"
 "comandoBADWORDS. Escreva %s%s HELP BADWORDS\n"
-"para mais informacao.\n"
+"para mais informação.\n"
 " \n"
-"ttb es el número de veces que se kickeará al usuario\n"
-"antes de ser baneado. Si no se establece, el usuario\n"
-"nunca será baneado."
+"ttb é o número de vezes que o usuário será kickado\n"
+"antes de ser banido, se não definido, o usuário\n"
+"Ele nunca será banido."
 
 #: modules/commands/cs_set.cpp:183
 msgid ""
@@ -7899,16 +7899,16 @@ msgid ""
 "2: ban in the form *!*@host\n"
 "3: ban in the form *!*user@*.domain"
 msgstr ""
-"Establece el tipo de ban que será usado por los\n"
-"Servicios cuando necesiten banear a alguien\n"
-"de tu canal.\n"
+"Defina o tipo de proibição que será usado pelo\n"
+"Serviços quando precisam Banir alguém\n"
+"do seu canal.\n"
 " \n"
-"tipo-de-ban es un numero entre 0 y 3 que significa:\n"
+"tipos-de-ban É um número entre 0 e 3 que significa:\n"
 " \n"
-"0: ban en la forma *!usuario@host\n"
-"1: ban en la forma *!*usuario@host\n"
-"2: ban en la forma *!*@host\n"
-"3: ban en la forma *!*usuario@*.dominio"
+"0: Bam na forma *!usuario@host\n"
+"1: Bam na forma *!*usuario@host\n"
+"2: Bam na forma *!*@host\n"
+"3: Bam na forma *!*usuario@*.dominio"
 
 #: modules/commands/bs_kick.cpp:345
 msgid ""
@@ -7919,13 +7919,13 @@ msgid ""
 "before it gets banned. Don't give ttb to disable\n"
 "the ban system once activated."
 msgstr ""
-"Activa o desactiva el kick por negritas. Cuando está\n"
-"activo, el bot kickeará a los usuarios que usen texto en\n"
-"negrita.\n"
+"Ativar ou desativar o kick em negrito. Quando é\n"
+"ativo, o bot vai kickar usuários que usam texto em\n"
+"negrito.\n"
 " \n"
-"ttb es el número de veces que el usuario será\n"
-"kickeado antes de ser baneado. Si no se especifica ttb, el\n"
-"usuario nunca será baneado."
+"ttb é o número de vezes que o usuário será\n"
+"Kickado antes de ser banido, se ttb não for especificado,\n"
+"O usuário nunca será banido."
 
 #: modules/commands/bs_kick.cpp:436
 #, c-format
@@ -7942,17 +7942,17 @@ msgid ""
 "before it gets banned. Don't give ttb to disable\n"
 "the ban system once activated."
 msgstr ""
-"Activa o desactiva el kick por mayúsculas. Cuando está\n"
-"activo, el bot kickeará a los usurios que usen texto en\n"
-"mayúsculas.\n"
-"El bot solo kickeará si hay al menos min mayúsculas y\n"
-"constituyen al menos el porcentaje%% del texto total de\n"
-"la línea (si no se especifica, por defecto son 10 caracteres y\n"
-"un 25%%).\n"
+"Ativar ou desativar o kick por letras maiúsculas Quando é\n"
+"ativo, o bot vai kickar usuários que usam texto em\n"
+"letras maiúsculas.\n"
+"O bot só kickará se houver pelo menos min maiúsculas e\n"
+"constituem, pelo menos, a porcentagem%% do texto total de\n"
+"linhas (se não for especificada, por padrão é 10 caracteres e\n"
+"25 %%).\n"
 " \n"
-"ttb es el número de veces que el usuario será kickeado antes\n"
-"de ser baneado. Si no se especifica ttb, el usuario nunca\n"
-"será baneado."
+"ttb é o número de vezes que o usuário será kickado antes\n"
+"de ser banido, se ttb não for especificado, o usuário nunca\n"
+"será banido."
 
 #: modules/commands/bs_kick.cpp:475
 msgid ""
@@ -7963,21 +7963,21 @@ msgid ""
 "before it gets banned. Don't give ttb to disable\n"
 "the ban system once activated."
 msgstr ""
-"Activa o desactiva el kick por color. Cuando está\n"
-"activo, el bot kickeará a los usuarios que usen texto\n"
-"en color.\n"
+"Ativar ou desativar o kick por cor, quando é\n"
+"ativo, o bot vai kickar os usuários que usam o texto\n"
+"em cores.\n"
 " \n"
-"ttb es el número de veces que el usuario\n"
-"será kickeado antes de ser baneado. Si no se especifica\n"
-"ttb, el usuario nunca será baneado."
+"ttb é o número de vezes que o usuário\n"
+"será Kickado antes de ser banido, se você não especificar\n"
+"ttb, o usuário nunca será banido."
 
 #: modules/commands/cs_set.cpp:252
 msgid ""
 "Sets the description for the channel, which shows up with\n"
 "the LIST and INFO commands."
 msgstr ""
-"Establece la descripción para el canal, la que se muestra\n"
-"con los comandos LIST e INFO."
+"Defina a descrição para o canal, que é mostrado\n"
+"com os comandos LIST e INFO."
 
 #: modules/commands/bs_kick.cpp:571
 msgid ""
@@ -7990,14 +7990,14 @@ msgid ""
 "before it gets banned. Don't give ttb to disable\n"
 "the ban system once activated."
 msgstr ""
-"Activa o desactiva el kick por flood. Cuando está activado,\n"
-"el bot kickeará a los usuarios que hagan flood enviando más\n"
-"de ln líneas en segs segundos\n"
-"(si no se especifica, por defecto son 6 líneas en 10 segundos).\n"
+"Ative ou desative o kick por Flood. Quando habilitado,\n"
+"o bot vai kickar os usuários que floodem enviando mais\n"
+"de ln linhas em segs segundos\n"
+"(se não especificado, por padrão, existem 6 linhas em 10 segundos).\n"
 " \n"
-"ttb es el número de veces que el usuario será kickeado\n"
-"antes de ser baneado. Si no se especifica ttb, el usuario\n"
-"nunca será baneado."
+"ttb é o número de vezes que o usuário será kickado\n"
+"antes de ser banido, se ttb não for especificado, o usuário\n"
+"nunca será banido".
 
 #: modules/commands/bs_kick.cpp:607
 msgid ""
@@ -8008,13 +8008,13 @@ msgid ""
 "before it gets banned. Don't give ttb to disable\n"
 "the ban system once activated."
 msgstr ""
-"Activa o desactiva el kick por cursivas. Cuando está\n"
-"activo, el bot kickeará a los usuarios que usen texto\n"
-"en cursiva.\n"
+"Ativar ou desativar o kick por itálico Quando é\n"
+"ativo, o bot vai kickar os usuários que usam o texto\n"
+"em itálico.\n"
 " \n"
-"ttb es el número de veces que el usuario\n"
-"será kickeado antes de ser baneado. Si no se especifica\n"
-"ttb, el usuario nunca será baneado."
+"ttb é o número de vezes que o usuário\n"
+"será kickado antes de ser banido, se você não especificar\n"
+"ttb, o usuário nunca será banido."
 
 #: modules/commands/bs_kick.cpp:706
 msgid ""
@@ -8027,14 +8027,14 @@ msgid ""
 "before it gets banned. Don't give ttb to disable\n"
 "the ban system once activated."
 msgstr ""
-"Activa o desactiva el kick por repetir. Cuando está activo,\n"
-"el bot kickeará a usuarios que repitan el mismo mensaje\n"
-"num veces (si no se especifica num, por defecto son\n"
-"3 veces).\n"
+"Ativa ou desativa o kick ao repetir, quando ativo,\n"
+"o bot vai kickar os usuários que repetem a mesma mensagem\n"
+"num vezes (se não for especificado, por padrão eles são\n"
+"3 vezes).\n"
 " \n"
-"ttb es el número de veces que el usuario será kickeado\n"
-"antes de ser baneado. Si no se especifica ttb, el usuario\n"
-"nunca será baneado."
+"ttb é o número de vezes que o usuário será kickado\n"
+"antes de ser banido, se ttb não for especificado, o usuário\n"
+"Ele nunca será banido."
 
 #: modules/commands/bs_kick.cpp:742
 msgid ""
@@ -8045,13 +8045,13 @@ msgid ""
 "before it gets banned. Don't give ttb to disable\n"
 "the ban system once activated."
 msgstr ""
-"Activa o desactiva el kick por fondos. Cuando está\n"
-"activo, el bot kickeará a los usuarios que usen fondos\n"
-"de colores.\n"
+"Ativar ou desativar o kick de cores de fundos quando for\n"
+"ativo, o bot vai kickar usuários que usam fundos\n"
+"de cores.\n"
 " \n"
-"ttb es el número de veces que el usuario\n"
-"será kickeado antes de ser baneado. Si no se especifica\n"
-"ttb, el usuario nunca será baneado."
+"ttb é o número de vezes que o usuário\n"
+"será kickado antes de ser banido, se você não especificar\n"
+"ttb, o usuário nunca será banido."
 
 #: modules/commands/bs_kick.cpp:776
 msgid ""
@@ -8062,13 +8062,13 @@ msgid ""
 "before it gets banned. Don't give ttb to disable\n"
 "the ban system once activated."
 msgstr ""
-"Activa o desactiva el kick por subrayados. Cuando está\n"
-"activo, el bot kickeará a los usuarios que usen texto\n"
-"subrayado.\n"
+"Ativa ou desativa o kick por sublinhado, quando é\n"
+"ativo, o bot vai kickar os usuários que usam o texto\n"
+"sublinhado. \ n"
 " \n"
-"ttb es el número de veces que el usuario\n"
-"será kickeado antes de ser baneado. Si no se especifica\n"
-"ttb, el usuario nunca será baneado."
+"ttb é o número de vezes que o usuário\n"
+"será kickado antes de ser banido, se você não especificar\n"
+"ttb, o usuário nunca será banido."
 
 #: modules/commands/hs_set.cpp:206
 msgid ""
@@ -8079,12 +8079,12 @@ msgid ""
 "* NOTE, this will not update the vhost for any nicks\n"
 "added to the group after this command was used."
 msgstr ""
-"Establece el vhost para todos los nicks en el grupo\n"
-"del nick dado.  Si tu IRCD soporta vIdents, usando\n"
-"el formato SETALL <nick> <ident>@<host> establecerá\n"
-"el ident además del vhost.\n"
-"* ATENCION, esto no actualizará el vhost para los nicks\n"
-"agrupados después de usar el comando."
+"Defina o vhost para todos os nicks no grupo\n"
+"do apelido dado, se seu IRCD suportar Idents, usando\n"
+"o formato SETALL <nick> <ident>@<host> irá definir\n"
+"o ident, além do vhost.\n"
+"* ATENÇÃO, isso não atualizará o vhost para apelidos\n"
+"agrupados depois de usar o comando."
 
 #: modules/commands/hs_set.cpp:99
 msgid ""
@@ -8093,10 +8093,10 @@ msgid ""
 "SET <nick> <ident>@<hostmask> set idents for users as\n"
 "well as vhosts."
 msgstr ""
-"Establece el vhost para el nick dado.\n"
-"Si tu IRCD soporta vIdents, se puede usar el formato\n"
-"SET <nick> <ident>@<host> para establecer el ident\n"
-"además del vhost."
+"Defina o vhost para o apelido fornecido.\n"
+"Se o seu IRCD suportar Idents, você pode usar o formato\n"
+"SET <nick> <ident>@<host> para definir o ident\n"
+"além do vhost."
 
 #: modules/commands/os_set.cpp:199
 msgid ""
@@ -8108,13 +8108,13 @@ msgid ""
 "    SUPERADMIN Activate or deactivate super admin mode\n"
 "    LIST       List the options"
 msgstr ""
-"Configura varias opciones globales de los Servicios.  Los\n"
-"nombres de las opciones definidas actualmente son:\n"
-"    READONLY   Establece el modo read-only o read-write\n"
-"    DEBUG      Activa o desactiva el modo debug\n"
-"    NOEXPIRE   Activa o desactiva el modo no expire\n"
-"    SUPERADMIN Activa o desactiva el modo SuperAdmin\n"
-"    LIST       Lista las opciones"
+"Configure várias opções globais para os Serviços.\n"
+"Os nomes das opções atualmente definidas são:\n"
+"    READONLY   Define o modo read-only o read-write\n"
+"    DEBUG      Ative ou desative o modo debug\n"
+"    NOEXPIRE   Ative ou desative o modo no expire\n"
+"    SUPERADMIN Ative ou desative o modo SuperAdmin\n"
+"    LIST       Lista as opções"
 
 #: modules/commands/ms_set.cpp:235
 #, c-format
@@ -8129,34 +8129,34 @@ msgid ""
 "Type %s%s HELP %s option for more information\n"
 "on a specific option."
 msgstr ""
-"Configura varias opciones de los memos. opción puede ser:\n"
+"Defina várias opções para os memos. opções pode ser:\n"
 " \n"
-"    NOTIFY      Cambia cuando seras notificado sobre de\n"
-"                    nuevos memos (solo para nicks)\n"
-"    LIMIT       Establece el máximo número de memos que\n"
-"                    puedes recibir\n"
+"    NOTIFY      Mude quando você será notificado sobre\n"
+"                    novos memos (apenas para nicks)\n"
+"    LIMIT       Define o número máximo de menos que\n"
+"                    você pode receber\n"
 " \n"
-"Escribe %s%s HELP %s opción para más información\n"
-"acerca de una opción específica."
+"Escreva %s%s HELP %s opções para mais informacao\n"
+"sobre uma opção específica."
 
 #: modules/commands/ns_set.cpp:33 modules/commands/ns_set.cpp:85
 msgid "Sets various nickname options. option can be one of:"
-msgstr "Configura varias opciones de nick.  opción puede ser:"
+msgstr "Configure várias opções de nick  opções pode ser:"
 
 #: modules/commands/ns_set.cpp:234
 msgid ""
 "Sets whether services should set channel status modes on you automatically."
 msgstr ""
-"Configura si los servicios deben establecer tus modos de status en los "
-"canales automáticamente."
+"Configure se os serviços devem estabelecer seus modos de status nos"
+"Canais automaticamente."
 
 #: modules/commands/cs_set.cpp:1093
 msgid ""
 "Sets whether the given channel will expire.  Setting this\n"
 "to ON prevents the channel from expiring."
 msgstr ""
-"Configura la expiración para el canal dado.  Si se pone\n"
-"a ON evita que el canal expire."
+"Defina a expiração para o canal fornecido. Se colocar\n"
+"para ON impede que o canal expire."
 
 #: modules/commands/ns_set.cpp:312
 #, c-format
@@ -8167,20 +8167,21 @@ msgid ""
 "is entering channels. Note that depending on channel settings\n"
 "some modes may not get set automatically."
 msgstr ""
-"Configura si el nick dado recibirá los modos de status de canal\n"
-"automáticamente. Ponlo a ON para que %s le asigne los status\n"
-"automáticamente al entrar a los canales (por ejemplo, recibirá +o\n"
-"automáticamente si tiene dicho acceso). Ten en cuenta que, dependiendo\n"
-"de la configuración del canal, algún modo puede no ser establecido\n"
-"automáticamente."
+"Configure se o apelido dado receberá os modos de status do canal\n"
+"automaticamente Coloque-o para ON para %s atribuir o status\n"
+"automaticamente quando você entra nos canais (por exemplo, você receberá +o\n"
+"Automaticamente se você tiver esse acesso.) Observe que, dependendo\n"
+"da configuração do canal, de alguma maneira não pode ser estabelecida\n"
+"automaticamente."
+
 
 #: modules/commands/ns_set.cpp:1137
 msgid ""
 "Sets whether the given nickname will expire.  Setting this\n"
 "to ON prevents the nickname from expiring."
 msgstr ""
-"Configura la expiración para el nick dado.  Si se pone\n"
-"a ON evita que el nick expire."
+"Defina a expiração para o nick dado. Se colocar\n"
+"para ON impede que o nick expire."
 
 #: modules/commands/ns_set.cpp:285
 #, c-format
@@ -8190,59 +8191,59 @@ msgid ""
 "when entering channels. Note that depending on channel settings some modes\n"
 "may not get set automatically."
 msgstr ""
-"Configura cuando recibirás los modos de status de canal automáticamente.\n"
-"Ponlo a ON para que %s te asigne los status automáticamente al entrar\n"
-"a los canales (por ejemplo, recibirás +o automáticamente si tienes dicho "
-"acceso)\n"
-"Ten en cuenta que, dependiendo de la configuración del canal, algún modo "
-"puede\n"
-"no ser establecido automáticamente."
+"Defina quando você receberá os modos de status do canal automaticamente.\n"
+"Coloque-o paraON para que %s atribuir-lhe o status automaticamente quando você entrar\n"
+"para os canais (por exemplo, você receberá +o automaticamente se você tiver esse"
+"acesso")\n"
+"Tenha em mente que, dependendo da configuração do canal, de alguma forma"
+"pode\n"
+"não ser estabelecido automaticamente."
 
 #: modules/commands/cs_access.cpp:648 modules/commands/cs_access.cpp:689
 #, c-format
 msgid ""
 "Setting %s not known.  Type %s%s HELP LEVELS for a list of valid settings."
 msgstr ""
-"Opcion %s desconocida. Escribe %s%s HELP LEVELS para una lista de opciones "
+"Opção %s desconhecida. Escreva %s%s HELP LEVELS para uma lista de opções "
 "válidas."
 
 #: modules/commands/os_set.cpp:133
 msgid "Setting for DEBUG must be ON, OFF, or a positive number."
-msgstr "La configuración para DEBUG debe ser ON u OFF, o un número positivo."
+msgstr "A configuração para DEBUG deve ser ON ou OFF, ou um número positivo."
 
 #: modules/commands/os_set.cpp:162
 msgid "Setting for NOEXPIRE must be ON or OFF."
-msgstr "La configuración para NOEXPIRE debe ser ON u OFF."
+msgstr "A configuração para NOEXPIRE deve ser ON ou OFF."
 
 #: modules/commands/os_set.cpp:56
 msgid "Setting for READONLY must be ON or OFF."
-msgstr "La configuración para READONLY debe ser ON u OFF."
+msgstr "A configuração para READONLY deve ser ON ou OFF."
 
 #: modules/commands/os_set.cpp:95
 msgid "Setting for super admin must be ON or OFF."
-msgstr "La configuración para SuperAdmin debe ser ON u OFF."
+msgstr "A configuração para SuperAdmin deve ser ON ou OFF."
 
 #: modules/commands/cs_set.cpp:71
 msgid "Should services automatically give status to users"
-msgstr "Los servicios darán el status a los usuarios automáticamente"
+msgstr "Os serviços darão o status aos usuários automaticamente"
 
 #: modules/commands/os_stats.cpp:203
 msgid "Show status of Services and network"
-msgstr "Muestra el estado de los Servicios y la red"
+msgstr "Mostra o status dos Serviços e da rede"
 
 #: modules/commands/os_logsearch.cpp:152
 #, c-format
 msgid "Showed %d/%d matches for %s."
-msgstr "Mostradas %d/%d coincidencias para %s."
+msgstr "Mostrado %d/%d coincidências para %s."
 
 #: modules/commands/cs_set.cpp:883
 msgid "Sign kicks that are done with the KICK command"
-msgstr "Firma los kicks hechos con el comando KICK"
+msgstr "Assine os kicks feitos com o comando KICK"
 
 #: modules/commands/cs_set.cpp:932
 #, c-format
 msgid "Signed kick option for %s is now off."
-msgstr "Opción de kick firmado para %s Desactivada."
+msgstr "Opção de kick assinado para %s Desativada."
 
 #: modules/commands/cs_set.cpp:924
 #, c-format
@@ -8250,132 +8251,132 @@ msgid ""
 "Signed kick option for %s is now on, but depends of the\n"
 "level of the user that is using the command."
 msgstr ""
-"Opción de kick firmado para %s Activada, pero depende\n"
-"del nivel del usuario que use el comando."
+"Opção de kick assinado para %s Ativada, mas depende\n"
+"do nível do usuário que usa o comando."
 
 #: modules/commands/cs_set.cpp:917
 #, c-format
 msgid "Signed kick option for %s is now on."
-msgstr "Opción de kick firmado para %s Activada."
+msgstr "Opção de kick assinado para %s Ativada."
 
 #: modules/commands/cs_set.cpp:1345
 msgid "Signed kicks"
-msgstr "Kicks Firmados"
+msgstr "Kicks Assinados"
 
 #: modules/commands/ms_rsend.cpp:60 modules/commands/ms_send.cpp:59
 #, c-format
 msgid "Sorry, %s currently has too many memos and cannot receive more."
-msgstr "Lo siento, %s tiene muchos memos actualmente y no puede recibir más."
+msgstr "Desculpe, %s tem muitos memos atualmente e não pode receber mais."
 
 #: modules/commands/cs_seen.cpp:294
 #, c-format
 msgid "Sorry, I have not seen %s."
-msgstr "Lo siento, no he visto a %s."
+msgstr "Desculpe, não vi %s."
 
 #: modules/commands/bs_badwords.cpp:404
 #, fuzzy
 msgid "Sorry, bad words list modification is temporarily disabled."
 msgstr ""
-"Lo siento, la lista de  bad words para canales está temporalmente "
-"dehabilitada."
+"Desculpe, a lista de bad words para canais é temporariamente"
+"desabilitada."
 
 #: modules/commands/bs_assign.cpp:30 modules/commands/bs_assign.cpp:98
 msgid "Sorry, bot assignment is temporarily disabled."
-msgstr "Lo siento, la asignación de bots está temporalmente deshabilitada."
+msgstr "Desculpe, a alocação de bot é temporariamente desabilitada."
 
 #: modules/commands/bs_bot.cpp:281 modules/commands/bs_assign.cpp:164
 msgid "Sorry, bot modification is temporarily disabled."
-msgstr "Lo siento, la modificación de bots está temporalmente deshabilitada."
+msgstr "Desculpe, a modificação de bots está temporariamente desabilitada."
 
 #: modules/commands/bs_kick.cpp:813 modules/commands/bs_kick.cpp:878
 #: modules/fantasy.cpp:42
 msgid "Sorry, bot option setting is temporarily disabled."
 msgstr ""
-"Lo siento, la configuración de opciones del bot está temporalmente "
-"deshabilitada."
+"Desculpe, as configurações da opção do bot são temporariamente "
+"desabilitada."
 
 #: modules/commands/bs_set.cpp:112
 #, fuzzy
 msgid "Sorry, changing bot options is temporarily disabled."
 msgstr ""
-"Lo siento, la configuración de opciones del bot está temporalmente "
-"deshabilitada."
+"Desculpe, as configurações da opção do bot estão temporariamente "
+"desabilitada."
 
 #: modules/commands/cs_xop.cpp:112 modules/commands/cs_xop.cpp:235
 #: modules/commands/cs_xop.cpp:444
 #, c-format
 msgid "Sorry, channel %s list modification is temporarily disabled."
 msgstr ""
-"Lo siento, la modificación de la lista %s de canal está temporalmente "
-"deshabilitada."
+"Desculpe, a modificação da lista de canais %s está temporariamente "
+"desabilitada."
 
 #: modules/commands/cs_access.cpp:547 modules/commands/cs_flags.cpp:405
 msgid "Sorry, channel access list modification is temporarily disabled."
 msgstr ""
-"Lo siento, la modificación de acceso a canales está temporalmete "
-"deshabilitada."
+"Desculpe, a modificação de acesso aos canais está temporariamente"
+"desabilitada."
 
 #: modules/commands/cs_akick.cpp:457
 msgid "Sorry, channel autokick list modification is temporarily disabled."
 msgstr ""
-"Lo siento, la modificación de kicks automaticos en canales está "
-"temporalmente deshabilitada."
+"Desculpe, a modificação dos chutes automáticos nos canais está"
+"temporariamente desabilitada."
 
 #: modules/commands/cs_drop.cpp:29
 msgid "Sorry, channel de-registration is temporarily disabled."
-msgstr "Lo siento, el borrado de canales está temporalmente deshabilitado."
+msgstr "Desculpe, a exclusão de canais está temporariamente desativado."
 
 #: modules/commands/cs_register.cpp:35
 msgid "Sorry, channel registration is temporarily disabled."
-msgstr "Lo siento, el registro de canales está temporalmente deshabilitado."
+msgstr "Desculpe, o registro do canal está temporariamente desabilitado."
 
 #: modules/commands/bs_kick.cpp:181
 msgid "Sorry, kicker configuration is temporarily disabled."
 msgstr ""
-"Lo siento, la configuración de kicker está temporalmente deshabilitada."
+"Desculpe, a configuração do kicks está temporariamente desabilitada."
 
 #: modules/commands/ms_set.cpp:216
 msgid "Sorry, memo option setting is temporarily disabled."
 msgstr ""
-"Lo siento, la configuración de opciones para memos está temporalmente "
-"deshabilitada."
+"Desculpe, a configuração de opções para memos está temporariamente"
+"desativado."
 
 #: include/language.h:116
 msgid "Sorry, memo sending is temporarily disabled."
-msgstr "Lo siento, el envío de memos está temporalmente deshabilitado."
+msgstr "Desculpe, o envio de memo está temporariamente desativado."
 
 #: modules/commands/ns_drop.cpp:29
 msgid "Sorry, nickname de-registration is temporarily disabled."
-msgstr "Lo siento, el borrado de nicks esta temporalmente deshabilitado."
+msgstr "Desculpe, a exclusão de nick está temporariamente desativada."
 
 #: modules/commands/ns_group.cpp:106
 msgid "Sorry, nickname grouping is temporarily disabled."
-msgstr "Lo siento, la agrupación de nicks esta temporalmente deshabilitada."
+msgstr "Desculpe, o agrupamento de nicks está temporariamente desativado."
 
 #: modules/commands/ns_register.cpp:139
 msgid "Sorry, nickname registration is temporarily disabled."
-msgstr "Lo siento, el registro de nicks está temporalmente deshabilitado."
+msgstr "Desculpe, o registro do nick está temporariamente desativado."
 
 #: modules/commands/ns_access.cpp:33
 #, c-format
 msgid "Sorry, the maximum of %d access entries has been reached."
-msgstr "Lo siento, solo puedes tener %d entradas en tu lista de acceso."
+msgstr "Desculpe, você só pode ter %d entradas na sua lista de acesso."
 
 #: modules/commands/ns_ajoin.cpp:141
 #, c-format
 msgid "Sorry, the maximum of %d auto join entries has been reached."
 msgstr ""
-"Lo siento, se ha alcanzado el máximo de %d entradas de la lista de auto join."
+"Desculpe, o máximo de %d entradas foi alcançado na lista de auto join."
 
 #: modules/commands/ns_cert.cpp:173
 #, c-format
 msgid "Sorry, the maximum of %d certificate entries has been reached."
-msgstr "Lo siento, solo puedes tener %d entradas en tu lista de certificados."
+msgstr "Me desculpe, você só pode ter %d entradas na sua lista de certificados."
 
 #: modules/commands/ms_ignore.cpp:55
 #, fuzzy, c-format
 msgid "Sorry, the memo ignore list for %s is full."
-msgstr "La lista de información de oper para %s está llena."
+msgstr "A lista de informações oper para %s está cheia."
 
 #: modules/commands/cs_access.cpp:204 modules/commands/cs_xop.cpp:201
 #: modules/commands/cs_flags.cpp:174
@@ -8384,29 +8385,29 @@ msgid ""
 "Sorry, you can only have %d access entries on a channel, including access "
 "entries from other channels."
 msgstr ""
-"Lo siento, solo puedes tener %d entradas de acceso en un canal, incluyendo "
-"entradas de acceso de otros canales."
+"Desculpe, você só pode ter %d entradas de acesso em um canal, incluindo"
+"Acessos entradas de outros canais."
 
 #: modules/commands/cs_akick.cpp:152
 #, c-format
 msgid "Sorry, you can only have %d autokick masks on a channel."
 msgstr ""
-"Lo siento, solo puedes tener %d máscaras para kicks automáticos en un canal."
+"Desculpe, você só pode ter %d máscaras para kicks automáticos em um canal."
 
 #: modules/commands/bs_badwords.cpp:286
 #, c-format
 msgid "Sorry, you can only have %d bad words entries on a channel."
-msgstr "Lo siento, solo puedes tener %d bad words en un canal."
+msgstr "Me desculpe, você só pode ter %d bad words em um canal."
 
 #: include/language.h:103
 #, c-format
 msgid "Sorry, you have already exceeded your limit of %d channels."
-msgstr "Lo siento, ya has excedido tu límite de %d canales."
+msgstr "Desculpe, você já excedeu seu limite %d canais."
 
 #: include/language.h:102
 #, c-format
 msgid "Sorry, you have already reached your limit of %d channels."
-msgstr "Lo siento, ya has alcanzado tu límite de %d canales."
+msgstr "Me desculpe, você chegou ao seu limite de %d canais."
 
 #: modules/commands/os_dns.cpp:218
 msgid "State"
@@ -8414,7 +8415,7 @@ msgstr "Estado"
 
 #: modules/commands/cs_seen.cpp:117
 msgid "Statistics and maintenance for seen data"
-msgstr "Estadísticas y mantenimento para los datos de avistamiento"
+msgstr "Estatística e manutenção dos dados de avistamento"
 
 #: modules/commands/os_stats.cpp:131
 msgid "Statistics reset."
@@ -8422,63 +8423,63 @@ msgstr "Estadísticas reseteadas."
 
 #: modules/commands/ns_update.cpp:36
 msgid "Status updated (memos, vhost, chmodes, flags)."
-msgstr "Status actualizado (memos, vhost, modos de canal, marcas)."
+msgstr "Status atualizado (memos, vhost, modos de canal, flags)."
 
 #: modules/commands/bs_kick.cpp:1432
 msgid "Stop flooding!"
-msgstr "¡Para de floodear!"
+msgstr "¡Pare de floodar!"
 
 #: modules/commands/bs_kick.cpp:1448
 msgid "Stop repeating yourself!"
-msgstr "¡Para de repetir!"
+msgstr "¡Pare de repetir!"
 
 #: modules/commands/cs_set.cpp:757
 msgid "Stricter control of channel founder status"
-msgstr "Control estricto del estatus de fundador de canal"
+msgstr "Controle restrito do status do fundador do canal"
 
 #: modules/commands/cs_set.cpp:821
 msgid "Stricter control of chanop status"
-msgstr "Control estricto del estatus de operador de canal"
+msgstr "Control restrito do status de operador de canal"
 
 #: modules/commands/ns_alist.cpp:75 modules/commands/cs_info.cpp:50
 msgid "Successor"
-msgstr "Sucesor"
+msgstr "Sucessor"
 
 #: modules/commands/cs_set.cpp:1017
 #, c-format
 msgid "Successor for %s changed to %s."
-msgstr "Sucesor de %s cambiado a %s."
+msgstr "Sucessor de %s mudou para %s."
 
 #: modules/commands/cs_set.cpp:1019
 #, c-format
 msgid "Successor for %s unset."
-msgstr "Sucesor de %s eliminado."
+msgstr "Sucesor de %s Removido."
 
 #: modules/commands/os_set.cpp:81
 msgid ""
 "Super admin can not be set because it is not enabled in the configuration."
 msgstr ""
-"No se puede activar el SuperAdmin por no está habilitado en la configuración."
+"O SuperAdmin não pode ser ativado porque não está habilitado na configuração."
 
 #: modules/commands/ns_suspend.cpp:60
 msgid "Suspend a given nick"
-msgstr "Suspende un nick dado"
+msgstr "Suspende um nick fornecido"
 
 #: modules/commands/ns_suspend.cpp:250 modules/commands/cs_suspend.cpp:236
 msgid "Suspend reason"
-msgstr "Razón de la suspensión"
+msgstr "Razão da suspensão"
 
 #: modules/commands/ns_suspend.cpp:246 modules/commands/cs_suspend.cpp:232
 msgid "Suspended"
-msgstr "Suspendido"
+msgstr "Suspenso"
 
 #: modules/commands/ns_suspend.cpp:248 modules/commands/cs_suspend.cpp:234
 msgid "Suspended by"
-msgstr "Suspendido por"
+msgstr "Suspenso por"
 
 #: modules/commands/ns_suspend.cpp:252 modules/commands/cs_suspend.cpp:238
 msgid "Suspended on"
-msgstr "Suspendido el"
+msgstr "Suspenso em"
 
 #: modules/commands/ns_suspend.cpp:147
 msgid ""
@@ -8487,34 +8488,34 @@ msgid ""
 "the nick will be unsuspended after that period of time, else the\n"
 "default expiry from the configuration is used."
 msgstr ""
-"Suspende un nick registrado, lo que evita que sea usado\n"
-"mientras se mantienen todos sus datos. Si se especifica una\n"
-"expiración, la suspensión terminará después de ese periodo de\n"
-"tiempo, si no, se usará el tiempo de expiración predeterminado."
+"Suspenda um nick registrado, o que impede que ele seja usado\n"
+"enquanto mantém todos os seus dados. Se você especificar um\n"
+"expiração, a suspensão terminará após esse período de\n"
+"Tempo, se não, o tempo de expiração padrão será usado."
 
 #: modules/commands/ns_suspend.cpp:254 modules/commands/cs_suspend.cpp:240
 msgid "Suspension expires"
-msgstr "La suspensión expira"
+msgstr "A suspensão expira"
 
 #: modules/commands/cs_sync.cpp:19
 msgid "Sync users channel modes"
-msgstr "Sincroniza los modos de canal de los usuarios"
+msgstr "Sincronize os modos de canal dos usuários"
 
 #: modules/commands/cs_sync.cpp:49
 msgid ""
 "Syncs all modes set on users on the channel with the modes\n"
 "they should have based on their access."
 msgstr ""
-"Sincroniza todos los modos establecidos a los usuarios de un\n"
-"canal con los modos que deberían tener en función de su acceso."
+"Sincronizar todos os modos estabelecidos para usuários de\n"
+"canal com os modos que devem ter com base no seu acesso."
 
 #: modules/commands/hs_group.cpp:42
 msgid "Syncs the vhost for all nicks in a group"
-msgstr "Sincroniza el vhost con todos los nicks del grupo"
+msgstr "Sincronize o vhost com todos os nicks no grupo"
 
 #: src/command.cpp:146
 msgid "Syntax"
-msgstr "Sintaxis"
+msgstr "Sintaxe"
 
 #: modules/commands/ns_group.cpp:358
 #, c-format
@@ -8523,9 +8524,9 @@ msgid ""
 " \n"
 "Lists all nicks in your group."
 msgstr ""
-"Sintaxis: %s\n"
+"Sintaxe: %s\n"
 " \n"
-"Lista todos los nicks en tu grupo."
+"Liste todos os apelidos do seu grupo."
 
 #: modules/commands/ns_group.cpp:348
 #, c-format
@@ -8539,13 +8540,13 @@ msgid ""
 "group of the given nick.\n"
 "Specifying a nick is limited to Services Operators."
 msgstr ""
-"Sintaxis: %s [nick]\n"
+"Sintaxe: %s [nick]\n"
 "\n"
-"Sin un parámetro, lista todos los nicks en tu grupo.\n"
+"Sem um parâmetro, liste todos os nicks do seu grupo.\n"
 "\n"
-"Con un parámetro, lista todos los nicks que hay en\n"
-"el grupo del nick dado.\n"
-"Especificar un nick está limitado a Operadores de Servicios."
+"Com um parâmetro, liste todos os nicks em\n"
+"o grupo do apelido dado.\n"
+"Especificar um nick está limitado a Operadores de Serviços."
 
 #: modules/commands/os_set.cpp:227
 msgid ""
@@ -8556,12 +8557,12 @@ msgid ""
 "This option is equivalent to the command-line option\n"
 "--debug."
 msgstr ""
-"Sintaxis: DEBUG {ON | OFF}\n"
+"Sintaxe: DEBUG {ON | OFF}\n"
 " \n"
-"Activa o desactiva el modo debug.\n"
+"Ative ou desative o modo debug.\n"
 " \n"
-"Esta opción es equivalente a la opcion --debug\n"
-"en la línea de comandos."
+"Esta opção é equivalente à opção --debug\n"
+"na linha de comando."
 
 #: modules/commands/ms_set.cpp:287
 #, c-format
@@ -8573,12 +8574,12 @@ msgid ""
 "able to send any memos to you.  However, you cannot set\n"
 "this any higher than %d."
 msgstr ""
-"Sintaxis: LIMIT [canal] límite\n"
+"Sintaxe: LIMIT [canal] límite\n"
 "\n"
-"Configura el máximo número de memos que tú (o el canal\n"
-"dado) puedes tener. Si lo configuras a 0, nadie podrá\n"
-"enviarte memos. Además, no puedes configurar el límite por\n"
-"encima de %d."
+"Defina o número máximo de memos que você (ou o canal\n"
+"fornecido", você pode ter, se você configurá-lo para 0, ninguém pode\n"
+"enviar-lhe memos. Além disso, você não pode definir o limite\n"
+"Acima de %d."
 
 #: modules/commands/ms_set.cpp:267
 #, c-format
@@ -8603,25 +8604,25 @@ msgid ""
 "remove their limit, may not set a limit above %d, and may\n"
 "not set a hard limit."
 msgstr ""
-"Sintaxis: LIMIT [usuario | canal] {límite | NONE} [HARD]\n"
+"Sintaxe: LIMIT [usuario | canal] {límite | NONE} [HARD]\n"
 " \n"
-"Configura el máximo número de memos que un usuario o\n"
-"canal pueden tener. Configurar el límite a 0 evita que el usuario\n"
-"reciba memos; configurarlo a NONE permite al usuario\n"
-"recibir y guardar cuantos memos quiera. Si no proporcionas un\n"
-"nick o un canal, se cambia tu propio límite.\n"
+"Defina o número máximo de menos que um usuário ou\n"
+"O canal pode ter. Configurando o limite para 0 impede o usuário\n"
+"receba memos; configure-o para NONE permite ao usuário\n"
+"Receba e salve tantos memos quanto quiser, se você não fornecer um\n"
+"nick ou um canal, você muda seu próprio limite.\n"
 "\n"
-"Añadir HARD evita que el usuario pueda cambiar el límite. No\n"
-"añadir HARD tiene el efecto contrario, permitiendo al\n"
-"usuario cambiar el limite (incluso si un límite anterior fue configurado\n"
-"con HARD).\n"
+"Adicionar HARD impede o usuário de alterar o limite. Não\n"
+"Adicionar HARD tem o efeito oposto, permitindo que\n"
+"usuário para alterar o limite (mesmo se um limite anterior foi definido\n"
+"com HARD).\n"
 "\n"
-"El uso del comando SET LIMIT esta limitado a\n"
-"Administradores de Servicios. El resto de usuarios solo\n"
-"pueden configurar sus propios límites o los de un canal en\n"
-"el que tengan ciertos privilegios, no pueden eliminar su\n"
-"límite, no pueden configurar el límite por encima de %d, y no\n"
-"pueden configurar un límite hard."
+"O uso do comando SET LIMIT está limitado a\n"
+"Administradores de Serviços. O restante dos usuários apenas\n"
+"pode definir seus próprios limites ou os de um canal em\n"
+"aquele que tem certos privilégios, não pode eliminar o\n"
+"limite, você não pode definir o limite acima %d, e não\n"
+"pode definir um limite hard."
 
 #: modules/commands/os_set.cpp:208
 #, c-format
@@ -8630,9 +8631,9 @@ msgid ""
 " \n"
 "Display the various %s settings."
 msgstr ""
-"Syntax: LIST\n"
+"Syntaxe: LIST\n"
 " \n"
-"Muestra varias configuraciones de %s."
+"Mostra várias configurações de %s."
 
 #: modules/commands/os_set.cpp:234
 msgid ""
@@ -8645,14 +8646,14 @@ msgid ""
 "This option is equivalent to the command-line option\n"
 "--noexpire."
 msgstr ""
-"Sintaxis: NOEXPIRE {ON | OFF}\n"
+"Sintaxe: NOEXPIRE {ON | OFF}\n"
 " \n"
-"Activa o desactiva el modo no expire. En el modo\n"
-"no expire, nicks, canales, akills y excepciones no\n"
-"expirarán hasta que se desactive el modo.\n"
+"Ativa ou desativa o modo noexpire. No modo\n"
+"noexpire, apelidos, canais, habilidades e exceções não\n"
+"expirará até que o modo seja desativado.\n"
 " \n"
-"Esta opción es equivalente a la opcion --noexpire\n"
-"en la línea de comandos."
+Esta opção é equivalente à opção --noexpire\n"
+"na linha de comando."
 
 #: modules/commands/ms_set.cpp:246
 #, fuzzy
@@ -8675,21 +8676,21 @@ msgid ""
 " \n"
 "ON is essentially LOGON and NEW combined."
 msgstr ""
-"Sintaxis: NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}\n"
+"Sintaxe: NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}\n"
 " \n"
-"Cambia cuando serás notificado sobre nuevos memos:\n"
+"Mude quando você será notificado sobre novos memos:\n"
 "\n"
-"    ON      Serás notificado cuando te conectes, cuando\n"
-"               saques tu /AWAY, o en cuanto te sean enviados.\n"
-"    LOGON   Solo serás notificado cuando te conectes\n"
-"               o cuando saques tu /AWAY.\n"
-"    NEW     Solo serás notificado cuando te sean enviados.\n"
-"    MAIL    Serás notificado por email además de la otra\n"
-"               configuración que tengas.\n"
-"    NOMAIL  No serás notificado por email.\n"
-"    OFF     No recibiras ninguna notificación.\n"
+"    ON      Você será notificado quando você se conectar, quando\n"
+"               Retira o seu /AWAY, ou assim que eles são enviados para você.\n"
+"    LOGON   Você só será notificado quando você se conectar\n"
+"               ou quando você tira o seu /AWAY.\n"
+"    NEW     Você só será notificado quando for enviado para você.\n"
+"    MAIL    Você será notificado por e-mail, além da outra\n"
+"               configuração que você possui.\n"
+"    NOMAIL  Você não será notificado por e-mail.\n"
+"    OFF     Você não receberá nenhuma notificação.\n"
 " \n"
-"ON es esencialmente LOGON y NEW combinados."
+"ON é essencialmente LOGON e NEW combinado"
 
 #: modules/commands/os_set.cpp:212
 msgid ""
@@ -8708,19 +8709,19 @@ msgid ""
 "This option is equivalent to the command-line option\n"
 "--readonly."
 msgstr ""
-"Sintaxis: READONLY {ON | OFF}\n"
+"Sintaxe: READONLY {ON | OFF}\n"
 "\n"
-"Activa o desactiva el modo de solo lectura. En modo de\n"
-"solo lectura, los usuarios normales no podrán modificar\n"
-"datos de los Servicios, incluyendo acceso a listas de\n"
-"canales y nick, etc. Los IRCops con suficientes privilegios\n"
-"podrán modificar la lista AKILL y eliminar o prohibir nicks\n"
-"y canales, pero ninguno de estos cambios serán guardados\n"
-"a menos que se desactive el modo solo lectura antes de\n"
-"terminar o reiniciar los Servicios.\n"
+"Ativa ou desativa o modo somente leitura, no modo\n"
+"somente leitura, os usuários normais não serão capazes de modificar\n"
+"Dados de serviços, incluindo acesso a listas de\n" 
+"canais e nick, etc. IRCops com privilégios suficientes\n"
+"eles serão capazes de modificar a lista AKILL e eliminar ou proibir nicks\n"
+"e canais, mas nenhuma dessas mudanças será salva\n"
+"a menos que o modo somente leitura seja desabilitado antes de\n"
+"Terminar ou reiniciar Serviços.\n"
 " \n"
-"Esta opción es equivalente a la opción --readonly en\n"
-"la linea de comandos."
+"Esta opção é equivalente à opção --readonly en\n"
+"a linha de comando."
 
 #: modules/commands/os_set.cpp:243
 msgid ""
@@ -8732,12 +8733,12 @@ msgid ""
 "This option is not persistent, and should only be used when\n"
 "needed, and set back to OFF when no longer needed."
 msgstr ""
-"Sintaxis: SUPERADMIN {ON | OFF}\n"
+"Sintaxe: SUPERADMIN {ON | OFF}\n"
 " \n"
-"Esto te da privilegios extra como la habilidad de ser\n"
-"\"fundador\" en todos los canales, etc.\n"
-"Esta opción no es persistente y debe ser usada\n"
-"solo cuando sea necesario."
+"Isso oferece privilégios extras como a capacidade de ser\n"
+"\"fundador\" em todos os canais, etc.\n"
+"Esta opção no é persistente e deve ser usado\n"
+"somente quando necessário."
 
 #: modules/commands/ns_identify.cpp:107
 #, c-format
@@ -8748,11 +8749,11 @@ msgid ""
 "should be the same one you sent with the REGISTER\n"
 "command."
 msgstr ""
-"Le dice a %s que eres realmente el propietario de este\n"
-"nick. Muchos comandos requieren que te identifiques\n"
-"primero con este comando.  La contraseña debe ser la\n"
-"misma que usaste con el comando REGISTER (si no\n"
-"la has cambiado)."
+"Diz ao %s que você é realmente o dono disse\n"
+"nick. Muitos comandos exigem que você se identifique\n"
+"Primeiro com este comando, a senha deve ser\n"
+"o mesmo que você usou com o comando REGISTER (se você\n"
+"não mudou)."
 
 #: modules/commands/cs_invite.cpp:91
 #, fuzzy, c-format
@@ -8763,11 +8764,11 @@ msgid ""
 "By default, limited to AOPs or those with level 5 access and above\n"
 "on the channel."
 msgstr ""
-"Le dice a %s que te invite a ti, u opcionalmente al nick\n"
-"especificado, al canal dadol.\n"
+"Ele diz %s para convidá-lo, ou opcionalmente para o apelido\n"
+"especificado, para o canal fornecido.\n"
 " \n"
-"Por defecto, limitado a AOPs o aquellos con nivel 5 o\n"
-"superior en el canal."
+"Por padrão, limitado a AOPs ou aqueles com nível 5 ou\n"
+"superior no canal."
 
 #: modules/commands/cs_unban.cpp:103
 #, fuzzy, c-format
@@ -8780,13 +8781,13 @@ msgid ""
 "By default, limited to AOPs or those with level 5 access and above\n"
 "on the channel."
 msgstr ""
-"Le dice a %s que elimine todos los bans que evitan que\n"
-"tú o el usuario dado entre al canal. Si no se proporciona\n"
-"el canal, se eliminarán todos los bans que te afecten en\n"
-"todos los canales donde tengas acceso.\n"
+"Ele diz %s para remover todas as proibições que impedem\n"
+"você ou o usuário fornecido entra no canal, se não\n"
+"o canal, todas as proibições que o afetarão em serão eliminadas\n" 
+"todos os canais onde você tem acesso.\n"
 " \n"
-"Por defecto, limitado a AOPs o aquellos con nivel 5 o\n"
-"superior en el canal."
+"Por padrão, limitado a AOPs ou aqueles com nível 5 ou\n"
+"superior no canal."
 
 #: modules/commands/os_jupe.cpp:56
 msgid ""
@@ -8799,26 +8800,26 @@ msgid ""
 "text \"Juped by <nick>\", showing the nickname of the\n"
 "person who jupitered the server."
 msgstr ""
-"Le dice a los Servicios que jupiteen un servidor -- esto es,\n"
-"crear un \"server\" falso conectado a los Servicios, lo que\n"
-"evitará que un servidor real con ese nombre se conecte.\n"
-"El jupiteado se puede eliminar usando un SQUITestándar.\n"
-"Si se proporciona una razón, se pondrá en el campo de\n"
-"información del servidor; si no, el campo contendrá el texto\n"
-"\"Jupiteado por <nick>\", mostrando el nick de la persona\n"
-"que jupiteó el servidor."
+"Ele diz aos Serviços para deslinkar um servidor - isto é,\n"
+"crie um falso \"servidor\"conectado aos Serviços, que\n"
+"impedirá que um servidor real com esse nome se conecte.\n"
+"O servidor pode ser eliminado usando um SQUITpadrão.\n"
+"Se for fornecido um motivo, ele será colocado no campo\n"
+"informações do servidor, caso contrário o campo conterá o texto\n"
+"\"Deslinkado por <nick>\", mostrando o apelido da pessoa\n"
+"quem Deslinkou o servidor."
 
 #: modules/commands/cs_seen.cpp:261
 msgid "Tells you about the last time a user was seen"
-msgstr "Te dice cuando fue visto por última vez un usuario"
+msgstr "Ele diz quando um usuário foi visto pela última vez"
 
 #: modules/commands/os_shutdown.cpp:19
 msgid "Terminate Services WITHOUT saving"
-msgstr "Termina el programa de Servicios SIN guardar los cambios"
+msgstr "Feche o programa Serviços sem salvar as alterações"
 
 #: modules/commands/os_shutdown.cpp:73
 msgid "Terminate services with save"
-msgstr "Termina el programa de Servicios guardando los cambios"
+msgstr "Termine o programa de serviços salvando as alterações"
 
 #: modules/commands/os_news.cpp:156
 msgid "Text"
@@ -8834,12 +8835,12 @@ msgid ""
 "When a user joins the channel the access they receive is from the\n"
 "highest level entry in the access list."
 msgstr ""
-"El comando ACCESS ADD añade la máscara dada a la\n"
-"lista de acceso con el nivel dado; si la máscara ya está en\n"
-"la lista, se cambia su acceso al especificado en el comando.\n"
-"El nivel especificado debe ser un nivel numérico a un privilegio\n"
-"(por ejemplo AUTOOP). Cuando un usuario entra al canal, el status\n"
-"que recibe es el mayor de los que tenga en la lista."
+"O comando ACCESS ADD Adicione a máscara fornecida a\n"
+"lista de acesso com o nível certo, se a máscara já estiver\n"
+"na lista, o seu acesso ao especificado no comando é alterado.\n"
+"O nivel especificado deve ser um nível numérico para um privilégio\n"
+"(por exemplo, AUTOOP) Quando um usuário entra no canal, o status\n"
+"que você obtém é o maior que você tem na lista."
 
 #: modules/commands/cs_access.cpp:587
 msgid ""
@@ -8849,11 +8850,11 @@ msgid ""
 "You may remove yourself from an access list, even if you\n"
 "do not have access to modify that list otherwise."
 msgstr ""
-"El comando ACCESS DEL elimina el nick dado de la lista de\n"
-"acceso. Si se proporciona una lista de números, se borran dichas\n"
-"entradas.  (Mira el ejemplo para LIST más abajo.)\n"
-"Puede eliminarte a ti mismo de la lista incluso si no tienes acceso\n"
-"para modificarla de otro modo."
+"O comando ACCESS DEL exclua o nick da lista\n"
+"Acesso. Se for fornecida uma lista de números, esses são excluídos\n" 
+"(veja o exemplo da LISTA abaixo).\n"
+"Você pode se retirar da lista, mesmo que não tenha acesso\n"
+"para modificá-lo de outra forma."
 
 #: modules/commands/cs_access.cpp:593
 msgid ""
@@ -8871,19 +8872,19 @@ msgid ""
 "The ACCESS CLEAR command clears all entries of the\n"
 "access list."
 msgstr ""
-"El comando ACCESS LIST muestra la lista de acceso. Si se\n"
-"proporciona una máscara, solo se muestran las entradas que\n"
-"concuerden con la máscara. Si se proporciona una lista de\n"
-"números, solo se muestran dichas entradas; por ejemplo:\n"
+"O comando ACCESS LIST mostra a lista de acesso. Se\n"
+"fornecer uma máscara, apenas as entradas que são exibidas\n" 
+"corresponda a máscara, se uma lista de\n" 
+"números for fornecida, apenas essas entradas são mostradas, por exemplo:\n"
 "   ACCESS #canal LIST 2-5,7-9\n"
-"      Lista las entradas números 2 a 5 y 7 a 9.\n"
+"      Listar as entradas dos números 2 a 5 e 7 a 9.\n"
 " \n"
-"El comando ACCESS VIEW muestra la lista de acceso de\n"
-"forma similar a ACCESS LIST pero muestra además el creador\n"
-"y la última vez que se usó.\n"
+"O comando ACCESS VIEW mostra a lista de acesso de\n"
+"forma similar a ACCESS LISTmas também mostra o criador\n"
+"e a última vez que foi usado.\n"
 " \n"
-"El comando ACCESS CLEAR borra todas las entradas de la\n"
-"lista de acceso."
+"O comando ACCESS CLEAR apaga todas as entradas da\n"
+"lista de acesso."
 
 #: modules/commands/cs_flags.cpp:447
 #, fuzzy
@@ -8891,8 +8892,8 @@ msgid ""
 "The CLEAR command clears the channel access list. This requires channel "
 "founder access."
 msgstr ""
-"El comando CLEAR limpia la lista de acceso del canal, lo que requiere "
-"permisos de fundador."
+"O comando CLEAR limpa a lista de acesso do canal, que requer"
+"permissão do fundador."
 
 #: modules/commands/cs_seen.cpp:173
 #, fuzzy, c-format
@@ -8905,12 +8906,12 @@ msgid ""
 " %s CLEAR 30m\n"
 " Will remove all entries that were added within the last 30 minutes."
 msgstr ""
-"El comando CLEAR te permite limpiar la base de datos, eliminando todas las\n"
-"entradas añadidas el último tiempo especificado.\n"
+"O comando CLEAR permite que você limpe o banco de dados, eliminando todas\n"
+"entradas adicionadas na último tempo especificado.\n"
 " \n"
-"Ejemplo:\n"
+"Exemplo:\n"
 " %s CLEAR 30m\n"
-" Eliminará todas las entradas añadidas en los últimos 30 minutos."
+" Ele removerá todas as entradas adicionadas nos últimos 30 minutos."
 
 #: modules/commands/bs_badwords.cpp:438
 #, fuzzy
@@ -8930,18 +8931,18 @@ msgid ""
 "The CLEAR command clears all entries from the\n"
 "bad words list."
 msgstr ""
-"El comando DEL elimina la palabra dada de la lista\n"
-"de bad words. Si se introduce una lista de números, se\n"
-"borrarán dichas entradas. (Mira los ejemplos para LIST)\n"
+"O comando DEL apague a palavra fornecida da lista\n"
+"de bad words. Se uma lista de números for inserida,\n"
+"irá apagar essas entradas. (Consulte os exemplos para LISTA)\n"
 " \n"
-"El comando LIST muestra la lista de bad words. Si se\n"
-"proporciona una máscara, solo se muestran las entradas\n"
-"que concuerdan con la máscara. Si se proporciona una lista\n"
-"de números, solo se muestran dichas entradas; por ejemplo:\n"
+"O comando LIST mostra a lista de bad words. Se\n"
+"fornecer uma máscara, apenas as entradas são mostradas\n"
+"que combinam a máscara, se uma lista for fornecida\n"
+"de números, apenas essas entradas são mostradas, por exemplo:\n"
 "   #canal LIST 2-5,7-9\n"
-"      Lista las bad words número 2 a 5 y número 7 a 9.\n"
+"      Lista as bad words número 2 a 5 e número 7 a 9.\n"
 " \n"
-"El comando CLEAR borra todas las entradas de la lista."
+"O comando CLEAR Apaga todas as entradas da lista."
 
 #: modules/commands/cs_entrymsg.cpp:241
 #, fuzzy
@@ -8950,8 +8951,8 @@ msgid ""
 "the list of messages shown to users when they join\n"
 "the channel."
 msgstr ""
-"El comando ENTRYMSG ADD añade el mensaje dado a la lista\n"
-"de mensajes a ser mostrados a los usuarios cuando entran al canal."
+"O comando ENTRYMSG ADD Adicione a mensagem dada à lista\n"
+"de mensagens a serem mostradas aos usuários quando entram no canal."
 
 #: modules/commands/cs_entrymsg.cpp:253
 #, fuzzy
@@ -8960,9 +8961,9 @@ msgid ""
 "the list of messages shown to users when they join\n"
 "the channel, effectively disabling entry messages."
 msgstr ""
-"El comando ENTRYMSG CLEAR borra todas las entradas de\n"
-"la lista de mensajes a ser mostrados a los usuarios cuando entran\n"
-"al canal."
+"O comando ENTRYMSG CLEAR apague todas as entradas\n"
+"a lista de mensagens a serem mostradas aos usuários quando entram\n"
+"para o canal."
 
 #: modules/commands/cs_entrymsg.cpp:245
 #, fuzzy
@@ -8972,10 +8973,10 @@ msgid ""
 "the channel. You can remove a message by specifying its number\n"
 "which you can get by listing the messages as explained below."
 msgstr ""
-"El comando ENTRYMSG DEL borra el mensaje dado de la lista de\n"
-"mensajes a ser mostrados a los usuarios cuando entran al canal.\n"
-"Puedes borrar el mensaje especificando su número, el cual puedes\n"
-"obtener listando todos los mensajes como se explica más abajo."
+"O comando ENTRYMSG DEL apague a mensagem fornecida a lista de\n"
+"mensagens a serem mostradas aos usuários quando entram no canal.\n"
+"Você pode excluir a mensagem especificando seu número, você pode\n"
+"listar todas as mensagens como explicado abaixo."
 
 #: modules/commands/cs_entrymsg.cpp:250
 #, fuzzy
@@ -8983,12 +8984,12 @@ msgid ""
 "The ENTRYMSG LIST command displays a listing of messages\n"
 "shown to users when they join the channel."
 msgstr ""
-"El comando ENTRYMSG LIST muestra una lista de mensajes a ser\n"
-"mostrados a los usuario al entrar al canal."
+"O comando ENTRYMSG LIST mostra uma lista de mensagens a serem\n"
+"mostrado ao usuário ao entrar no canal."
 
 #: modules/commands/ns_set.cpp:705
 msgid "The IMMED option is not available on this network."
-msgstr "La opcion IMMED no está disponible en esta red."
+msgstr "Opção IMMED não está disponível nesta rede."
 
 #: modules/commands/cs_access.cpp:821
 #, c-format
@@ -9013,24 +9014,24 @@ msgid ""
 "For a list of the features and functions whose levels can be\n"
 "set, see HELP LEVELS DESC."
 msgstr ""
-"El comando LEVELS te permite un control más fino sobre\n"
-"el significado de los niveles de acceso al canal. Con este\n"
-"comando, puedes definir el nivel de acceso requerido para la\n"
-"mayoría de funciones de %s. (El comando SET FOUNDER y\n"
-"este comando siempre están restringidos al fundador del canal.)\n"
+"O comando LEVELS permite um controle mais preciso sobre\n"
+"o significado dos níveis de acesso ao canal, com o\n"
+"comando, você pode definir o nível de acesso necessário para \n"
+"a maioria das funções de %s. (O comando SET FOUNDER e\n"
+"Este comando sempre está restrito ao fundador do canal.)\n"
 " \n"
-"LEVELS SET te permite cambiar el nivel de acceso para una\n"
-"función o grupo de funciones. LEVELS DISABLE (o DIS)\n"
-"deshabilita una característica automática o el acceso a una\n"
-"función en particular, INCLUYENDO al fundador (aunque el\n"
-"fundador siempre puede volver a habilitarla).\n"
+"LEVELS SET permite alterar o nível de acesso para um\n"
+"função ou grupo de funções. LEVELS DISABLE (o DIS)\n"
+"desabilita uma função automática ou acesso a\n"
+"função em particular, INCLUINDO o fundador (embora o\n"
+"fundador sempre pode reativá-lo".\n"
 " \n"
-"LEVELS LIST muetra los niveles actuales para cada función\n"
-"o grupo de funciones. LEVELS RESET resetea los niveles a los\n"
-"predeterminados (mira HELP ACCESS LEVELS).\n"
+"LEVELS LIST mostra os níveis atuais para cada função\n"
+"ou grupo de funções. LEVELS RESET redefinir os níveis para\n"
+"padrão (veja HELP ACCESS LEVELS).\n"
 " \n"
-"Para obtener una lista de todas las funciones cuyos niveles\n"
-"pueden ser cambiados, mira HELP LEVELS DESC."
+"Para obter uma lista de todas as funções cujos níveis\n"
+"pode ser mudado, veja HELP LEVELS DESC."
 
 #: modules/commands/cs_flags.cpp:442
 msgid ""
