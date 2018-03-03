@@ -7511,7 +7511,7 @@ msgid ""
 msgstr ""
 "Enviar um código ao nick com instruções para restaurar\n"
 "sua senha: o email deve ser o endereço de e-mail associado\n"
-"os nick."
+"ao nick."
 
 #: modules/commands/ms_sendall.cpp:52
 msgid "Sends all registered users a memo containing memo-text."
