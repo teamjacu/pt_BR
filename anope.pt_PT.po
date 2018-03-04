@@ -7997,7 +7997,7 @@ msgstr ""
 " \n"
 "ttb é o número de vezes que o usuário será kickado\n"
 "antes de ser banido, se ttb não for especificado, o usuário\n"
-"nunca será banido".
+"nunca será banido."
 
 #: modules/commands/bs_kick.cpp:607
 msgid ""
@@ -9024,7 +9024,7 @@ msgstr ""
 "função ou grupo de funções. LEVELS DISABLE (o DIS)\n"
 "desabilita uma função automática ou acesso a\n"
 "função em particular, INCLUINDO o fundador (embora o\n"
-"fundador sempre pode reativá-lo".\n"
+"fundador sempre pode reativá-lo."\n"
 " \n"
 "LEVELS LIST mostra os níveis atuais para cada função\n"
 "ou grupo de funções. LEVELS RESET redefinir os níveis para\n"
@@ -9068,7 +9068,7 @@ msgstr ""
 "O comando MODIFY permite que você modifique a lista de acesso. Se a máscara\n"
 "ainda não está na lista, é adicionado, então as mudanças são aplicadas.\n"
 "Se a máscara não tiver mais flags, ela será removida da lista.\n"
-"Além disso, você pode usar + * ou - * para adicionar ou remover todas as flags".
+"Além disso, você pode usar + * ou - * para adicionar ou remover todas as flags."
 "Somente\n"
 "Você pode modificar a lista de acesso se você tiver permissões suficientes no"
 "canal,\n"
@@ -10626,7 +10626,7 @@ msgid ""
 "receive any new memos until you delete some of your current ones."
 msgstr ""
 "Você atingiu o número máximo de memos (%d). Você não poderá receber mais memos"
-"Até você excluir alguns dos existentes".
+"Até você excluir alguns dos existentes."
 
 #: modules/commands/ns_recover.cpp:117
 #, fuzzy, c-format
